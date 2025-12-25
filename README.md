@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # !\[Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 
 # !\[License](https://img.shields.io/badge/License-MIT-green)
@@ -10,29 +12,29 @@
 
 # !\[Hardware](https://img.shields.io/badge/Hardware-GPU%20Optimized-brightgreen)
 
-# 
+#
 
 # \# AI Interview Assistant
 
-# 
+#
 
-# An \*\*AI-powered Interview Assistant\*\* designed to help students and job seekers prepare effectively for technical and HR interviews.  
+# An \*\*AI-powered Interview Assistant\*\* designed to help students and job seekers prepare effectively for technical and HR interviews.
 
 # The system combines \*\*domain-specific knowledge retrieval\*\*, \*\*LLM-based reasoning\*\*, and \*\*speech-enabled mock interviews\*\* to simulate a real interview environment.
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \## Hardware \& Performance
 
-# 
+#
 
 # This project is \*\*optimized for GPU-based laptops\*\* and AI workstations:
 
-# 
+#
 
 # \- ✅ Supports GPU acceleration for faster inference
 
@@ -40,19 +42,19 @@
 
 # \- Efficient execution for \*\*real-time mock interviews\*\* and LLM responses
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \## Features
 
-# 
+#
 
 # \### Company \& Role-Specific Interview Assistance (RAG-based)
 
-# 
+#
 
 # \- Select \*\*company name\*\*, \*\*job role\*\*, and \*\*preparation requirements\*\*
 
@@ -60,19 +62,19 @@
 
 # \- Uses \*\*Retrieval-Augmented Generation (RAG)\*\* for accurate and grounded responses
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \### Directory
 
-# 
+#
 
 # \### LLM-Powered Chatbot
 
-# 
+#
 
 # \- Powered by \*\*Mistral 7B\*\*
 
@@ -88,15 +90,15 @@
 
 # \- Produces context-aware, relevant answers
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \### 🎙️ Mock Interview (Speech-to-Speech)
 
-# 
+#
 
 # \- AI asks interview questions using voice
 
@@ -112,15 +114,15 @@
 
 # &nbsp; - Communication feedback
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \## System Architecture
 
-# 
+#
 
 # User Query / Voice Input
 
@@ -144,51 +146,51 @@
 
 # Text-to-Speech (Silero)
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \## Tech Stack
 
-# 
+#
 
-# | Component       | Technology                           |
+# | Component | Technology |
 
 # | --------------- | ------------------------------------ |
 
-# | LLM             | Mistral 7B                           |
+# | LLM | Mistral 7B |
 
-# | Speech-to-Text  | Whisper                              |
+# | Speech-to-Text | Whisper |
 
-# | Text-to-Speech  | Silero                               |
+# | Text-to-Speech | Silero |
 
-# | Vector Database | ChromaDB                             |
+# | Vector Database | ChromaDB |
 
-# | Retrieval       | RAG (Retrieval-Augmented Generation) |
+# | Retrieval | RAG (Retrieval-Augmented Generation) |
 
-# | Backend         | Python                               |
+# | Backend | Python |
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \## Project Structure
 
-# 
+#
 
 # ```
 
-# ├── interview\_content/
+# ├── interview_content/
 
 # │
 
 # ├── outputs/
 
-# │ ├── ai\_output/
+# │ ├── ai_output/
 
 # │ ├── stt/
 
@@ -198,7 +200,7 @@
 
 # ├── models/
 
-# │ ├──mistral-7b-instruct-v0.2.Q4\_K\_M.gguf
+# │ ├──mistral-7b-instruct-v0.2.Q4_K_M.gguf
 
 # │
 
@@ -226,11 +228,11 @@
 
 # ├── app.py
 
-# ├── interview\_chatbot.py
+# ├── interview_chatbot.py
 
 # ├── main.py
 
-# ├── talkingsim\_blueprint.py
+# ├── talkingsim_blueprint.py
 
 # ├── requirements.txt
 
@@ -238,19 +240,19 @@
 
 # ```
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \### Installation \& Setup
 
-# 
+#
 
 # \### Clone the Repository
 
-# 
+#
 
 # ```bash
 
@@ -260,11 +262,11 @@
 
 # ```
 
-# 
+#
 
 # \*\*Install Dependencies\*\*
 
-# 
+#
 
 # ```bash
 
@@ -272,33 +274,32 @@
 
 # ```
 
-# 
+#
 
 # ---
 
-# 
+#
 
 # \### Use Cases
 
-# 
+#
 
 # -Campus placement preparation
 
-# 
+#
 
 # -Freshers targeting specific companies and roles
 
-# 
+#
 
 # -Interview practice on AI laptops without GPUs
 
-# 
+#
 
 # -Improving answer clarity and confidence
 
-# 
+#
 
 # ---
 
-
-
+=======
