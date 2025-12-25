@@ -1,0 +1,86 @@
+=== TCS – Android app Developer ===
+
+📌 Interview Questions + Answers
+    
+1. Q: How do you share an Android project with a client?
+   A: The project can be shared with the client through various methods such as email, cloud storage, or version control systems.
+
+2. Q: Tell me about threads and how we can use them.
+   A: Threads in Android allow concurrent execution of code, improving app performance and responsiveness.
+
+3. Q: How do you find the smallest number in a list?
+   A: To find the smallest number in a list, iterate through the list and keep track of the smallest number found so far.
+
+4. Q: How do you check if a number is a palindrome?
+   A: To check if a number is palindrome, reverse the number and compare it with the original number.
+
+5. Q: How did you learn Android development?
+   A: I learned Android through online courses, documentation, and practice.
+
+6. Q: What are your CCTC and ECTC expectations?
+   A: CCTC (Current City to Current City) and ECTC (Expected City to Current City) are terms used in job relocation discussions.
+
+7. Q: What are the key components of Android architecture?
+   A: Android architecture is structured in layers that work together to run Android applications. The main components are:
+      a. Linux Kernel
+      b. Hardware Abstraction Layer (HAL)
+      c. Android Runtime (ART)
+      d. Native Libraries 
+      e. Application Framework
+      f. Applications
+
+8. Q: What is a Sticky Intent? When Would You Use It?
+   A: A sticky intent is an intent that persists even after it has been broadcast. When a new receiver registers for that intent, it receives the last broadcast immediately, without the intent being re-sent.
+ 
+9. Q: How do you store data in Android?
+   A: In Android, you can store data in several ways, depending on the type and scope of the data (e.g., small key-value pairs vs. complex structured data).
+
+10.Q: How do you perform unit testing in Android
+   A: Android provides multiple options to store data, depending on what you need (temporary, permanent, structured, unstructured, shared, etc.)
+
+
+📚 Study Material
+- https://www.tcsion.com/courses/ve/it/andriod-application-development-course/
+- Kotlin and Java: Understand the programming languages used for Android app logic and architecture.
+- Android Studio: Become proficient with the official Integrated Development Environment (IDE) and the Android SDK.
+- https://developer.android.com/courses
+- UI/UX Design: Learn to create user interfaces using XML, various layouts, styling, and Jetpack Compose.
+- https://www.scribd.com/document/747261407/Android-Developer
+- MVVM Architecture: Understand modern architectural patterns for structuring your apps.
+- TCS iON & TCS iON: Look for their National Proficiency Tests and Android App Development courses to find detailed syllabi and study materials.
+- https://trainings.internshala.com/android-course/
+- https://www.tcsion.com/hub/national-proficiency-test/it/mobile-app-development/
+
+💡 Tips for TCS
+- Master Core Technologies: Gain deep knowledge of Kotlin, Android Studio, and the fundamental architecture of Android apps. 
+- Learn Key Libraries & Frameworks: Familiarize yourself with libraries like Dagger for dependency injection, Retrofit for networking, and Room for database management. 
+- Implement MVVM Architecture: Understand and apply architectural patterns like Model-View-ViewModel to build robust, scalable, and maintainable applications. 
+- Practice Coding Standards: Follow best coding practices, focusing on naming conventions, code organization, and efficient handling of background tasks. 
+- Perform Unit Testing: Use JUnit for automated unit testing to ensure code quality and reliability. 
+- Build Your Portfolio: Clone and modify open-source Android projects from GitHub to learn from experienced developers and gain hands-on experience. 
+- Participate in Competitions: Engage in online hackathons and competitions to enhance your skills and gain certificates, which can be added to your internal TCS digital resume. 
+- https://gaandlaneeraja.medium.com/8-tips-to-learn-android-app-development-as-a-beginner-bf040c14c01b#:~:text=It%20gives%20you%20an%20idea,to%20get%20better%20each%20day.
+- Seek Continuous Improvement: Be hungry to learn new techniques and technologies to improve your development skills daily. 
+- Network & Collaborate: Work effectively in Agile teams, communicate clearly with colleagues, and be open to mentoring junior team members. 
+
+						
+⚠️ Common Mistakes to Avoid
+- Common mistakes for TCS Android app developers to avoid include neglecting user experience (UX) and user interface (UI) design, failing to implement robust testing and security.
+- Prioritizing functionality over user-friendliness can lead to poor user adoption and retention. 
+- Designing a mobile app that is just a scaled-down version of a website or desktop application can result in an unintuitive user experience. 
+- Adding too many features can clutter the interface, confuse users, and increase development costs. 
+- Skipping or rushing testing phases can lead to bugs and poor app quality upon release. 
+- Inefficient handling of Application Programming Interfaces (APIs) can lead to integration issues and errors. 
+- Performing heavy operations on the main thread can cause the app to become unresponsive and crash. 
+- Not providing regular updates and bug fixes leaves apps vulnerable and users dissatisfied. 
+- https://42works.net/the-15-most-common-mobile-app-development-mistakes-to-avoid/
+- https://decode.agency/article/android-app-development-mistakes/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+tech_mahindra_python_developer
+
+📌 Interview Questions + Answers
+1. Q: Compare between Java and Python.
+   A: Java is a statically typed and compiled language, and Python is a dynamically typed and interpreted language. This single difference makes Java faster at runtime and easier to debug, but Python is easier to use and easier to read.
+
+2. Q: What is Python?
+   A: Python is a high-level, interpreted, interactive and object-oriented scripting language that is used to create user interface applications for web development (server side), software development, mathematics, operation and so on.
+
+3. Q: What is the purpose of PYTHONPATH environment variable?
+   A: PYTHONPATH is an environment variable which you can set to add additional directories where python will look for modules and packages. 
+
+4. Q: Which data types are supported in Python?
+   A: The basic data types in Python are Integers, Floating-Point Numbers, Complex Numbers, Strings, Boolean Type, Built-In Functions like Math.
+
+5. Q: How is memory managed in Python?
+   A: Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager.
+
+6. Q: Explain Inheritance in Python with an example.
+   A: Inheritance is a powerful feature in object oriented programming. It refers to defining a new class with little or no modification to an existing class. 
+
+7. Q: What are the two major loop statements?
+   A: The group of statements being executed repeatedly is called a loop. There are two loop statements in Python: for and while.
+
+8. Q: Define generators in Python?
+   A: A Python generator is a function that produces a sequence of results. It works by maintaining its local state, so that the function can resume again exactly where it left off when called subsequent times. 
+
+9. Q: How do we reverse a list in Python?
+   A: Reversing a list in-place with the list. reverse() method. Using the “ [::-1] ” list slicing trick to create a reversed copy. Creating a reverse iterator with the reversed() built-in function.
+
+10.Q: What is a dictionary in Python?
+   A: Python dictionary is an unordered collection of key-value pairs. It is mutable and can contain mixed types. The keys in a dictionary must be immutable objects like strings or numbers. They must also be unique within a dictionary.
+
+
+📚 Study Material
+- https://prepinsta.com/tech-mahindra-placement-papers/coding/
+- https://prepinsta.com/tech-mahindra-syllabus/
+- Fundamentals: Keywords, identifiers, variables, data types (numeric, string, list, tuple, dictionary, set), operators, built-in functions, control flow (if/else, loops), functions, classes, and objects.
+- https://www.ccbp.in/blog/articles/tech-mahindra-coding-questions
+- Advanced Concepts: Generators, iterators, decorators, list comprehensions, lambda functions, error handling, and file I/O.
+- https://www.simplilearn.com/tech-mahindra-interview-questions-answers-article
+- Modules and Libraries: Understanding and using common Python modules and popular libraries like Pandas for data manipulation.
+- https://www.credosystemz.com/tech-mahindra-python-interview-questions/
+- Data Structures: Arrays, linked lists, stacks, queues, trees, and graphs.
+- https://www.naukri.com/code360/interview-bundle/tech-mahindra
+
+
+💡 Tips
+- Gain a strong understanding of Python's fundamental syntax, data structures (lists, dictionaries, sets), and object-oriented programming concepts like classes, inheritance, and encapsulation. 
+- Use platforms like HackerRank, LeetCode, and CodeSignal to practice problems and familiarize yourself with the type of questions asked in coding tests. 
+- Focus on the fundamentals of Data Structures and Algorithms, as these are crucial for coding rounds and problem-solving. 
+- Be ready to discuss experience with cloud platforms (like Google Cloud Platform - GCP), containerization (Docker), and Continuous Integration/Continuous Deployment (CI/CD) pipelines. 
+- Be familiar with popular Python libraries (e.g., Pandas) and frameworks for web development and data processing. 
+- Practice coding and technical interviews to get comfortable with the process and format. 
+- Frame your introduction to highlight your strongest skills and connect them to the job requirements. 
+- Understand unit testing, participate in code reviews, and know how to use testing frameworks like Pytest and Behave. 
+- If you don't know an answer, try to offer an educated guess or discuss alternative approaches. 
+- During coding tests, start with questions you find easier to build confidence and manage your time wisely.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.ambitionbox.com/interviews/tech-mahindra-interview-questions/python-software-developer
+- https://www.shiksha.com/online-courses/articles/python-development-blunders-to-avoid/
+- Using a broad except: clause, which can hide the true nature of an error. Another mistake is catching an exception and simply passing without any logging or handling.https://www.reddit.com/r/learnpython/comments/16x5oun/what_mistakes_do_bad_python_developers_make/
+- https://www.expertia.ai/career-tips/common-mistakes-to-avoid-as-a-senior-python-developer-54273s
+- Not adhering to PEP 8 guidelines
+- https://www.quora.com/What-are-the-most-common-mistakes-junior-Python-developers-should-avoid
+- Inconsistent use of spacing, poor variable naming (e.g., using camelCase instead of snake_case), and ignoring line length limits.
+- Defining a function like def add_to_list(item, my_list=[]):. Calling this function multiple times without providing a list will cause it to use the same list object each time.
+- https://www.thinktanker.io/common-mistakes-to-avoid-while-hiring-python-developers-in-india/
+- https://medium.com/@huzaifazahoor654/10-mistakes-newbie-python-developers-make-aaa4d6ca3b7d
+
+
+
+
+
+
+
+
+
+
+	

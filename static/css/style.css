@@ -1,0 +1,472 @@
+/* Streamlit Exact Colors and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #0e1117;
+    color: #fafafa;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.stApp {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0e1117;
+}
+
+.stHeader {
+    background-color: #0e1117;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #262730;
+}
+
+.stTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fafafa;
+    margin: 0;
+}
+
+.stMain {
+    display: flex;
+    flex: 1;
+    background-color: #0e1117;
+}
+
+.stSidebar {
+    width: 21rem;
+    background-color: #262730;
+    padding: 1rem;
+    min-height: calc(100vh - 120px);
+    border-right: 1px solid #3d4551;
+}
+
+.stSidebarContent {
+    height: 100%;
+}
+
+.stSidebarSection {
+    margin-bottom: 2rem;
+}
+
+.stSubheader {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fafafa;
+    margin-bottom: 1rem;
+}
+
+.stMetric {
+    background-color: #0e1117;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.stMetricLabel {
+    font-size: 0.875rem;
+    color: #a3a8b8;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.stMetricValue {
+    font-size: 1rem;
+    color: #fafafa;
+    font-weight: 400;
+}
+
+.stButton {
+    display: block;
+    width: 100%;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    text-decoration: none;
+    background-color: #262730;
+    color: #fafafa;
+}
+
+.stButtonPrimary {
+    background-color: #ff4b4b;
+    border-color: #ff4b4b;
+    color: #ffffff;
+}
+
+.stButtonPrimary:hover {
+    background-color: #ff6c6c;
+    border-color: #ff6c6c;
+}
+
+.stButtonSecondary {
+    background-color: #262730;
+    border-color: #3d4551;
+    color: #fafafa;
+}
+
+.stButtonSecondary:hover {
+    background-color: #3d4551;
+    border-color: #5a6270;
+}
+
+.stMainContent {
+    flex: 1;
+    padding: 1rem 2rem;
+    background-color: #0e1117;
+}
+
+.stContainer {
+    background-color: #262730;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.stSelectboxLabel {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #fafafa;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.stSelectbox {
+    width: 100%;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    background-color: #0e1117;
+    color: #fafafa;
+}
+
+.stSelectbox:focus {
+    outline: none;
+    border-color: #ff4b4b;
+    box-shadow: 0 0 0 0.2rem rgba(255, 75, 75, 0.25);
+}
+
+.stColumns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.stColumnButton {
+    background-color: #262730;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #fafafa;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    text-align: center;
+}
+
+.stColumnButton:hover {
+    background-color: #3d4551;
+    border-color: #5a6270;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.stMarkdown {
+    color: #fafafa;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.stAlert {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stAlertSuccess {
+    background-color: #1a2332;
+    border: 1px solid #4caf50;
+    color: #4caf50;
+}
+
+.stCaption {
+    font-size: 0.875rem;
+    color: #a3a8b8;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Enhanced Chat Interface Font Sizes */
+.stChatContainer {
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #0e1117;
+    margin-bottom: 1rem;
+    font-size: 1rem; /* Increased base font size */
+}
+
+.stChatMessage {
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    max-width: 80%;
+    word-wrap: break-word;
+    clear: both;
+    font-size: 1.1rem; /* Larger font size for chat messages */
+    line-height: 1.6;
+}
+
+.stChatMessage.user {
+    background-color: #ff4b4b;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    float: right;
+    font-weight: 500;
+}
+
+.stChatMessage.assistant {
+    background-color: #262730;
+    color: #fafafa;
+    border: 1px solid #3d4551;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+    float: left;
+    font-weight: 400;
+}
+
+.stChatInputContainer {
+    background-color: #262730;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    clear: both;
+}
+
+.stChatInputRow {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.stTextInput {
+    flex: 1;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 1rem; /* Increased padding */
+    font-size: 1.1rem; /* Larger input font */
+    background-color: #0e1117;
+    color: #fafafa;
+    line-height: 1.4;
+}
+
+.stTextInput:focus {
+    outline: none;
+    border-color: #ff4b4b;
+    box-shadow: 0 0 0 0.2rem rgba(255, 75, 75, 0.25);
+}
+
+.stTextInput::placeholder {
+    color: #a3a8b8;
+    font-size: 1rem; /* Larger placeholder text */
+}
+
+.stIconButton {
+    background-color: #262730;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    width: 3.5rem; /* Slightly larger button */
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; /* Larger icon */
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    color: #fafafa;
+}
+
+.stIconButton:hover {
+    background-color: #3d4551;
+    border-color: #5a6270;
+}
+
+.stModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.stModalContent {
+    background-color: #262730;
+    border: 1px solid #3d4551;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.stModalHeader {
+    font-size: 1.75rem; /* Larger modal header */
+    font-weight: 600;
+    color: #fafafa;
+    margin-bottom: 1rem;
+}
+
+.stModalText {
+    font-size: 1.1rem; /* Larger modal text */
+    color: #a3a8b8;
+    margin-bottom: 2rem;
+}
+
+.stRecordingAnimation {
+    margin: 2rem 0;
+}
+
+.stMicPulse {
+    font-size: 4rem;
+    color: #ff4b4b;
+    animation: pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+    from { 
+        opacity: 0.6; 
+        transform: scale(1); 
+    }
+    to { 
+        opacity: 1; 
+        transform: scale(1.1); 
+    }
+}
+
+.stDivider {
+    height: 1px;
+    background-color: #3d4551;
+    margin: 2rem 0;
+}
+
+.stEmptyState {
+    text-align: center;
+    color: #a3a8b8;
+    font-style: italic;
+    padding: 2rem;
+    font-size: 1.1rem; /* Larger empty state text */
+}
+
+/* Scrollbar Styling */
+.stChatContainer::-webkit-scrollbar {
+    width: 10px; /* Slightly wider scrollbar */
+}
+
+.stChatContainer::-webkit-scrollbar-track {
+    background: #262730;
+}
+
+.stChatContainer::-webkit-scrollbar-thumb {
+    background: #3d4551;
+    border-radius: 4px;
+}
+
+.stChatContainer::-webkit-scrollbar-thumb:hover {
+    background: #5a6270;
+}
+
+/* Clear floats after chat messages */
+.stChatContainer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Enhanced readability for chat content */
+.stChatMessage strong {
+    font-weight: 700;
+    color: inherit;
+}
+
+.stChatMessage em {
+    font-style: italic;
+    color: inherit;
+}
+
+/* Better spacing for multi-line messages */
+.stChatMessage br + br {
+    content: "";
+    display: block;
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .stMain { 
+        flex-direction: column; 
+    }
+    
+    .stSidebar { 
+        width: 100%; 
+        min-height: auto;
+        border-right: none;
+        border-bottom: 1px solid #3d4551;
+    }
+    
+    .stColumns { 
+        grid-template-columns: 1fr; 
+    }
+    
+    .stTitle { 
+        font-size: 2rem; 
+    }
+    
+    .stMainContent { 
+        padding: 1rem; 
+    }
+    
+    .stChatMessage {
+        max-width: 90%;
+        font-size: 1rem; /* Slightly smaller on mobile but still readable */
+    }
+    
+    .stTextInput {
+        font-size: 1rem; /* Adjust for mobile */
+    }
+    
+    .stIconButton {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.25rem;
+    }
+}

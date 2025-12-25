@@ -1,0 +1,13 @@
+flask
+flask-cors
+llama-cpp-python
+chromadb
+openai-whisper
+pyaudio
+flask_socketio
+torchaudio
+ctransformers
+pygame
+soundfile
+omegaconf
+torchcodec

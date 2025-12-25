@@ -1,0 +1,72 @@
+cognizant_devops_engineer
+
+📌 Interview Questions + Answers
+1. Q: What Is Amazon Web Services In Devops?
+   A: AWS provides services that help you the practice DevOps at your company and that are built first for use with AWS. These tools automate manual tasks, help teams manage complex environments at scale, and keep engineers in control of the high velocity that is enabled by DevOps.
+
+2. Q: What Is The Role Of A Devops Engineer?
+   A: DevOps Engineers are responsible for the supporting the users of the infrastructure they develop, and the first line of defense is protecting the cloud against hackers and viruses. 
+
+3. Q: What Is Devops With Cloud Computing?
+   A: AWS DevOps is Amazon’s answer to implementing the DevOps philosophy using its cloud platform and the dedicated tools and services. 
+
+4. Q: Why Do We Use AWS For Devops?
+   A: AWS provides services that help you practice DevOps at your company and that are built first for use with AWS. These tools automate the manual tasks, help teams manage complex environments at scale, and keep engineers in control of the high velocity that is enabled by DevOps.
+
+5. Q: What Is Devops Tooling By AWS?
+   A: DevOps Tool is an application that helps automate the software development process.DevOps tool also enables teams to automate most of the software development processes.
+
+6. Q: What Is Aws Code Pipeline In AWS Devops?
+   A: AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and the reliable application and infrastructure updates. 
+
+7. Q: What Is Amazon Elastic Container Service In AWS Devops?
+   A: Amazon Elastic Container Service is a fully managed container orchestration service that makes it easy to operate the containerized workloads at scale. It also integrates with other core AWS services, such as Amazon Route 53, AWS Identity and Access Management , and Amazon CloudWatch.
+
+8. Q: What Is Aws Lambda In AWS Devops?
+   A: AWS Lambda is a serverless compute service that can run code in response to predetermined events or conditions and automatically manage all the computing resources required for those processes. 
+
+9. Q: What Is Code Commit In AWS Devops?
+   A: AWS Code Commit is a secure, highly scalable, managed source control service that hosts private Git repositories. 
+
+10.Q: What Is Amazon EC2 In AWS Devops?
+   A: Amazon EC2 In Aws Devops access the AWS Elastic Computing Power. Industry Leading Security. Agile, Reliable Service. Sign Up for 1 Free Year of 750 Hours/Month on Amazon EC2. 
+
+
+📚 Study Material
+- https://www.geeksforgeeks.org/interview-experiences/cognizant-interview-experience-for-devops-engineer/
+- Master Git, and platforms like GitHub or GitLab for code management. 
+- https://www.scribd.com/document/718530621/visshnu-4-2-devops
+- Study Terraform and Ansible for managing infrastructure programmatically. 
+- https://www.naukri.com/code360/library/devops-engineer-at-cogizant
+- https://kodekloud.com/learning-path/devops-engineer#:~:text=As%20a%20DevOps%20engineer%2C%20you,%2C%20Ansible)%2C%20and%20familiarity%20with
+- https://www.geeksforgeeks.org/dsa/cognizant-sde-sheet-interview-questions-and-answers/
+- https://www.naukri.com/code360/library/devops-engineer-at-cogizant#:~:text=years%20of%20experience%5D-,Resources%20for%20Preparation,Basic%20Characteristics%20of%20Computer%20Networks
+- https://tutorialsdojo.com/aws-certified-devops-engineer-professional-exam-guide-study-path-dop-c01-dop-c02/
+- https://www.novelvista.com/devops-engineer-training-certification-course#:~:text=Certified%20DevOps%20Engineer%20Certification%20Course,of%20DevOps%20pan%20out%20successfully.
+
+
+💡 Tips
+- Gain a solid understanding of operating systems, particularly Linux.
+- Get an introduction to DBMS and database concepts.
+- Provides resources for coding, aptitude, DSA, and operating systems. 
+- Learn about operating system functions and types. 
+- Provides a structured learning path for DevOps engineers.
+- Focus on quantitative aptitude, logical reasoning, and verbal ability. 
+- Be ready for in-depth technical discussions and possibly puzzles. 
+- Offers interview experiences, preparation strategies, and study sheets for Cognizant. 
+- Improve your communication skills for the HR round, where you'll discuss your strengths, weaknesses, and teamwork abilities. 
+- Understand Docker for containerization and Kubernetes for large-scale container management. 
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.youtube.com/watch?v=OOJ9sBf3ahU
+- https://www.linkedin.com/pulse/top-5-mistakes-devops-engineers-make-how-avoid-them-neha-boora-ugizc
+- https://www.qovery.com/blog/7-common-devops-mistakes-to-avoid
+- https://www.veritis.com/blog/7-common-mistakes-made-by-devops-practitioners/
+- https://www.expertia.ai/career-tips/the-7-common-mistakes-to-avoid-for-aspiring-devops-engineers-12476i
+- https://dev.to/prodevopsguytech/top-5-mistakes-to-avoid-as-a-devops-fresher-41op
+- https://duplocloud.com/blog/devops-mistakes/
+- While technical knowledge is crucial, DevOps is a practice centered on collaboration. Poor communication, an unwillingness to share knowledge, or failing to work effectively across teams can derail projects and create silos.
+- The DevOps landscape is always evolving. Focusing on just a narrow set of familiar tools can limit your long-term career growth. An unwillingness to adapt to new technologies, platforms, and methodologies can make your skills obsolete.
+- The industry and its tools change rapidly. Becoming complacent after gaining initial skills can lead to stagnation. Staying curious and regularly updating your knowledge is essential to remaining relevant and effective. 
+

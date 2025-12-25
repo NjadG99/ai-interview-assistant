@@ -1,0 +1,73 @@
+cognizant_web_developer
+
+📌 Interview Questions + Answers
+1. Q: What is Multicasting in Angular?
+   A: Multi cast in Angular allows multiple subscribers to receive the same data from a single source.
+
+2. Q: What are custom pipes in Angular?
+   A:  Custom pipes in Angular allow developers to transform data in templates, enhancing data presentation and reusability.
+
+3. Q: Which programming languages do you use regularly in your work.
+   A: I regularly use JavaScript, HTML, CSS, and PHP in my work as a web developer.
+
+4. Q: How do you improve a website's loading speed?
+   A: Improving a website's loading speed involves optimizing resources, reducing server response time, and enhancing user experience.
+
+5. Q: How does CSS specificity work?
+   A: CSS specificity determines which styles are applied to an element based on the rules' specificity values.
+
+6. Q: Describe the difference between `let`, `const`, and `var` in ES6.
+   A: var, let, and const are JavaScript keywords for variable declaration with different scopes and mutability.
+
+7. Q: Describe the virtual DOM and how React uses it to optimize updates.
+   A: The virtual DOM is a lightweight representation of the actual DOM, used by React to optimize rendering and improve performance.
+
+8. Q: Can you explain memory leaks?
+   A: A memory leak occurs when objects available in a heap are not utilised. The garbage collector fails to remove it from memory. Hence these objects are kept in the memory unnecessarily.
+Memory leaks can lead to performance issues and are bad for the application's health.
+
+9. Q: Explain the mark and sweep algorithm?
+   A: Objects are that dynamically created are stored in the heap memory. If objects are created without management, the memory will exhaust, crashing the system.
+
+10.Q: What is a dangling pointer?
+   A: Pointers that are not initialised with a valid address are called dangling pointers. It occurs during the object destruction phase. The object is destroyed from memory, but the pointer's address is not changed.
+
+
+📚 Study Material
+- https://prepinsta.com/cognizant/
+- HTML: Structure (sections, header, footer, image, anchor, table), block and inline elements, forms.
+- https://www.scribd.com/document/513329759/Web-Technology-Cognizant
+- https://www.ambitionbox.com/interviews/cognizant-interview-questions/web-developer
+- https://github.com/thesaravanakumar/Cognizant-Early-Engagement
+- https://prepinsta.com/cognizant-genc-next/web-ui-questions/
+- https://www.scribd.com/document/239779025/Cognizant-Software-Bootcamp
+- https://www.youtube.com/watch?v=KXdRDCDxZ08
+- https://unstop.com/blog/cognizant-genc-next-pattern
+- https://www.geeksforgeeks.org/interview-experiences/cognizant-cts-placement-preparation/
+
+
+💡 Tips
+- Gain in-depth knowledge of fundamental web technologies such as JavaScript, HTML, CSS, and frameworks like Angular or AngularJS. 
+- Develop and understand at least two detailed projects, focusing on every aspect of the technology stack to build strong experience. 
+- The tech landscape evolves rapidly, so stay updated with new trends and technologies to remain competitive. 
+- Concentrate on one specific technical domain to become an expert, which can lead to better opportunities and promotions. 
+- Build a strong professional network within the company and the broader tech community, as it can open doors to new insights and career paths. 
+- Go through your CV and be ready to discuss the technologies listed. Study common interview questions on topics like pure functions, state management (Redux), and closures. 
+- Focus on truly understanding your work and contributing in-depth, as this is crucial for professional growth, according to Quora users. 
+- Engage in open conversations with supervisors and participate in project meetings, even if you're not formally invited, to contribute and learn.
+- When researching solutions, start with official documentation, but also cross-reference with other sources like Stack Overflow to ensure accuracy and adherence to best practices. 
+- Instead of copying and pasting code, manually type it out and study its syntax and function to improve retention and understanding. 
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.cognizant.com/us/en/insights/insights-blog/how-to-avoid-common-ai-missteps-wf2669561
+- https://medium.com/@ignatovich.dm/common-mistakes-web-developers-make-and-how-to-avoid-them-85be0bb953dc
+- https://dev.to/rowsanali/5-common-mistakes-frontend-developers-make-and-how-to-fix-them-2chb
+- https://www.cognizant.com/us/en/insights/insights-blog/common-operational-data-store-mistakes
+- Ignoring web performance: Overlooking page speed and inefficient code leads to high bounce rates and poor user experience, especially on mobile devices. Always optimize images, minify files, and leverage caching and CDNs.
+- https://www.toptal.com/web/top-10-mistakes-that-web-developers-make
+- Neglecting responsive design and accessibility: Failing to ensure your website adapts to various screen sizes and is accessible to users with disabilities can alienate a significant portion of your audience and may lead to compliance issues.
+- https://www.cogniter.com/Top-Mistakes-to-Avoid-when-Hiring-a-Web-Developer-blog.aspx
+- Poor version control: Not committing code frequently with clear messages can cause conflicts, lost work, and poor collaboration, especially in a large team. Adhere to standard branching strategies like Git Flow.
+- Inadequate security measures: Treating security as an afterthought can leave applications vulnerable to attacks like SQL injection and cross-site scripting (XSS). Use HTTPS, sanitize user input, and regularly update software and dependencies.
+

@@ -1,0 +1,87 @@
+=== TCS – DevOps engineer ===
+
+📌 Interview Questions + Answers
+    
+1. Q: What is DevOps?
+   A: A cultural and technical approach to merge development and operations, emphasizing collaboration and automation to shorten the software development lifecycle. 
+
+2. Q: Explain Docker layering.
+   A: Docker layering allows efficient image storage and reuse by stacking file system changes in layers.
+
+
+3. Q: Explain the CI/CD pipeline.
+   A: CI/CD pipeline automates software development processes, enabling continuous integration and delivery for faster, reliable releases.
+
+4. Q: Write a Python syntax example.
+   A: Python syntax is the set of rules that defines the combinations of symbols that are considered to be correctly structured programs in Python.
+
+5. Q: What is nvm?
+   A: NVM (Node Version Manager) is a tool for managing multiple Node.js versions on a single machine.
+
+6. Q: What is the difference between IAAS, PAAS, and SAAS in AWS?
+   A: IAAS, PAAS, and SAAS are cloud service models in AWS, differing in management levels and user control.
+IAAS (Infrastructure as a Service): Provides virtualized computing resources over the internet. Example: Amazon EC2.
+
+PAAS (Platform as a Service): Offers hardware and software tools over the internet, allowing developers to build applications. Example: AWS Elastic Beanstalk.
+
+SAAS (Software as a Service): Delivers software applications over the internet on a subscription basis. Example: Amazon WorkDocs.
+
+7. Q: How do you ensure high availability in cloud computing?
+   A: High availability in cloud computing ensures systems are operational and accessible with minimal downtime through redundancy and failover strategies.
+
+8. Q: What are the best security practices in AWS cloud?
+   A: Implementing best security practices in AWS is crucial for protecting data and resources in the cloud environment.
+
+ 
+9. Q: How do you monitor and troubleshoot in Kubernetes?
+   A: Effective monitoring and troubleshooting in Kubernetes involves using tools and practices to ensure application health and performance.
+
+10.Q: What does a DevOps engineer do?
+   A: DevOps engineers are responsible for bridging the gap between development and operations teams to streamline the software delivery process
+
+
+📚 Study Material
+- https://github.com/milanm/DevOps-Roadmap#:~:text=As%20an%20engineer%2C%20it%20is,Learn%20Go%20with%20Tests%20FREE
+- Docker: Learn container concepts, building, and deploying Docker container
+- https://roadmap.sh/devops#:~:text=To%20become%20a%20DevOps%20Engineer%2C%20you%20need%20to%20have%20technical,of%20technical%20and%20soft%20skills.
+- https://roadmap.sh/devops
+- https://www.coursera.org/courses?query=devops
+- https://www.glassdoor.co.in/Interview/Tata-Consultancy-Services-Devops-Engineer-Interview-Questions-EI_IE13461.0,25_KO26,41.htm
+- Online Courses: Utilize resources like CloudxLab, KodeKloud, Roadmap.sh, and Coursera for structured learning. 
+- https://www.devopsinstitute.com/wp-content/uploads/2022/01/DOEF-v1.0-Exam-Study-Guide_25Jan2022.pdf
+- Other Tools: Explore tools like GitLab CI/CD or Azure DevOps. 
+- Study Jenkins architecture, setting up pipelines, and automating build and deployment processes. 
+
+💡 Tips for TCS
+- Hands-on Projects: Work on practical projects to apply your knowledge and build a portfolio. 
+- Community & Forums: Engage with online DevOps communities to gain insights and support. 
+- Practice Interviews: Prepare for interview questions by reviewing common DevOps topics and tools. 
+- https://www.simplilearn.com/tutorials/devops-tutorial/how-to-become-devops-engineer
+- Hands-on Projects: Work on practical projects to apply your knowledge and build a portfolio. 
+- Online Courses: Utilize resources like CloudxLab, KodeKloud, Roadmap.sh, and Coursera for structured learning. 
+- Understand AWS services like regions, availability zones, instances, and infrastructure management.  
+- Prometheus: Learn to monitor application and system performance.
+- Grafana: Use Grafana for visualizing monitoring data.
+- Python: Learn to write scripts for automation, as it's a popular choice for DevOps engineers. 
+
+						
+⚠️ Common Mistakes to Avoid
+- A significant error is viewing DevOps as a department or specific set of tools rather than a cultural shift that requires collaboration across all teams. 
+- Poor Collaboration and Communication.
+- Security cannot be an afterthought; it must be integrated into the DevOps pipeline from the beginning, a concept known as DevSecOps. 
+- Focusing on Speed Over Quality.
+- Discrepancies in development, testing, and production environments across teams can lead to unpredictable issues and deployment failures.
+- Jumping straight into complex cloud platforms without understanding core concepts like virtualization, networking, and Linux is a common and damaging mistake. 
+- Focusing on a specific tool (like Jenkins) instead of the underlying concept (like CI/CD) can make skills obsolete quickly. 
+- Automating processes without a clear understanding of the underlying issues or objectives can perpetuate problems rather than solve them. 
+- he technology landscape is constantly changing, and failing to stay updated with new tools and methodologies can lead to skill obsolescence.
+- Neglecting to document processes, architectures, and lessons learned can hinder knowledge sharing and long-term understanding. 
+
+
+
+
+
+
+
+
+

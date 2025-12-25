@@ -1,0 +1,84 @@
+=== IBM India – DevOps engineer ===
+
+📌 Interview Questions + Answers
+1. Q: What is DevOps and why is it important?
+   A: DevOps is an extension of agile that focuses on practices for better software development and product delivery. 
+
+2. Q: Explain the core concepts of DevOps?
+   A: DevOps is a set of practices, principles, and cultural philosophies that aim to unify software development (Dev) and IT operations (Ops). 
+
+3. Q: How does DevOps differ from traditional development models? 
+   A: DevOps differs significantly from traditional development models in culture, process, and tooling. 
+
+4. Q: What are the benefits of using a DevOps approach? 
+   A: Using a DevOps approach provides a wide range of technical, cultural, and business benefits. 
+
+5. Q: How do you measure the success of a DevOps implementation? 
+   A: Measuring the success of a DevOps implementation involves tracking both technical performance and business outcomes.
+
+6. Q: What is the role of SRE in a DevOps environment? 
+   A: The role of Site Reliability Engineering (SRE) in a DevOps environment is to bring software engineering principles to infrastructure and operations—helping ensure systems are scalable, reliable, and efficient while supporting the core goals of DevOps.
+
+7. Q: Can we consider DevOps as Agile methodology?
+   A: DevOps is an extension of agile built around the practices that are not in agile’s focus. When used together, both practices improve the software development and lead to better products
+
+8. Q: Mention what the key aspects or principle behind DevOps are?
+   A: To fuel a DevOps culture, we have to build robust tooling, also. That means investing up front in the five key areas: abstraction, composability, automation, orchestration, and idempotency.
+
+9. Q: What are the core operations of DevOps?
+   A: The core operations of DevOps are application development, code developing, code coverage, unit testing, etc.
+
+10.Q: Explain which scripting language is most important for a DevOps engineer?
+   A: Python. Most well-known language for programming and the first one that should be learnt, if someone wishes to become a DevOps professional.
+
+
+📚 Study Material
+- IBM Applied DevOps Engineering Professional Certificate (via Coursera / IBM)
+- DevOps fundamentals, Agile & Scrum, Linux shell scripting, Git/GitHub, Python
+- Containers with Docker & Kubernetes/OpenShift, microservices and serverless
+- https://www.ibm.com/think/devops
+- https://www.classcentral.com/course/ibm-applied-devops-engineering-252055
+- https://www.scribd.com/document/589024576/IBM-DevOps-Introduction
+- https://www.etrainindia.com/product/ibm-devops-fundamentals-certification-course/
+- Application security (OWASP, DevSecOps), monitoring & observability (Prometheus, Grafana, Instana)
+- The DevOps Handbook – practical guidance for implementation
+- The Phoenix Project – narrative introducing DevOps transformation
+
+💡 Tips for IBM India
+- Understand IBM’s DevOps Stack
+- Master the Right Tech Stack
+- Build Real-World Projects (and showcase them)
+- Focus on IBM-Specific Technologies
+- Learn IBM's Culture & Interview Expectations
+- Highlight tools used per project (e.g., "Implemented CI/CD with Jenkins, Docker, and Kubernetes on AWS")
+- Use metrics: “Reduced deployment time by 60% using GitHub Actions and Ansible automation”
+- Prioritize OpenShift, Terraform, CI/CD, and scripting
+- Align your mindset to IBM’s collaborative, cloud-first culture
+- Build and show end-to-end DevOps pipelines
+
+
+
+						
+⚠️ Common Mistakes to Avoid
+- Set up robust monitoring tools (e.g., Prometheus, Grafana) 
+- Lack of knowledge sharing and best practice.
+- From CI/CD pipelines to infrastructure provisioning, automation reduces manual errors and accelerates delivery.
+- Treat configurations as code and use Git to manage them, ensuring transparency and rollback capabilities.
+- Foster open communication between developers and operations teams to resolve bottlenecks and align goals.
+- Incorporate DevSecOps to ensure security is part of the development pipeline, not an afterthought.
+- Use tools like Terraform or Ansible to make your infrastructure reproducible, version-controlled, and easier to scale.
+- Underestimating the Importance of Soft Skills
+- Failing to Keep Up with DevOps Tools and Technologies
+- Disregarding the Culture Aspect of DevOps
+
+
+
+
+
+
+
+
+
+
+
+	

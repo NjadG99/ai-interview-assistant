@@ -1,0 +1,89 @@
+=== TCS – Python Developer ===
+
+📌 Interview Questions + Answers
+    
+1. Q: Difference between Shallow Copy and Deep Copy?
+   A: Shallow Copy: Creates a new compound object, but then inserts references into it to the objects found in the original.
+      Deep Copy: Creates a new compound object and then recursively inserts copies of the objects found in the original. 
+
+2. Q: Explain Inheritance in Python.
+   A: Inheritance is an OOP concept where a new class (child/derived class) inherits attributes and methods from an existing class (parent/base class).
+
+3. Q: What is the purpose of the __init__ method?
+   A: The __init__ method is a special method in Python classes, known as the constructor. It is automatically called when a new instance of the class is created, allowing for initialization of the object's attributes.
+
+4. Q: How do you handle exceptions in Python?
+   A: Exceptions are handled using try, except, else, and finally blocks.
+       try: Code that might raise an exception.
+       except: Code to execute if a specific exception occurs.
+       else: Code to execute if no exception occurs in the try block.
+       finally: Code that always executes, regardless of whether an exception occurred.
+
+5. Q: What is self in Python?
+   A: self is a convention in Python to refer to the instance of a class within its methods. It is the first parameter in instance methods and allows access to the instance's attributes and methods.
+
+6. Q: What are Generators in Python?
+   A: Generators are functions that return an iterator. They use the yield keyword to produce a sequence of values one at a time, allowing for memory-efficient iteration over large datasets.
+
+7. Q: How is memory managed in Python?
+   A: Python uses a private heap for memory management. It employs reference counting and a garbage collector to reclaim memory from objects that are no longer referenced.
+
+8. Q: What are Decorators?
+   A: Decorators are functions that take another function as an argument, add some functionality, and return the modified function. They are used to extend or modify the behavior of functions or methods.
+
+9. Q: Difference between List and Tuple:
+   A: List: Mutable, ordered collection of items. Defined using square brackets [].
+      Tuple: Immutable, ordered collection of items. Defined using parentheses ().
+
+10.Q: Explain *args and **kwargs.
+   A: *args: Used to pass a variable number of non-keyword arguments to a function as a tuple.
+      **kwargs: Used to pass a variable number of keyword arguments to a function as a dictionary.
+
+
+📚 Study Material
+- https://codegnan.com/python-full-stack-developer-course-syllabus/
+- Exploratory Data Analysis (EDA): Techniques for analyzing data to discover patterns and insights.
+- Online Courses: Platforms like Simplilearn, Coursera, Udemy offer structured Python courses, including those focused on data science.
+- https://github.com/harshitgupta028/TCS-Xplore-Python
+- Documentation and Tutorials: Official Python documentation, W3Schools, and other online tutorials provide detailed explanations and examples.
+- https://www.scribd.com/document/747261387/Python-Developer
+- Practice Platforms: Regularly engage with coding challenges to enhance problem-solving abilities
+- https://www.tcsion.com/courses/greycampus/python-basic-training/
+- Books: "Mastering Python For Data Science" and other Python programming books can offer in-depth knowledge.
+- https://www.tcsion.com/hub/national-proficiency-test/it/python-developer/
+
+💡 Tips for TCS 
+- NumPy: For numerical operations and working with N-dimensional arrays.
+- Matplotlib: For data visualization.
+- Be proficient in using and manipulating Python's built-in data structures (lists, tuples, dictionaries, sets).
+- Basics of Statistics: Understanding statistical concepts and their application using Python.
+- Familiarize yourself with Python's object-oriented programming (OOP) principles.
+- Practice solving coding challenges and be prepared to articulate your thought process during interviews.
+- Keep abreast of the latest developments in Python and related technologies, including new libraries, frameworks, and best practices.
+- Anticipate common Python interview questions, including those on core concepts, data structures, algorithms, and specific frameworks.- 
+- Also, prepare for behavioral questions that assess your communication, teamwork, and leadership skills.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://medium.com/@huzaifazahoor654/10-mistakes-newbie-python-developers-make-aaa4d6ca3b7d
+- Not following Python's official style guide leads to inconsistent and less readable code, hindering collaboration.
+- Using unclear or non-descriptive names for variables, functions, and classes makes code difficult to understand and maintain.
+- Lack of comments and docstrings makes it challenging for others (and future self) to comprehend the code's purpose and functionality.
+- Using variable names that conflict with Python's built-in functions or types (e.g., list, dict) can cause unexpected behavior.
+- https://www.reddit.com/r/learnpython/comments/16x5oun/what_mistakes_do_bad_python_developers_make/
+- Reinventing the wheel instead of leveraging the vast and powerful modules within Python's standard library.
+- Inefficient database interactions can lead to performance bottlenecks in applications.
+- Skipping or inadequately performing testing and debugging can result in buggy and unreliable code.
+- Overlooking security considerations in web development can expose applications to vulnerabilities.
+
+
+
+
+
+
+
+
+
+
+
+	

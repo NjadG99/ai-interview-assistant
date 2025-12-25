@@ -1,0 +1,89 @@
+=== TCS – web Developer ===
+
+📌 Interview Questions + Answers
+    
+1. Q: Explain Webpack?
+   A: Webpack is a tool that bundles JavaScript modules, also known as static module bundlers. 
+
+2. Q: Explain CORS (Cross-Origin Resource Sharing)?
+   A: CORS stands for Cross-origin resource sharing. It is basically defined as a browser mechanism that enables web pages from one domain to have controlled access to resources that are located at different domains (cross-domain request).
+
+3. Q: What is SQL?
+   A: SQL (Structured Query Language) is a standard programming language for managing and manipulating relational databases.
+
+4. Q: What is Java?
+   A: Java is a versatile, object-oriented programming language used for building applications across platforms.
+
+5. Q: How do you maintain company coding standards?
+   A: Effective maintenance of company rules ensures compliance, promotes a positive work environment, and enhances productivity.
+
+
+6. Q: Explain the logic for generating the Fibonacci series.
+   A: Fibonacci series is a sequence of numbers where each number is the sum of the two preceding ones.
+
+7. Q: What are the basic concepts of OOP?
+   A: Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which can contain data and methods.
+
+8. Q: Write the logic for deleting a linked list.
+   A: Deletion logic for a linked list
+
+       -Traverse the linked list to find the node to be deleted
+
+       -Update the pointers of the previous and next nodes to skip the node to be deleted
+
+       -Free the memory of the node to be deleted
+ 
+9. Q: What is Redux?
+   A: Redux is a predictable state container for JavaScript apps. It helps manage the state of an application in a centralized way.
+
+10.Q: Explain React.js.
+   A: React JS is a JavaScript library for building user interfaces.
+
+
+📚 Study Material
+- https://www.scribd.com/doc/54195397/TCS-IT-Wiz-Study-Material
+- TCS iON: Offers courses, including one on learning HTML from scratch, and proficiency tests for roles like Java Full Stack Developers.
+- Develop a Study Plan: Create a structured study plan to cover all the essential topics, from basic web technologies to advanced concepts. 
+- https://www.linkedin.com/posts/placementlelo_tcs-codevita-study-material-activity-7248647624373755904-cc64
+- https://www.geeksforgeeks.org/interview-experiences/tcs-interview-experience-for-web-developer/
+- https://prepinsta.com/tcs-syllabus/
+- Testbook: Provides study materials, mock tests, and live classes that cover web development topics, programming, and other NQT sections
+- Platforms like CodeQuotient, Coursera, edX, and Udemy offer courses on data structures, algorithms, and web development that can be beneficial for TCS preparation
+- https://www.geeksforgeeks.org/competitive-exam-experiences/tcs-nqt-exam-preparation-and-guide/
+- https://www.naukri.com/code360/library/tcs-preparation-guide
+
+💡 Tips for TCS
+- Understand the Basics: Focus on fundamental concepts in HTML, CSS, and JavaScript. 
+- Stay Updated: Familiarize yourself with popular frameworks like React and Angular. 
+- Be Concise: Recruiters often only spend a few seconds on a resume, so make sure your points are clear and impactful. 
+- Practice: Research common interview questions on platforms like AmbitionBox and Glassdoor to prepare thoroughly. 
+- Introduction and Skills: Be ready to introduce yourself and highlight your relevant skills in web development, algorithms, and data structures. 
+- Project Experience: Discuss your projects and the skills you demonstrated in both front-end and back-end development. 
+- Role & Responsibilities: Be prepared to describe your experience in developing, improving, and resolving technical issues in web applications. 
+- Flexibility and Relocation: Expect questions about your willingness to work night shifts and relocate if required. 
+- Future Goals: Answer questions about your career aspirations and where you see yourself in the next five years. 
+- React Hooks: Prepare for questions on hooks like useState, useEffect, useContext, useMemo, useCallback, and useRef. 
+
+
+						
+⚠️ Common Mistakes to Avoid
+- Common web developer mistakes, applicable at TCS and elsewhere, include neglecting planning, poor coding practices, insufficient testing, ignoring security and performance.
+- Jumping into coding without a clear plan or design can result in costly rework and unclear requirements. 
+- Prioritizing a visually complex design over user experience and usability can make the application difficult to use.
+- Writing code that isn't well-structured and lacks semantic meaning makes it harder to understand, maintain, and scale. 
+- Failing to design for different screen sizes and devices leads to a poor user experience on mobile and tablet devices. 
+- Not using or mismanaging version control systems can lead to collaboration issues and lost progress. 
+Testing & Security Mistakes
+- Neglecting search engine optimization practices can lead to poor visibility and rankings in search results. 
+- Failing to meet accessibility standards can exclude a significant portion of the user base. 
+- https://javascript.plainenglish.io/avoid-these-5-mistakes-as-a-web-developer-d794f70c0927#:~:text=Mistake%20%234,Less%20effort%2C%20more%20reward.
+- https://www.linkedin.com/advice/1/what-most-important-things-avoid-when-starting-d9vjf
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+accenture_java_developer
+
+📌 Interview Questions + Answers
+1. Q: What is abstraction in Java?
+   A: Data Abstraction is the property by virtue of which only the essential details are displayed to the user. We use abstract class and interface to achieve abstraction.
+
+2. Q: What is Polymorphism?
+   A: Polymorphism is the ability of an object to take many forms. It allows performing the same action in many different ways. 
+
+3. Q: What is runtime polymorphism or dynamic method dispatch?
+   A: Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time. It is called as through the reference variable of a superclass.
+
+4. Q: What do you mean by an interface in Java?
+   A: An interface in the Java programming language is an abstract type that is used to specify a behavior that classes must implement. It is a collection of abstract methods.
+
+5. Q: What is the difference between abstract classes and interfaces?
+   A: An abstract class allows creating functionality that subclasses can implement or override. An interface only allows defining functionality, not implementing it and whereas a class can extend only one abstract class, it can take advantage of multiple interfaces.
+
+6. Q: What is inheritance in Java?
+   A: Java Inheritance is a mechanism in which one class acquires the property of another class. When an “Is-A” relationship exists between two classes, we use Inheritance.
+
+7. Q: Can you override a private or static method in Java?
+   A: No, we cannot override private or static methods methods declared as private can never be overridden, they are in-fact bounded during compile time. 
+
+8. Q: What is multiple inheritance? 
+   A: Multiple Inheritance is a feature of object oriented concept, where a class can inherit properties of more than one parent class. 
+
+9. Q: What is encapsulation in Java?
+   A: Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates.
+
+10.Q: What is composition in Java?
+   A: Composition is a restricted form of Aggregation in which two entities are highly dependent on each other. 
+
+
+📚 Study Material
+- https://www.credosystemz.com/accenture-java-interview-questions/
+- https://www.scribd.com/doc/310052734/Java-Developers-Guide-Accenture-Java-Interview-Questions-Answers
+- https://www.youtube.com/watch?v=OLBIkuIZ940
+- https://medium.com/coding-odyssey/accenture-java-developer-interview-771a0584a672
+- https://www.naukri.com/code360/library/accenture-preparation-guide
+- https://web.talenttitan.com/candidates/interview-preparation/accenture/java-developer#:~:text=About%20Accenture%20:%20Java%20developer%20Interview%20Preparation&text=Accenture%20is%20constantly%20on%20the,position%20at%20this%20prestigious%20company.
+- https://prepinsta.com/accenture/coding/
+- 
+- 
+- https://internshala.com/blog/accenture-java-interview-questions/#:~:text=%7B%20count++;%20%7D%20%7D-,Accenture%20Java%20Coding%20Questions%20and%20Answers%20for%20Mid%2DLevel%20Candidates,asked%20to%20mid%2Dlevel%20candidates:
+
+
+💡 Tips
+- Prepare for sections on Quantitative Aptitude, Reasoning, and Verbal Ability. 
+- Solve Java coding interview questions to demonstrate your problem-solving skills and knowledge of data structures. 
+- Expect in-depth discussions on Java concepts, Spring Boot, and microservices. 
+- Don't just memorize answers. Understand the reasoning and practical application behind concepts like transient, ConcurrentHashMap, or Spring Boot DevTools. 
+- Regularly solve coding challenges to improve your algorithmic thinking and proficiency in Java. 
+- Practice answering interview questions to build confidence and refine your communication skills. 
+- Consider enroll in interview preparation courses offered by platforms like Coding Ninjas. 
+- AmbitionBox: Provides lists of common interview questions and answers for Java developers at Accenture.
+- Internshala: Features lists of coding questions and interview experiences for Accenture Java developers.
+- Naukri Code360: Offers comprehensive interview preparation guides, coding questions, and syllabi for different roles, including Java developers.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.geeksforgeeks.org/java/most-common-mistakes-that-java-developers-make/
+- https://frontlinesmedia.in/common-mistakes-to-avoid-as-a-java-developer/
+- Skipping foundational knowledge of Object-Oriented Programming (OOP), concurrency, and data structures leads to difficulty in effectively using advanced frameworks and troubleshooting.
+- https://thecodest.co/blog/9-mistakes-to-avoid-while-programming-in-java/
+- Empty catch blocks that hide errors or only printing stack traces without taking action make debugging difficult and lead to silent failures in production. 
+- https://www.quora.com/What-are-some-common-mistakes-made-by-beginners-when-learning-programming-languages-like-Java-and-Python
+- Failing to understand and implement Hibernate's fetching strategies and optimization techniques results in inefficient queries and performance issues. 
+- Incorrect bean scopes and lifecycle management can cause memory problems and unexpected application behavior. 
+- https://medium.com/javarevisited/10-career-mistakes-every-java-developer-should-avoid-47b3253fd4f0
+- Focusing only on functionality can lead to code that is difficult for others (or future you) to understand and maintain. 

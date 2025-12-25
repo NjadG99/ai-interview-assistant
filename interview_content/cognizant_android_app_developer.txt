@@ -1,0 +1,73 @@
+cognizant_android_app_developer
+
+📌 Interview Questions + Answers
+1. Q: What Is Android?
+   A: Android is a mobile operating system developed by the Google. It is used by several smartphones and tablets. The Android operating system is based on the Linux kernel. Unlike Apple’s iOS, Android is the open source, meaning developers can modify and customize the OS for each phone.
+
+2. Q: Explain About The Exceptions Of Android?
+   A: An exception is an event that disrupts the normal flow of a program execution. For example, unusual user inputs, or a file system error when reading or writing a file. Exception handling prevents a program from crashing by managing these situations.
+
+3. Q: Describe Android Application Architecture?
+   A: Android architecture contains different number of the components to support any android device needs. Android software contains an open-source Linux Kernel having collection of number of C/C++ libraries which are exposed through an application framework.
+
+4. Q: What Is Android Runtime?
+   A: Android runtime is the managed runtime used by applications and some system services on Android. There are two parts in Android middleware layer are native components and the Android runtime system. 
+
+5. Q: What Is The Demand Of Mobile Application Developers?
+   A: A mobile app developer is a software engineer who works primarily with mobile devices, creating, programming, testing, and maintaining apps and mobile platforms across devices like the smartphones, tablets and laptops.
+
+6. Q: What Features Are In A Release?
+   A: A feature rollout is the software development process of introducing a new feature to a set of users. In the not so recent past, software was rolled out once the every week or two, with a number of changes being bundled together, and then monitored.
+
+7. Q: Are The Android Apps First Scrutinised By Google?
+   A: The bipartisan antitrust suit just adds to the company’s mounting legal woes. Google has emerged as the primary gatekeeper for apps downloaded to the Android smartphones. 
+
+8. Q: Explain Android SDK?
+   A: The Android software development kit is a set of development tools used to develop applications for the Android platform that has become Apple’s biggest rival in the smartphone space. 
+
+9. Q: Which language is supporting Android development?
+   A: Kotlin is the official language for Android App Development declared by Google since 2019. Kotlin is a cross-platform programming language that may be used as an alternative to Java for the Android App Development.
+
+10.Q: What are the layers in the Android architecture?
+   A: The layers in the Android architecture are kernel layer, middleware layer, framework layer, and application layer. 
+
+
+📚 Study Material
+- https://www.credosystemz.com/cognizant-android-interview-questions/
+- https://www.codepath.org/courses/android-development
+- https://www.cognizant.com/us/en/case-studies/mobile-banking-app-development
+- https://www.interviewbit.com/cognizant-interview-questions/
+- https://developer.android.com/courses/android-basics-compose/course
+- https://www.geeksforgeeks.org/dsa/cognizant-sde-sheet-interview-questions-and-answers/
+- https://nodeflair.com/companies/cognizant/interviews/senior-android-developer
+- Online Learning Platforms: Coursera, Udacity, Udemy, and others offer specialized Android development courses.
+- https://www.interviewbit.com/android-interview-questions/
+- Books and Tutorials: Reputable books and online tutorials on Android development and Kotlin/Java.
+
+
+
+💡 Tips
+- Making API calls using libraries like Retrofit and handling asynchronous tasks with Coroutines
+- Understanding and implementing modern architectural patterns like MVVM (Model-View-ViewModel).
+- Understand the core components of Android apps: Activities, Services, Broadcast Receivers, Content Providers, and their lifecycles.
+- Building personal Android projects to apply learned concepts and build a portfolio.
+- Designing UIs that adapt to different screen sizes and orientations.
+- Strong proficiency in either Java or Kotlin, the primary languages for Android development. Kotlin is increasingly preferred.
+- Object-Oriented Programming (OOP): Solid understanding of OOP principles.
+- Data Structures and Algorithms: Basic knowledge for problem-solving and efficient code.
+- Testing: Unit testing and UI testing principles for Android applications.
+- Clean Code Principles: Writing maintainable and readable code.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://medium.com/make-android/10-common-mistakes-in-android-app-development-and-how-to-avoid-them-e316b33d2a8a
+- Neglecting Cross-Platform Compatibility
+- https://www.naukri.com/code360/library/common-android-app-development-mistakes-to-avoid
+- Ignoring Security Measures
+- https://decode.agency/article/android-app-development-mistakes/
+- Ignoring User Experience (UX) Trends
+- https://www.v-xplore.com/some-common-mistakes-to-avoid-in-android-app-development/
+- Not Considering App Performance Optimization
+- https://www.quora.com/What-are-some-mistakes-people-make-when-they-start-developing-Android-app
+- https://www.geeksforgeeks.org/blogs/mobile-app-development-mistakes/
+

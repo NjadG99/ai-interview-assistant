@@ -1,0 +1,79 @@
+hcl_technologies_python_developer
+
+📌 Interview Questions + Answers
+    
+1. Q: How is Multithreading achieved in Python?
+   A: Threading in python is used to run multiple threads (tasks, function calls) at the same time. Note that this does not mean that they are executed on different CPUs. Python threads will NOT make your program faster if it already uses 100 % CPU time.
+
+2. Q: How can you build a simple logistic regression model in Python?
+   A: Logistic Regression in Python with StatsModels: Example
+Step 1: Import Packages. All you need to import is NumPy and statsmodels.api.
+
+Step 2: Get Data. You can get the inputs and output the same way as you did with scikit-learn.
+
+Step 3: Create a Model and Train It.
+
+3. Q: Which library would you prefer for plotting in Python language: Seaborn or Matplotlib?
+   A: Seaborn and Matplotlib are two of Python’s most powerful visualization libraries. Seaborn uses fewer syntax and has stunning default themes and Matplotlib is more easily customizable through accessing the classes. By Asel Mendis, KDnuggets. Python offers a variety of packages for plotting data.
+
+4. Q: What is the main difference between a Pandas series and a single-column DataFrame in Python?
+   A: Series is a type of list in pandas which can take integer values, string values, double values and more. Series can only contain single list with index, whereas dataframe can be made of more than one series or we can say that a dataframe is a collection of series that can be used to analyse the data.
+
+5. Q: Can we create a DataFrame with multiple data types in Python? If yes, how can you do it?
+   A: Pandas DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. It is generally the most commonly used pandas object. Pandas DataFrame can be created in multiple ways.
+
+6. Q: Why you should use NumPy arrays instead of nested Python lists?
+   A: NumPy is the fundamental package for scientific computing in Python. NumPy arrays facilitate advanced mathematical and other types of operations on large numbers of data.
+
+7. Q: What are the two major loop statements?
+   A: The group of statements being executed repeatedly is called a loop. There are two loop statements in Python: for and while.
+
+8. Q: What are the built-in types available in Python?
+   A: Python uses five numeric types: Booleans, integers, long integers, floating-point numbers, and complex numbers. Except for Booleans, all numeric objects are signed. All numeric types are immutable. Booleans are represented by two values: True and False.
+ 
+9. Q: How do you invoke the Python interpreter for interactive use?
+   A: On Windows, bring up the command prompt and type “py”, or start an interactive Python session by selecting “Python (command line)”, “IDLE”, or similar program from the task bar / app menu. IDLE is a GUI which includes both an interactive mode and options to edit and run files.
+
+10.Q: Which scientific libraries in SciPy have you worked with in your project?
+   A: The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numerical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
+
+
+📚 Study Material
+- https://www.credosystemz.com/hcl-python-interview-questions/
+- Books: "Fluent Python" by Luciano Ramalho, "Python Crash Course" by Eric Matthes.
+- https://www.ambitionbox.com/interviews/hcl-technologies-interview-questions/python-automation-engineer
+- https://www.interviewbit.com/python-interview-questions/
+- https://www.skillindiadigital.gov.in/courses/detail/91118d47-0cc8-4fb2-b290-af902fb4b2f3
+- https://www.google.com/search?sca_esv=cbc34f4c87f9b8c6&rlz=1C1GCEA_enIN1146IN1146&sxsrf=AE3TifPOMHVD9MJZD0fYE86zbaYRXD8cMw:1759685810030&q=Hcl+technologies+python+developer+study+material+pdf&sa=X&ved=2ahUKEwj47f28zI2QAxWHfPUHHRsPB04Q1QJ6BAglEAE
+- https://prepinsta.com/hcl/syllabus/
+- Coding Practice Platforms: LeetCode, HackerRank, GeeksforGeeks for practicing data structures and algorithms.
+- https://www.youtube.com/watch?v=JKBG9pHb4cE
+- Online Courses: Platforms like Coursera, Udemy, edX offer comprehensive Python courses.
+
+💡 Tips 
+- Software Development Life Cycle (SDLC): Understanding agile methodologies, testing phases.
+- Operating Systems: Basic command-line operations in Linux/Unix.
+- Version Control: Git and GitHub/GitLab for collaborative development.
+- ORM: Understanding and using Object-Relational Mappers (e.g., Django ORM, SQLAlchemy) to interact with databases.
+- SQL: Basic to advanced SQL queries, database design principles.
+- Syntax and Semantics: Variables, data types (lists, tuples, dictionaries, sets), operators, control flow (if/else, loops).
+- Functions: Defining and calling functions, arguments, return values, lambda functions.
+- Object-Oriented Programming (OOP): Classes, objects, inheritance, polymorphism, encapsulation.
+- Knowledge of fundamental algorithms (sorting, searching, recursion, dynamic programming).
+- Ability to implement and analyze the complexity of algorithms.
+
+					    
+⚠️Common Mistakes to Avoid
+- https://www.thinktanker.io/common-mistakes-to-avoid-while-hiring-python-developers-in-india/
+- https://www.expertia.ai/career-tips/common-mistakes-to-avoid-as-a-senior-python-developer-54273s
+- Neglecting Readability and Pythonic Practices: Not adhering to PEP 8 style guidelines, using non-descriptive variable names, or failing to leverage Pythonic constructs like list comprehensions can make code difficult to understand and maintain.
+- https://www.quora.com/What-are-the-most-common-mistakes-junior-Python-developers-should-avoid
+- Insufficient Documentation: Lack of clear docstrings for functions and classes, or inadequate comments explaining complex logic, hinders collaboration and future maintenance.
+- https://pitangent.com/python-developer/avoiding-mistakes-hiring-python-developers/
+- Inefficient Data Structures and Algorithms: Choosing the wrong data structure for a task or implementing inefficient algorithms can significantly impact performance, especially with large datasets
+- https://www.quora.com/What-are-some-of-the-mistakes-that-should-be-avoided-while-beginning-to-learn-programming-language-Python
+- Poor Error Handling: Not implementing robust try-except blocks for anticipated errors, or catching overly broad exceptions, can lead to unstable applications and obscure debugging.
+- Overuse of Global Variables: Excessive reliance on global variables can lead to tangled dependencies and make code harder to test and reason about.
+
+
+

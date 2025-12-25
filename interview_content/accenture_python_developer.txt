@@ -1,0 +1,71 @@
+accenture_python_developer
+
+📌 Interview Questions + Answers
+1. Q: Why Python?
+   A: Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. 
+
+2. Q: In a Python Application, How to find Bugs or perform Static Analysis?
+   A: Pychecker and Pylint are the static analysis tools that help to find bugs in python. Pychecker is an opensource tool for static analysis that detects the bugs from source code and warns about the style and complexity of the bug.
+
+3. Q: When is Python Decorator used?
+   A: A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
+
+4. Q: How does Python Handle the Memory Management?
+   A: Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager.
+
+5. Q: What do you mean by Python literals?
+   A: A literal is a succinct and easily visible way to write a value. Literals represent the possible choices in primitive types for that language. 
+
+6. Q: What is the output of print str if str = ‘Hello World!’?
+   A: It will print complete string. Output would be Hello World!.
+
+7. Q: Explain Python Functions?
+   A: In Python, a function is a group of related statements that performs a specific task. Functions help break our program into smaller and modular chunks. 
+
+8. Q: What is zip() function in Python?
+   A: The zip() function returns a zip object, which is an iterator of tuples where the first item in each passed iterator is paired together, and then the second item in each passed iterator are paired together etc. 
+
+9. Q: What is Python’s parameter passing mechanism?
+   A: All parameters (arguments) in the Python language are passed by reference. It means if you change what a parameter refers to within a function, the change also reflects back in the calling function.
+
+10.Q: Explain the different ways to write a function using call by reference?
+   A: Python in different ways for write a function that known as “call by reference”. In this event , pass the argument as whole numbers, string, or tuples of the function. 
+
+
+📚 Study Material
+- Online Courses: Platforms like Coursera, Udemy, or edX offer comprehensive Python courses.
+- https://github.com/skchaudhari903/Accenture_Pre-Onboard
+- Documentation: Official Python documentation is an excellent resource.
+- https://payilagam.com/interview-questions/accenture-python-interview-questions/
+- https://www.crsinfosolutions.com/accenture-python-developer-interview-questions/
+- Coding Practice Platforms: LeetCode, HackerRank, GeeksforGeeks.
+- https://www.mygreatlearning.com/blog/accenture-coding-questions-solutions/
+- Books: "Automate the Boring Stuff with Python," "Python Crash Course," or specific books on data structures and algorithms in Python.
+- https://prepinsta.com/accenture/coding/
+- https://www.studocu.com/in/document/anna-university/python-programming/accenture-2-practice-notes/65839344
+
+
+💡 Tips
+- Master Python's core syntax, including variables, loops, conditionals, built-in data structures (lists, tuples, dictionaries), and functions. 
+- Gain a deep understanding of classes, objects, inheritance, polymorphism, and encapsulation. 
+- Focus on creating code that is readable, idiomatic, and easy to understand, using descriptive variable names and comments where needed. 
+- Learn about time and space complexity, and how to write efficient code that uses less memory. 
+- Regularly solve coding problems, build personal projects, and participate in coding challenges to gain hands-on experience.
+- Be prepared to discuss topics like decorators, generators, asynchronous programming, and different ways to sort arrays. 
+- Understand Accenture's core values, business areas, and the specific requirements of the role you're applying for. 
+- Be ready to discuss your past projects in detail, focusing on your specific contributions, challenges overcome, and lessons learned. 
+- Speak clearly and concisely during technical and behavioral interviews. 
+- In Accenture's coding rounds, you'll be expected to write the entire program from the ground up. 
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.quora.com/What-are-some-costly-mistakes-that-I-can-avoid-as-a-first-time-Python-developer
+- https://www.thinktanker.io/common-mistakes-to-avoid-while-hiring-python-developers-in-india/
+- https://medium.com/dot-net-sql-learning/the-10-most-common-python-mistakes-developers-make-in-interviews-2267363418be
+- https://www.simplilearn.com/tutorials/python-tutorial/errors-in-python
+- Modifying a list while iterating: Changing the size of a list while looping through it can cause unintended behavior and skip elements. Use a new list or a list comprehension instead.
+- Using mutable objects as default arguments: Because Python evaluates default arguments only once when the function is defined, a mutable default (like a list or dictionary) is shared across all function calls. Instead, set the default to None and initialize the object inside the function.
+- Catching generic exceptions: A bare except: can hide critical bugs and make debugging much harder. It's best to catch specific exceptions (e.g., ValueError, FileNotFoundError) to handle errors appropriately.
+- Ignoring PEP 8 style guidelines: Inconsistent and unreadable code creates friction in a team environment. Use a linter or code formatter (like Black) to automatically enforce a consistent style.
+- Using inefficient data structures: Choosing the wrong data structure, such as a list for fast membership checks instead of a set, can significantly impact performance on large datasets. 
+- Neglecting testing: Skipping or under-prioritizing testing leads to lower code quality and more bugs in production.

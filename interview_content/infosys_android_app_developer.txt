@@ -1,0 +1,90 @@
+=== Infosys – Android app Developer ===
+
+📌 Interview Questions + Answers
+
+1. Q: What is a Content Provider in Android?
+   A: A Content Provider is a component in Android that manages access to a structured set of data.
+
+2. Q: What is the MVVM design pattern and how does it work?
+   A: MVVM is a design pattern that separates the UI, business logic, and data layers in an Android app.
+      -MVVM stands for Model-View-ViewModel.
+      -Model represents the data and business logic.
+      -View is the UI component that displays the data.
+
+3. Q: How does Retrofit work internally, and which design pattern does it follow?
+   A: Retrofit is a type-safe HTTP client for Android that simplifies API calls using annotations like @GET and @POST. It follows the Builder pattern, supports converters like Gson for JSON parsing, handles async requests via Callbacks, and integrates with OkHttp for networking.
+
+4. Q: What are Kotlin Coroutines?
+   A: Kotlin Coroutines are a way to write asynchronous, non-blocking code in a sequential manner.
+
+5. Q: Activity Lifecycle in Android.
+   A: Activity Lifecycle in Android refers to the sequence of states an activity goes through during its lifetime.
+
+6. Q: Scope functions in kotlin.
+   A: Scope functions in Kotlin are functions that allow you to execute a block of code within the context of an object.
+
+7. Q: LazyRow vs RecyclerView
+   A: LazyRow is a Jetpack Compose component for displaying horizontally scrolling lists, while RecyclerView is a traditional Android view for displaying large data sets efficiently.
+
+      -LazyRow is part of Jetpack Compose, RecyclerView is part of the Android framework
+      -LazyRow is more declarative and easier to use for simple lists, RecyclerView is more powerful and customizable for complex lists
+
+8. Q: What is difference between abstract class and interface?
+   A: An abstract class can have both abstract and non-abstract methods, constructors, and instance variables. An interface only has abstract methods (until Java 8+, which allows default/static methods), no constructors, and no instance variables. A class can extend one abstract class but implement multiple interfaces.
+
+9. Q: How do Kotlin Coroutines differ from Java threads?
+   A: Coroutines are lightweight, non-blocking, scoped via CoroutineScope and Dispatchers; threads are heavy and may block UI if misused
+
+10.Q: How do you implement DI in Android?
+   A: Use Hilt to inject ViewModel, Repository, manage scopes with @Singleton, @Module, @Provides annotations
+
+
+📚 Study Material
+- Key Learning Platforms and Resources:Infosys Springboard,Infosys Lex
+- Kotlin Programming Language: The primary language for modern Android development.
+- Android Studio: The official integrated development environment (IDE) for Android.
+- https://www.infosys.com/about/springboard.html
+- https://www.springboard.com/resources/learning-paths/android/
+- http://avinfosys.in/android-app-development-training/
+- Data Storage: Options like SharedPreferences, SQLite databases, and Room Persistence Library.
+- https://www.shabnaminfosys.com/application-development.php
+- User Interface (UI) Design: Working with layouts, views, Material Design principles, and Jetpack Compose (the modern toolkit for building Android UI).
+- Testing and Debugging: Techniques for ensuring app quality.
+
+💡 Tips for Infosys
+- Possess a strong understanding of Android fundamentals, including the Android SDK, activity lifecycle, UI layouts, data storage, and networking.
+- https://www.youtube.com/watch?v=BdP_2GPoM9I
+- Gain proficiency in Java and Kotlin, the primary languages for Android development.
+- Thoroughly learn the Android Software Development Kit (SDK), including its various components and APIs.
+- Become adept at using Android Studio, the official IDE for Android development.
+- Understand how to handle network calls effectively using libraries like Retrofit or Volley.
+- Learn to work with databases like SQLite and Room for local data persistence.
+- Familiarize yourself with multithreading and asynchronous operations using concepts like coroutines. 
+- Understand user-centered design principles to create a seamless and engaging user experience.
+- Debugging: Develop strong debugging skills to identify and resolve issues in your code. 
+
+
+						
+⚠️ Common Mistakes to Avoid
+- Skipping well-defined architectures like MVVM or MVP leads to unmaintainable, buggy, and difficult-to-scale codebases.
+- Failing to manage screen rotations, keyboard visibility changes, or other configuration shifts can lead to crashes or data loss.
+- Unreleased resources or improper use of Context can cause memory leaks, degrading performance and potentially leading to crashes.
+- Performing long-running operations on the UI thread causes ANR (Application Not Responding) errors and a poor user experience.
+- Not optimizing RecyclerView usage, such as improper view recycling or inefficient data updates, can lead to sluggish scrolling and performance issues.
+- Lack of robust error handling can cause unexpected crashes, while neglecting security measures can expose user data and compromise the app's integrity.
+- Adding too many unnecessary features can overwhelm users and make the app clunky and difficult to navigate.
+- Failing to optimize app metadata (title, description, keywords) limits discoverability in app stores.
+- Abandoning an app after launch without providing updates, bug fixes, or new features leads to user dissatisfaction and eventual decline in usage.
+- https://www.geeksforgeeks.org/blogs/mobile-app-development-mistakes/
+
+
+
+
+
+
+
+
+
+
+
+	

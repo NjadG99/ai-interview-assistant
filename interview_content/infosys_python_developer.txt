@@ -1,0 +1,88 @@
+=== Infosys – Python Developer ===
+
+📌 Interview Questions + Answers
+1. Q: What is Python?
+   A: Python is a high-level, interpreted, interactive and object-oriented scripting language that is used to create user interface applications for web development.
+
+2. Q: How do you set a global variable in a function?
+   A: Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function. To create a global variable inside a function, you can use the global keyword.
+
+3. Q: What are the rules for local and global variables in Python?
+   A: In python, the variables referenced inside a function are global.
+      When a variable is assigned new value anywhere in the body of a function then it is assumed as local.
+
+4. Q: How can we create an empty class in Python?
+   A: In Python, to write an empty class pass statement is used. Pass is a special statement in Python that does nothing. It only works as a dummy statement. 
+
+5. Q: What are the key features of Python?
+   A: Python is a dynamic, high level, free open source and interpreted programming language. It supports object-oriented programming as well as procedural oriented programming.
+
+6. Q: How do I share global variables across modules?
+   A: In the update.py file, we import the config.py module and modify the values of a and b . Similarly, in the main.py file, we import both config.py and update.py module. 
+
+7. Q: How do we reverse a list in Python?
+   A: Reversing a list in-place with the list. reverse() method. Using the “[::-1]” list slicing trick to create a reversed copy.
+
+8. Q: Define slicing in Python?
+   A: Python slicing is about obtaining a sub-string from the given string by slicing it respectively from start to end.
+
+9. Q: How do you make a higher order function in Python?
+   A: A higher-order function accepts one or more functions as input and returns a new function.
+
+10.Q: How do I copy an object in Python?
+   A: In Python, there are two ways to create copies:
+        
+        Deep copy
+        Shallow copy
+
+
+📚 Study Material
+-  Introduction to web frameworks like Django or Flask, creating RESTful APIs, and understanding web concepts (JSON).
+- Introduction to data science principles, using libraries like NumPy for numerical operations, Pandas for data manipulation, and potentially Scikit-learn for machine learning.
+- Automation & Scripting: Utilizing Python for automating repetitive tasks and scripting.
+- Version Control: Introduction to Git and GitHub for collaborative development.
+- Soft Skills: Resume building and interview preparation, including mock interviews and study plan guidance.
+- Python libraries such as NumPy, Pandas, Scikit-learn, and data visualization tools like Matplotlib and Seaborn. 
+- https://www.h2kinfosys.com/courses/python-online-training/
+- https://ggnindia.dronacharya.info/Downloads/Placements/Infosys-Certified-Software-Programmer-Python-2020.pdf
+- https://entri.app/blog/infosys-python-interview-questions-for-freshers/
+- Practice: Working with datasets, code templates, and examples for hands-on practice.
+
+💡 Tips for Infosys
+- Access to online tutorials, lectures, and coding exercises on platforms specializing in Python and data science.
+- focus on solidifying your fundamentals, practicing problem-solving, and building real-world projects.
+- Strengthen your understanding of Python's core concepts, data structures, and algorithms.
+- Regularly solve coding challenges on platforms like LeetCode or HackerRank to improve your problem-solving skills.
+- https://www.ccbp.in/blog/articles/infosys-coding-questions
+- https://www.youtube.com/watch?v=-b-rtMq0A9M
+- https://m.youtube.com/watch?v=VrZrrMujbec&t=0s
+- Showcase your skills by developing projects that demonstrate your ability to apply Python in practical scenarios.
+- prepare for technical and behavioral interview questions, emphasizing clear communication and problem-solving explanations. 
+- Ensure a strong grasp of Python's syntax, data types, control structures, functions, and object-oriented programming (OOP) principles. 
+
+
+
+						
+⚠️ Common Mistakes to Avoid
+- overlooking proper exception handling, neglecting testing, writing unreadable code, and failing to understand data structures and their implications.
+- Improperly managing memory, misusing data types, and making logical errors can hinder productivity and code quality.  
+- Failing to implement robust error handling using try-except blocks can lead to unexpected program termination when encountering errors.
+- Writing code without testing can result in bugs that are difficult to find and fix later. 
+- Writing code that is difficult to understand can make it challenging to debug, maintain, and collaborate on.
+- Python uses indentation to define code blocks. Mixing tabs and spaces or incorrect indentation can lead to syntax errors.
+- Using the wrong data structure for a particular task can lead to performance issues or unexpected behavior.
+- Not using version control (like Git) makes it difficult to track changes.
+- Not managing memory properly can lead to performance issues or even memory leaks.
+- Failing to consider edge cases can lead to unexpected errors.
+
+
+
+
+
+
+
+
+
+
+
+	

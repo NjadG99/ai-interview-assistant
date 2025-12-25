@@ -1,0 +1,71 @@
+cognizant_java_developer
+
+📌 Interview Questions + Answers
+1. Q: Explain JDK, JRE and JVM?
+   A: JDK stands for Java Development Kit is a software development kit whereas JRE expand as Java Runtime Environment is a software bundle that allows Java program to run, whereas JVM(Java Virtual Machine) is an environment for executing byte code.
+
+2. Q: Explain public static void main(String args[]) in Java?
+   A: Public static void main (String[] args) Java main method is the entry point of any java program. Its syntax is always public static void main (String[] args) and can change the name of String array argument.
+
+3. Q: Why Java is platform independent?
+   A: Java is platform-independent because it does not depend on any type of platform. Hence, Java is platform-independent language and the programs are compiled into byte code and that byte code is platform-independent.
+
+4. Q:  Why Java is not 100% Object-oriented?
+   A: Java is not a pure Object oriented language, but so called a “Hybrid” language. It supports primitive data type such as int ,char, float .All these are not object but you can argue we have wrapper class for each of the data type such Integer(int) , Float(float) etc . 
+
+5. Q: What are wrapper classes in Java?
+   A: A Wrapper class is a class whose object wraps or contains primitive data types. When we create an object to a wrapper class, it contains a field and in this field, we can store primitive data types.
+
+6. Q: What are constructors in Java?
+   A: Constructor is a block of codes similar to the method. It is called when an instance of the class is created. It is a special type of method which is used to initialize the object. 
+
+7. Q: What is the difference between Array list and vector in Java?
+   A: Vector and ArrayList both uses Array internally as data structure. They are dynamically resizable. But, ArrayList increases by half of its size when its size is increased.
+
+8. Q: What is the difference between equals() and == in Java?
+   A: equals() method for content comparison. == checks if both objects point to the same memory location whereas . equals() evaluates to the comparison of values in the objects.
+
+9. Q: What are the differences between Heap and Stack Memory in Java?
+   A: The major difference between Stack memory and heap memory is that the stack is used to store the order of method execution and local variables while the heap memory stores the objects and it uses dynamic memory allocation and deallocation.
+
+10.Q: What is a package in Java? 
+   A: Java package is used to categorize the classes and interfaces so that they can be easily maintained. It provides access protection and removes naming collision.
+
+
+📚 Study Material
+- https://www.youtube.com/watch?v=o4yeQA9FrGU
+- https://www.credosystemz.com/cognizant-java-interview-questions/
+- https://prepinsta.com/cognizant-genc-next/java-questions/
+- https://www.youtube.com/watch?v=YHiYOTIgsOw
+- Build Tools: Maven or Gradle.
+- Testing Frameworks: JUnit.
+- https://www.youtube.com/watch?v=HSxqU93Rs9A
+- https://github.com/abhisheks008/Cognizant-Java-FSE-Handson-2023
+- https://saannjaay.medium.com/cracking-the-cognizant-java-interview-a-complete-guide-for-5-10-years-experience-2025-a202a4a087fd
+- https://prepinsta.com/cognizant-genc-next/java-questions/
+
+💡 Tips
+- Focus on understanding problem statements, breaking down problems, and choosing appropriate data structures and algorithms
+- Building projects demonstrating your understanding of the technologies and frameworks.
+- Practicing common Java interview questions, including theoretical and coding challenges.
+- Understanding relational databases, writing queries (SELECT, INSERT, UPDATE, DELETE), joins.
+- HTML, CSS, JavaScript, potentially frameworks like React or Angular.
+- Core Spring concepts, Spring Boot, Spring MVC, Spring Data JPA (for experienced roles).
+- Conditional statements (if-else, switch), loops (for, while, do-while).
+- File Handling: Reading from and writing to files.
+- Database Connectivity: JDBC for interacting with databases.
+- Control Structures: Conditional statements (if-else, switch), loops (for, while, do-while).
+
+						
+⚠️ Common Mistakes to Avoid
+- Instantiating new objects inside tight loops, which wastes memory and triggers more frequent garbage collection.
+- https://medium.com/javarevisited/the-dark-side-of-java-common-mistakes-that-cost-millions-2145951b070b
+- Catching general Exception or Throwable, which can hide the root cause of an error. Another common mistake is using an empty catch block that silently swallows errors.
+- https://www.geeksforgeeks.org/java/most-common-mistakes-that-java-developers-make/
+- Not performing null checks before accessing an object, which leads to the ubiquitous NullPointerException.
+- https://www.toptal.com/java/top-10-most-common-java-development-mistakes
+- Using the == operator to compare objects, especially strings, instead of the .equals() method. The == operator compares memory addresses, not content.
+- https://www.quora.com/What-are-some-common-mistakes-newbie-java-programmers-make
+- https://www.ziprecruiter.com/career/job-interview-question-answers/cognizant-java-developer
+- https://content.techgig.com/career-advice/java-mistakes-developers-should-avoid-at-all-costs/articleshow/94917090.cms
+

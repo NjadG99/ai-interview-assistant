@@ -1,0 +1,70 @@
+=== IBM India – Java Developer ===
+
+📌 Interview Questions + Answers
+1. Q: What are the features of Java?
+   A: Java is a versatile, object-oriented programming language known for its portability and security.
+
+2. Q: What are the most important concepts in Java Developer?
+   A: Core concepts such as data structures, algorithms, language syntax, and practical coding are essential.
+
+3. Q: How do you handle errors in Java Developer specific tasks?
+   A: Use try-catch blocks, logging, and debugging tools.
+
+4. Q: Describe a project where you used Java Developer-related skills.
+   A: [Provide a project example with technology stack and results.]
+
+5. Q:What are the OOP concepts in Java?
+   A:OOP concepts in Java include Encapsulation, Inheritance, Polymorphism, and Abstraction.
+
+6. Q: What challenges have you faced while working as a Java Developer?
+   A: [Mention debugging, optimization, team collaboration, etc.]
+
+7. Q: What tools or frameworks do you use in Java Developer?
+   A: [List frameworks, tools, or libraries specific to the role.]
+
+8. Q:What is exception handling in java? 
+   A:Exception handling in Java manages runtime errors, allowing programs to continue or terminate gracefully.
+
+9. Q:What are three date functions in Java?
+   A:Three date functions in Java are getDate(), getMonth(), and getYear().
+
+10. Q:What are the biggest challenges someone in this role would face?
+    A:Java Developers face challenges like managing legacy code and adapting to evolving technologies.
+
+📚 Study Material
+- [Role]-specific tutorials (GeeksforGeeks, YouTube, official docs)
+- Practice platforms: LeetCode, HackerRank, Codeforces
+- Projects on GitHub for Java Developer
+- Books: Clean Code, Head First series, etc.
+- File I/O: Reading from and writing to files.
+- Multithreading: Concepts of threads, synchronization, concurrency utilities.
+- Collections Framework: List, Set, Map interfaces and their implementations (HashSet and HashMap).
+- Servlets and JSP (JavaServer Pages): Building dynamic web applications.
+- Exception Handling: Understanding and implementing try-catch-finally blocks, custom exceptions.
+- Object-Oriented Programming (OOP) Principles: Encapsulation, Inheritance, Polymorphism, Abstraction.
+
+💡 Tips for IBM India
+- Research their interview process (rounds, formats)
+- Review past questions (Glassdoor, GeeksforGeeks)
+- Prepare your resume with role-aligned keywords
+- Focus on communication, problem-solving, and coding rounds
+- Gain experience with concurrent programming using threads and synchronization mechanisms. 
+- Be comfortable using and understanding various data structures like lists, sets, maps, etc. 
+- Develop skills in creating and consuming RESTful APIs using technologies like Spring REST or JAX-RS. 
+- Familiarize yourself with microservices architecture and related technologies 
+- Develop strong debugging skills to identify and fix issues in your code. 
+- Use platforms like LeetCode or HackerRank to practice coding problems. 
+
+
+
+⚠️ Common Mistakes to Avoid
+- Not understanding basic concepts of Java Developer
+- Memorizing answers instead of understanding them
+- Ignoring behavioral/HR round prep
+- Failing to explain project contributions clearly
+- Not practicing enough real coding problems
+- poor exception handling, inefficient coding practices, insufficient testing
+- failing to stay updated with the latest Java technologies and best practices
+- Not Using Version Control Effectively
+- Ignoring Security Best Practices,Ignoring Documentation
+- Accessing non-static members from static methods

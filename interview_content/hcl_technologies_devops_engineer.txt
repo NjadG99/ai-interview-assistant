@@ -1,0 +1,80 @@
+hcl_technologies_devops_engineer
+
+📌 Interview Questions + Answers
+    
+1. Q: How do you configure a self-hosted agent pool?
+   A: Configuring a self-hosted agent pool involves setting up agents on your own infrastructure for CI/CD tasks.
+
+2. Q: How do you write a CI/CD YAML pipeline?
+   A: A CI/CD YAML pipeline automates the software development lifecycle, enabling continuous integration and delivery.
+
+3. Q: What is a service in Kubernetes?
+   A: Kubernetes services enable communication between pods and external resources, managing access and load balancing.
+
+4. Q: Write a Dockerfile to create a Docker image?
+   A: A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
+
+5. Q: How do you check logs for pods and containers in Kubernetes?
+   A: To check logs for pods and containers in Kubernetes, you can use the kubectl command-line tool.
+
+6. Q: Explain Monitoring in DevOps.
+   A: Monitoring in DevOps is the process of observing and measuring the performance of the system to ensure its availability and reliability.
+
+7. Q: What DevOps tools have you worked on?
+   A: I have worked with various DevOps tools including Jenkins, Git, Docker, Kubernetes, Ansible, and AWS.
+
+8. Q: What do you understand about nested classes?
+   A: Object-oriented programming languages allow defining a class inside another class. The enclosed class is the nested class. It has the same access rights as other class members serving as another member of the outer class.
+ 
+9. Q: What is cloud computing? How is it useful today?
+   A: Cloud computing is the technique of storing, processing, and managing data in a shared network of remote servers over the internet. The data is distributed and hence more secure. Cloud computing offers flexible resources, innovation, and economies of scale.
+
+10.Q: What is Big Data?
+   A: Big data refers to large data sets too complex for traditional data-processing application software.
+
+
+📚 Study Material
+- https://www.simplilearn.com/devops-engineer-masters-program-certification-training
+- https://www.ambitionbox.com/interviews/hcl-technologies-interview-questions/devops-engineer
+- https://roadmap.sh/devops#:~:text=Start%20your%20career%20path%20in,do%20Agile%20and%20DevOps%20interrelate?
+- https://www.hcl-software.com/devops-test/e-guides-and-ebooks
+- https://www.hcltech.com/careers/recruitment-process-hcl-tech#:~:text=Know%20about%20the%20company%20before,about%20the%20opportunities%20of%20advancement
+- https://hclsoftwareu.hcltechsw.com/courses
+- Know the HCL business: Research HCL's services, culture ("Ideapreneurship"), and recent news. Frame your answers around how you can contribute to the company's vision.
+- https://www.hcl-software.com/secure-devops/ebooks-and-report
+- Practice coding problems: While a DevOps role is not purely development, basic to intermediate coding challenges in Python or other relevant languages are common.
+- https://www.scribd.com/document/863762730/Devops-at-Hcl-cheatsheet
+
+💡 Tips
+- Be prepared to discuss in detail any projects, skills, or certifications listed. For DevOps roles, this often means walking through your experience with CI/CD pipelines, automation, or specific tools.
+- Gain hands-on experience with tools like Terraform for automating infrastructure setup and management.
+- Deeply understand at least one major cloud platform, such as AWS, and its relevant services for scalability and resource flexibility. 
+- Master Docker for containerization and Kubernetes for orchestrating containerized applications, including concepts like StatefulSets versus Deployments and managing the kublet.
+- Become adept in at least one programming language and master scripting for automation.
+- Understand how to operate and manage operating systems, including working with the terminal.
+- Develop excellent communication skills to bridge the gap between development and operations teams and collaborate effectively with architects and developers.
+- Cultivate strong analytical and troubleshooting skills to quickly diagnose and resolve issues, ensuring minimal downtime.
+- Be ready to discuss real-time scenarios and how you'd apply DevOps principles and tools to solve them.
+- https://staragile.com/blog/how-to-crack-devops-interview
+
+					    
+⚠️Common Mistakes to Avoid
+- Ignoring the cultural shift:
+Failing to foster a collaborative environment among cross-functional teams can hinder the success of any DevOps initiative. 
+- https://www.youtube.com/watch?v=OOJ9sBf3ahU
+- Over-automating without understanding:
+Automating without understanding the underlying processes can propagate errors quickly throughout the system. 
+- https://www.linkedin.com/pulse/top-5-mistakes-devops-engineers-make-how-avoid-them-neha-boora-ugizc
+- Inconsistent environments:
+Inconsistent development, staging, and production environments across teams lead to deployment failures. 
+- https://dev.to/prodevopsguytech/top-5-mistakes-to-avoid-as-a-devops-fresher-41op
+- Neglecting soft skills:
+Skills like clear communication and effective collaboration are as crucial as technical expertise. 
+- https://duplocloud.com/blog/devops-mistakes/
+- Lack of continuous learning:
+The tech landscape evolves rapidly; engineers must continuously learn new tools and methodologies to avoid obsolescence. 
+- Poor communication:
+A lack of communication between development and operations teams can lead to fragmented efforts and misunderstandings. 
+
+
+

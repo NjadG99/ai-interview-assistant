@@ -1,0 +1,83 @@
+hcl_technologies_android_app_developer
+
+📌 Interview Questions + Answers
+    
+1. Q: What are the features of Android architecture?
+   A: Android architecture refers to the various layers in the Android stack. It consists of operating systems, middleware, and applications. Each layer in the Android architecture gives different services to the layer just above it.
+
+2. Q: What is Singalton design pattern?
+   A: The Singleton Design Pattern is a Creational pattern. The main objective of the singleton class is to create only one instance of a class and to provide only one global access point to that object. For instance, in Java, the Calendar class uses its own getInstance()method to get the object to be used.
+
+3. Q: What are Activities in Android?
+   A: Android Activity is the subclass of ContextThemeWrapper class. An activity is a single screen with a user interface just like a window or frame of the application.
+
+4. Q: What is the difference between a process and a thread?
+   A: A process is an active program under execution. Processes require more time for context switching as they are heavier. 
+      A thread is a lightweight process. Threads require less time for context switching as they are lighter than processes.
+
+5. Q: What are Broadcast receivers in Android?
+   A: A broadcast receiver is an Android component. It allows registering for system or application events. Once an event happens, all receivers are notified by the Android runtime.
+
+6. Q: What is Android ANR?
+   A: An "Application Not Responding" (ANR) error is triggered, When the UI thread of an Android app is blocked for too long.
+
+7. Q: What is a Fragment?
+   A: Fragments are incomplete sentences. it is usually pieces of sentences that have become disconnected from the main clause. You can remove the period between the fragment and the main clause to correct them.
+
+8. Q: What are Intents and services in Android?
+   A: IntentService is a base class for Services. Services handle asynchronous requests expressed as Intents on demand.
+ 
+9. Q: What is Orientation in Android?
+   A: Orientation in Android is the view in which a device is directed.
+
+There are 2 types of Orientation are available in Android.
+
+Portrait
+Landscape
+
+10.Q: What is Android Emulator?
+   A: The Android Emulator individual simulates Android devices on a PC. It provides most of the capabilities of a true Android device. By exploiting Android individually, you'll be able to check your application on a range of devices and Android API levels without having to possess every physical device.
+
+
+📚 Study Material
+- Kotlin (primary): The modern, preferred language for Android development. HCL job postings frequently mention strong knowledge of Kotlin.
+- https://www.hcltech.com/sites/default/files/document/open/aws/DBS-Solutions-Advantage-Code-for-AWS-reInvent-2023_Modern-Applications.pdf
+- Java (secondary): Experience with Java is still a common requirement, especially for working on legacy projects or enterprise systems. 
+- https://developer.android.com/courses
+- Android SDK: Master the Android Software Development Kit, including its different versions and how to handle various screen sizes and resolutions.
+- https://www.hcltech.com/careers/android-developer
+- Gradle: Learn how to use this build automation tool for managing project dependencies and configurations.
+- https://www.hcltech.com/application-development-services
+- Android Fundamentals: Master the basics, including the Android application components such as Activities, Services, Broadcast Receivers, and Content Providers.
+- https://help.hcl-software.com/voltmx/v9.5/Iris/iris_user_guide/Content/BuildAnAppForAndroid.html
+
+💡 Tips
+- Have a deep understanding of the Activity and Fragment lifecycles.
+- Learn how to persist data, typically using SQLite and databases through libraries like Room.
+- Familiarize yourself with modern architectural patterns like MVVM (Model-View-ViewModel). 
+- Gain experience connecting Android applications to back-end services using RESTful APIs and parsing data in JSON or XML format.
+- Familiarity with common networking libraries like Retrofit and Volley is valuable.
+- HCL job descriptions explicitly mention proficiency with version control tools such as Git. 
+- Basics with Compose" is the recommended starting point for beginners. For more advanced topics, the official Android Developers website offers extensive documentation and tutorials.
+- Work on personal projects or contribute to open-source initiatives to build a portfolio. For freshers, including details about your college and personal projects is important.
+- Study common interview questions on Android fundamentals, component lifecycles, and architectural patterns. Search for questions specific to HCL interviews on platforms like AmbitionBox and Glassdoor.
+- If you have experience with third-party libraries, integrating APIs, or working in an Agile environment, make sure to emphasize it, as these are frequently mentioned in HCL job descriptions. 
+
+					    
+⚠️Common Mistakes to Avoid
+- https://www.naukri.com/code360/library/common-android-app-development-mistakes-to-avoid
+- Forgetting Post-Launch Support:
+App development doesn't end at launch; ongoing maintenance and updates are vital. 
+- https://medium.com/make-android/10-common-mistakes-in-android-app-development-and-how-to-avoid-them-e316b33d2a8a
+- https://appinventiv.com/blog/deadly-mobile-app-development-mistakes/
+- https://decode.agency/article/android-app-development-mistakes/
+- Ignoring Platform Guidelines:
+Each platform (Android) has specific technical and design guidelines that should be followed. 
+- https://www.v-xplore.com/some-common-mistakes-to-avoid-in-android-app-development/
+- Skipping MVP Development:
+Not starting with a Minimum Viable Product can lead to bloated, overly complex apps initially. 
+- https://android-dev-nexus.medium.com/common-mistakes-every-junior-android-developer-should-avoid-31e8a647c98d
+- https://www.brilworks.com/blog/mobile-app-development-mistakes/
+
+
+

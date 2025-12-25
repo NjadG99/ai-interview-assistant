@@ -1,0 +1,71 @@
+accenture_web_developer
+
+📌 Interview Questions + Answers
+1. Q: Tell us about PHP Functions?
+   A: PHP Functions are blocks of code that can be reused throughout a program to perform specific tasks.
+
+2. Q: What is the syntax of an HTML boilerplate?
+   A: The HTML boilerplate is a standard template used to start an HTML document.
+
+3. Q: Explain the NodeJS Event Loop in detail.
+   A: The event loop in Node.js manages asynchronous operations, allowing non-blocking execution of code.
+
+4. Q: How does event bubbling work in JavaScript?
+   A: Event bubbling is a JavaScript event propagation mechanism where events propagate from child to parent elements.
+
+5. Q: What is a promise in JavaScript?
+   A: Promises in JavaScript are objects that represent the eventual completion or failure of an asynchronous operation.
+
+6. Q: Describe the process of creating a custom hook.
+   A: A custom hook in React allows you to encapsulate reusable logic for components.
+
+7. Q: How can we use Redux?
+   A: Redux is a state management library for JavaScript apps, enabling predictable state updates and centralized data management.
+
+8. Q: What is Redux Toolkit?
+   A: Redux Toolkit is a library that simplifies state management in React applications, providing tools for efficient Redux development.
+
+9. Q: How do you validate form entries?
+   A: Form validation can be handled using client-side and server-side validation techniques.
+
+10.Q: What is event bubbling
+   A: Event bubbling is a JavaScript event propagation mechanism where events propagate from child to parent elements.
+
+
+📚 Study Material
+- https://lastmomenttuitions.com/course/accenture-study-material/
+- https://www.naukri.com/code360/library/accenture-preparation-guide
+- https://github.com/skchaudhari903/Accenture_Pre-Onboard
+- https://prepinsta.com/accenture/coding/
+- Online courses: Consider free or paid online courses from platforms like Coursera and FutureLearn that offer web development training from partners like Accenture and IBM. 
+- https://www.accenture.com/in-en/careers/life-at-accenture/learning-development
+- https://talentbattle.in/accenture/syllabus-pattern
+- https://www.graduatesfirst.com/accenture-assessment-tests
+- https://www.futurelearn.com/partners/accenture-uk
+- https://jetexampublication.in/products/accenture-application-developer-study-material-bNi4Yix0?srsltid=AfmBOooYhYgZoaUF5kxMnCm35hjte-8smzIAbK6Od6wsi1ySQHgtSGDv
+
+
+💡 Tips
+- Learn to style web pages using CSS3. A key skill is responsive web design, which is often implemented using media queries to ensure your pages look good on all devices.
+- As a core web language, a solid understanding of JavaScript is required. This includes the basics of the language, but also more advanced topics that might come up in a technical interview.
+- JSON and XML: These data formats are fundamental for modern web applications. Study how to parse and manipulate them. 
+- Study common Accenture coding questions and solutions to prepare for the technical coding assessment. Websites like Great Learning offer lists of past questions.
+- Many online resources offer practice interviews and curated problem lists to help you prepare for the technical interview portion of the hiring process.
+-  Learn about the agile approach to software development, which is used at Accenture. This includes iterative development, regular feedback, and incremental feature releases. 
+- Accenture's technical assessment includes a section on pseudocode, which tests your understanding of programming logic, loops, recursion, and basic data structures.
+- Practice basics like input/output, conditional looping, arrays, and functions in your language of choice (Java, Python, C++, etc.).
+- Learn to style web pages using CSS3. A key skill is responsive web design, which is often implemented using media queries to ensure your pages look good on all devices.
+- Master the basic structure of an HTML document, semantic HTML5 tags (<section>, <article>, etc.), and accessibility best practices.
+
+						
+⚠️ Common Mistakes to Avoid
+- Neglecting planning and over-engineering: Jumping straight into code without a clear blueprint can lead to convoluted layouts that baffle users and hinder functionality.
+- Poor performance optimization: Failing to compress media, minify code, and use modern caching techniques results in slow-loading websites and high bounce rates.
+- Ignoring web accessibility and responsiveness: With so much traffic coming from mobile devices, a non-responsive design is a critical error.
+- Inadequate security measures: Insufficiently sanitizing user input and overlooking common vulnerabilities like SQL injection can leave a project open to attacks.
+- Writing non-readable code: As part of a larger team, writing "spaghetti code" that is difficult to maintain and debug is a major issue.
+- Not developing for different screen sizes: Assuming that an application will work the same across all devices is a mistake.
+- Rushing to code without understanding: In coding assessments, avoid the temptation to start coding immediately.
+- Lack of communication: Silence during a coding interview is often seen as a red flag. Interviewers want to understand your thought process.
+- Giving too much or too little detail: When answering questions, gauge the interviewer's expectations.
+- Lying on your resume: Providing false or exaggerated information about your skills and experience can have a serious negative impact if you get caught during a technical or background check. 

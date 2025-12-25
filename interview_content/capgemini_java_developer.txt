@@ -1,0 +1,78 @@
+capgemini_java_developer
+
+📌 Interview Questions + Answers
+1. Q: What is Java as a programming language?
+   A: Java is a versatile, object-oriented programming language used for building platform-independent applications.
+
+2. Q: Using Java 8, write code to print even numbers from an array and calculate the sum of the even numbers.
+   A: Java 8 provides streams to filter even numbers from an array and calculate their sum efficiently.
+      Use Streams: Java 8 introduced streams, which allow for functional-style operations on collections.
+
+3. Q: Explain the purpose of dependency injection in Angular.
+   A: Dependency injection is a design pattern used to implement IoC, allowing for better modularity and easier testing in Angular applications.
+
+4. Q: What is a ConcurrentHashMap in Java?
+   A: ConcurrentHashMap is a thread-safe variant of HashMap that allows concurrent access and updates without locking the entire map.
+
+5. Q: What improvements to interfaces were introduced in Java 8 that were missing in Java 7, specifically regarding static and default methods?
+   A: Java 8 introduced static and default methods in interfaces, allowing for method implementation and code reusability.
+Java 8 introduced static methods in interfaces, allowing for method implementation directly in the interface itself.
+
+Default methods were also introduced in Java 8, enabling interfaces to have method implementations without affecting implementing classes.
+
+Static methods in interfaces can be called using the interface name, while default methods can be overridden by implementing classes.
+
+6. Q: Explain internal working of HashMap ? How to synchronize it ?
+   A: HashMap is a data structure that stores key-value pairs and uses hashing to efficiently retrieve values.
+
+7. Q: How to use a jetty server in your spring boot application ?
+   A: To use a Jetty server in a Spring Boot application, you can configure it as a dependency and customize its settings.
+
+8. Q: What is a controller.
+   A: A controller is a component in the Model-View-Controller (MVC) design pattern that handles user input and updates the model and view accordingly.
+
+9. Q: What is hash collision.
+   A: Hash collision occurs when two different inputs produce the same hash value. hashCode() and equals() methods are from Object class.
+
+10.Q: Explain circuit breaker?
+   A: Circuit breaker is a design pattern used to prevent cascading failures in distributed systems.
+
+
+📚 Study Material
+- https://academy.capgemini.com/course/java-basics-nl/
+-https://www.scribd.com/document/607263331/Capgemini-Exam-All-4-Complete-Study-Materials
+-Capgemini Java Developer study material typically focuses on core Java concepts, object-oriented programming (OOP) principles, and related frameworks and technologies commonly used in enterprise applications.
+- https://www.glassdoor.co.in/Interview/Capgemini-Java-Developer-Interview-Questions-EI_IE3803.0,9_KO10,24.htm
+-https://academy.capgemini.com/topic/software-engineering/java/
+- https://www.scribd.com/document/310052590/Java-Developers-Guide-Capgemini-Interview-Questions-and-Answers-for-Java-3-8-Year-Experience
+-Official Java Documentation: For in-depth understanding of language features.
+-Online Tutorials and Courses: Websites like Baeldung, GeeksforGeeks, freeCodeCamp, Udemy, Coursera offer comprehensive Java courses.
+-Books: Reputable Java programming books for foundational and advanced topics.
+- https://saannjaay.medium.com/capgemini-java-interview-guide-2025-for-experienced-developers-5-10-years-25f46f0e3608
+
+💡 Tips
+- Practice solving logical coding problems, data structure and algorithm questions (e.g., array manipulations, string operations).
+-Review common Java interview questions covering core Java, OOP, frameworks, and databases.
+- Prepare for questions related to teamwork, problem-solving, and project experience.
+-Practice Platforms: HackerRank, LeetCode, or similar platforms for coding practice.
+-Capgemini-specific Interview Experiences: Search for interview experiences shared online to understand the typical question patterns.
+-Generics: Type safety and code reusability with generics.
+-Lambda Expressions and Stream API: Functional programming concepts introduced in Java 8.
+-Design Patterns: Common design patterns (e.g., Singleton, Factory, Observer) and their application.
+-Spring Framework: Spring Core, Spring Boot, Spring MVC, Spring Data JPA.
+-Databases and SQL: Relational database concepts, SQL queries (DDL, DML), joins, normalization.
+
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.geeksforgeeks.org/java/most-common-mistakes-that-java-developers-make/
+- https://www.toptal.com/java/top-10-most-common-java-development-mistakes
+- Jumping into code without proper design can lead to difficult-to-maintain and inefficient applications
+- https://www.quora.com/What-are-the-common-code-mistakes-using-Java-for-expierenced-developers
+- Using the + operator to concatenate strings inside a loop is inefficient, as it creates a new String object on every iteration
+- https://www.youtube.com/watch?v=rjDUpxtUPAE
+- https://thecodest.co/blog/9-mistakes-to-avoid-while-programming-in-java/
+- Before writing custom code, check if there is an existing, well-known library that provides the required functionality
+- https://www.toptal.com/java/top-10-most-common-java-development-mistakes#:~:text=Common%20Mistake%20%231:%20Neglecting%20Existing,become%20a%20de%20facto%20standard.
+- Failing to close resources like file streams or database connections can lead to resource leaks. Use a try-with-resources statement (introduced in Java 7) to ensure that resources are automatically closed.
+

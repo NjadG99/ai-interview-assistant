@@ -1,0 +1,71 @@
+tech_mahindra_java_developer
+
+📌 Interview Questions + Answers
+1. Q: What is the Stream API?
+   A: Stream APIs in Java provide a functional approach to processing sequences of elements, enabling efficient data manipulation.
+
+2. Q: Describe your experience with design patterns?
+   A: I have utilized various design patterns to enhance code maintainability and scalability in software development.
+
+3. Q: What are some basic coding questions you have?
+   A: This question tests basic programming skills in Python and Django development.
+
+4. Q: What are the differences between method references and lambda functions?
+   A: Method reference is a shorthand syntax for lambda expressions in Java.
+
+5. Q: What is Multithreading?
+   A: Multithreading is a programming technique that allows concurrent execution of multiple threads within a single process.
+
+6. Q: Can you define polymorphism in object-oriented programming?
+   A: Polymorphism allows objects to be treated as instances of their parent class, enabling method overriding and dynamic method resolution.
+
+7. Q: Describe stream apis?
+   A: Stream APIs in Java provide a functional approach to processing sequences of elements, enabling efficient data manipulation.
+
+8. Q: Basic coding of collections using stream and lambda expressions?
+   A: Using Java Streams and Lambda expressions simplifies collection manipulation and enhances code readability.
+
+9. Q: What is OOP, Exception and exception handling?
+   A: OOP is a programming paradigm based on objects, while exceptions are events that disrupt normal program flow, requiring handling.
+
+10.Q: What is box modeling in css?
+   A: Box modeling in CSS defines how elements are structured and spaced, impacting layout and design in web development.
+
+
+📚 Study Material
+- https://prepinsta.com/tech-mahindra-placement-papers/coding/
+- https://www.glassdoor.co.in/Interview/Tech-Mahindra-Interview-RVW100388541.htm
+- https://www.scribd.com/document/888028603/TechM-Trainer-Guide-JFS-V1-1-CoE-1
+- Master concepts related to Arrays, Linked Lists, Trees, Graphs, Hash Maps, Sorting, Searching, Recursion, and Dynamic Programming,
+- https://www.scribd.com/document/785076870/Tech-Mahindra
+- https://www.naukri.com/code360/library/tech-mahindra-coding-questions
+- https://www.naukri.com/code360/interview-bundle/tech-mahindra
+- Understand and be able to explain Design Patterns like Factory Method and Abstract Factory, Scribd. 
+- https://www.youtube.com/watch?v=9Gcy-Amk1b8
+- https://prepinsta.com/tech-mahindra-syllabus/
+
+
+💡 Tips
+- https://www.youtube.com/watch?v=CPVU9Qa6YI0
+- Have a strong understanding of core Java concepts, and master Java 8 features such as stream APIs, lambda expressions, and method references. 
+- https://www.youtube.com/watch?v=9Gcy-Amk1b8
+- Possess a solid grasp of fundamental data structures and algorithms to solve coding challenges effectively. 
+- Be familiar with implementing and maintaining Java-based microservices and constructing REST APIs. 
+- Understand how to integrate with storage layers like PostgreSQL and messaging systems such as Kafka. 
+- Be proficient in conducting code reviews and performing comprehensive unit testing to ensure application reliability. 
+- Know how to apply design patterns to build robust and maintainable applications
+- Regularly practice coding problems on platforms like LeetCode, HackerRank, CodeSignal, and Lastminute to build coding skills and familiarity with test patterns. 
+- Practice providing solutions to common scenarios, such as filtering data from a collection using Java 8 stream API. 
+
+ 
+⚠️ Common Mistakes to Avoid
+- https://www.youtube.com/watch?v=VSeiT1uuGDw
+- https://www.quora.com/What-are-some-common-mistakes-newbie-java-programmers-make
+- https://www.youtube.com/watch?v=rjDUpxtUPAE&pp=ygUMI2p0YWJiZWRwYW5l
+- undermines application reliability and the ability to maintain and enhance the codebase. 
+- https://www.youtube.com/watch?v=CPVU9Qa6YI0
+- Develop a proper plan before starting development to adhere to client timelines and create user-friendly applications. 
+- https://dev.to/selawsky/look-through-these-common-java-learning-mistakes-to-avoid-2o3p
+- Avoid memorizing code; instead, understand the underlying logic to adapt it effectively. 
+- https://www.botreetechnologies.com/blog/java-development-mistakes-to-avoid/
+- https://thecodest.co/blog/9-mistakes-to-avoid-while-programming-in-java/

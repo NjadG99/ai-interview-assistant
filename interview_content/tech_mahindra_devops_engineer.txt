@@ -1,0 +1,72 @@
+tech_mahindra_devops_engineer
+
+📌 Interview Questions + Answers
+1. Q: Explain your understanding of DevOps principles and practices.
+   A: DevOps is a cultural and technical movement that emphasizes collaboration between development and operations teams for faster delivery.
+
+2. Q: What are the main benefits of cloud computing?
+   A: Cloud computing offers scalability, cost savings, flexibility, and enhanced collaboration for businesses and individuals. 
+
+3. Q: How Would You Implement Zero-Downtime Deployments in Kubernetes?
+   A: Implementing zero-downtime deployments in Kubernetes involves using rolling updates and readiness probes.
+
+4. Q: How would you approach capacity planning for a Kubernetes cluster?
+   A: Capacity planning for a Kubernetes cluster involves analyzing resource usage, predicting future needs, and scaling infrastructure accordingly.
+
+5. Q: How can you ensure high availability of the etcd cluster used by Kubernetes?
+   A: To ensure high availability of the etcd cluster used by Kubernetes, you can implement redundancy, monitoring, and disaster recovery strategies.
+
+6. Q: Explain the Role and Functionality of the Control Plane Components in Kubernetes.
+   A: Key components of the Kubernetes control plane include API server, scheduler, controller manager, and etcd.
+
+7. Q: How do you create an end-to-end pipeline using Jenkins?
+   A: Creating an end-to-end pipeline in Jenkins involves setting up jobs, integrating tools, and automating deployment processes.
+
+8. Q: Explain your knowledge about DevOps?
+   A: DevOps is a cultural and technical movement that emphasizes collaboration between development and operations teams for faster delivery.
+
+9. Q: What is the benefits of cloud?
+   A: Cloud computing offers scalable resources, cost efficiency, and flexibility, transforming how businesses manage IT infrastructure. 
+
+10.Q: Explain jenkins pipeline End to End?
+   A: Jenkins pipeline automates the software delivery process from code commit to deployment.
+
+
+📚 Study Material
+- https://www.simplilearn.com/devops#:~:text=Professionals%20interested%20in%20a%20DevOps,Oracle
+- https://www.youtube.com/shorts/uLoCs7nFyiQ
+- https://files.techmahindra.com/static/img/pdf/devOps_Brochure.pdf
+- https://www.youtube.com/watch?v=u5uSDMM9ydc
+- Understand the culture, practices (CI/CD, IaC), and benefits of DevOps. 
+- https://www.youtube.com/watch?v=LnOtwH1EDd4
+- https://www.scribd.com/document/379146292/Ajith-Bandi
+- https://www.techmahindra.com/insights/views/transforming-software-development/
+- https://www.scribd.com/document/445935718/DevOps-Overview-pdf
+- To study for a Tech Mahindra DevOps engineer role, focus on core DevOps principles, Git, CI/CD tools (like Jenkins, GitLab CI), containerization (Docker, Kubernetes), Infrastructure as Code (Terraform), configuration management (Ansible), cloud platforms (AWS, Azure), monitoring (Prometheus, Grafana), and scripting with languages such as Python. 
+
+
+💡 Tips
+- Study Docker for containerization and Kubernetes for managing containerized applications. 
+- Enroll in online courses from platforms like Coursera or Simplilearn to build expertise. 
+- Review interview questions from sites like Glassdoor and AmbitionBox to understand what Tech Mahindra looks for. 
+- Ensure a solid understanding of Linux fundamentals and scripting for a strong foundation. 
+- Tailor your resume to highlight the relevant skills and experiences mentioned in job descriptions.
+- Understand the culture, practices (CI/CD, IaC), and benefits of DevOps. 
+- Keep up with the latest trends and technologies in the rapidly evolving field of DevOps. 
+- Learn tools like Jenkins or GitLab CI to automate builds and deployments. 
+- Learn Terraform to automate the provisioning of infrastructure. 
+- Master tools like Ansible for automating configuration. 
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.youtube.com/watch?v=OOJ9sBf3ahU
+- Under-automating or automating the wrong tasks: Automation is a core tenet of DevOps. A common pitfall is to only automate parts of the CI/CD pipeline, leaving repetitive tasks like infrastructure provisioning or testing to manual processes. 
+- https://www.qovery.com/blog/7-common-devops-mistakes-to-avoid
+- Neglecting continuous monitoring and feedback loops: Many engineers mistakenly think their job is done once the code is deployed.
+- https://www.expertia.ai/career-tips/the-7-common-mistakes-to-avoid-for-aspiring-devops-engineers-12476i
+- Overcomplicating the toolchain: New engineers might be tempted to add every new tool available, but a fragmented or overly complex toolchain can cause more problems than it solves.
+- https://www.linkedin.com/posts/pradeepkurund_dont-make-these-5-career-mistakes-in-it-activity-7332986765739184128-RRJN
+- Failing to keep skills up-to-date: The DevOps landscape changes rapidly, and relying on outdated practices can make your systems more vulnerable and inefficient.
+- Ignoring security until it's too late: Security is often an afterthought in the rush to deploy software quickly.
+- Treating DevOps as a toolset, not a culture: A common mistake is to focus solely on implementing tools without fostering a cultural shift toward collaboration and shared responsibility.
+

@@ -1,0 +1,73 @@
+wipro_java_developer
+
+📌 Interview Questions + Answers
+1. Q: Can you explain the concept of abstraction?
+   A: Abstraction in Java is a fundamental concept that hides complex implementation details and exposes only essential features.
+
+2. Q: What is inheritance in OOP and how is it used?
+   A: Inheritance is a fundamental concept in object-oriented programming that allows a class to inherit properties and methods from another class.
+
+3. Q: What was your role in the company?
+   A: As a Software Development Engineer, I design, develop, and maintain software applications to meet user needs and improve efficiency.
+
+4. Q: What is Java?
+   A: Java is a versatile, high-level programming language designed for portability, performance, and ease of use across platforms.
+
+5. Q: What is a compiler?
+   A: Compilers translate high-level programming languages into machine code for execution by computers.
+
+6. Q: What is threading in Java?
+   A: A thread in Java is a lightweight process that allows concurrent execution of code within a program.
+
+7. Q: Explain Runtime Exceptions?
+   A: RuntimeException is the superclass of all classes that exceptions are thrown during the normal operation of the Java Virtual Machine. The InvalidArgumentException is an exception raised when an invalid parameter is passed to a certain method on the server’s referenced connection.
+
+8. Q: What is the primary benefit of Encapsulation?
+   A: The main benefit of encapsulation is the ability to modify our implemented code without breaking the code of others who use our code. With this Encapsulation gives maintainability, flexibility and extensibility to our code.
+
+9. Q: Why Java is considered dynamic?
+   A: Java is considered dynamic because of Bytecode. The source code which is written in one platform that code can be executed in any platform. It loads the class file during runtime only. Hence, anything that happens in runtime is dynamic.
+
+10.Q: Define class?
+   A: A class is a blueprint that defines the variables and the methods common to all objects of a certain kind. It describes the contents of the objects that belong to it that is an aggregate of data fields and defines the operations.
+
+
+📚 Study Material
+- https://miet.ac.in/media_image/centerexcellenc/2024_06_19_10_50_58_9657.pdf
+- Online Courses and Tutorials: Platforms like Udemy, Coursera, freeCodeCamp, GeeksforGeeks offer comprehensive Java courses.
+- https://prepinsthttps://www.scribd.com/document/527832851/JAVA-PROGRAMSa.com/wipro-coding-questions/
+- Books: "Head First Java," "Effective Java" are popular choices.
+- https://www.simplilearn.com/tutorials/programming-tutorial/wipro-interview-questions
+- Practice Platforms: LeetCode, HackerRank, PrepInsta for coding challenges and interview preparation.
+- https://www.scribd.com/document/884992451/Wipro-Java-FS
+- Wipro-specific resources: Look for "Wipro Talent Next" or "Wipro Java FS" documents on platforms like Scribd, which provide insights into their training curriculum.
+- https://labsity.in/programs/java-backend-mastery-with-wipro/
+- https://github.com/ramkiran55/Wipro_Talent_Next_Certification
+
+
+💡 Tips
+- Eclipse/IDE Overview: Familiarity with development environments.
+- JUnit: Unit testing for Java applications.
+- Official Java Documentation: For in-depth understanding of core Java
+- Mock Interviews: Practice answering common Java interview questions, especially those related to OOPs, Collections, Multithreading, Spring Boot, and Hibernate.
+- Wrapper Classes: Understanding primitive type wrappers.
+- Java 8 Features: Lambdas, Streams API, Functional Interfaces.
+- Java 8 Features: Lambdas, Streams API, Functional Interfaces.
+- Multithreading: Concepts of threads, synchronization, concurrency utilities.
+- Exception Handling: Understanding and implementing try-catch-finally blocks, custom exceptions.
+- Java Fundamentals: Data types, operators, control flow, methods, arrays.
+
+						
+⚠️ Common Mistakes to Avoid
+- Comparing strings with ==: Using == checks if two objects have the same reference, not if their content is the same. Always use the .equals() method for content comparison.
+- https://www.quora.com/What-are-some-common-mistakes-newbie-java-programmers-make
+- https://www.youtube.com/watch?v=ySdvyCC0Nqo
+- Ignoring equals() and hashCode() contracts: When using custom objects in hash-based collections (like HashMap or HashSet), you must override both the equals() and hashCode() methods.
+- https://medium.com/javarevisited/the-dark-side-of-java-common-mistakes-that-cost-millions-2145951b070b
+- Swallowing exceptions: Using empty catch blocks or broad exception types like catch (Exception e) hides critical bugs and makes your code impossible to debug.
+- Modifying a collection during iteration: Attempting to add or remove elements from a collection while iterating over it (with a for-each loop) will cause a ConcurrentModificationException. Instead, use an Iterator and its remove() method for safe modification. 
+- https://www.facebook.com/groups/356484977765272/posts/6864332173647154/
+- Using floating-point types for currency: Using float or double for monetary calculations can cause precision errors. Use BigDecimal for accurate and precise decimal arithmetic.
+- https://www.geeksforgeeks.org/java/most-common-mistakes-that-java-developers-make/
+
+

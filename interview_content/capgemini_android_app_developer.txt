@@ -1,0 +1,95 @@
+capgemini_android_app_developer
+
+📌 Interview Questions + Answers
+1. Q: What is ViewModel in MVVM?
+   A: ViewModel in MVVM is a class that stores and manages UI-related data in a lifecycle-aware manner.
+
+2. Q: Explain null safety with an example.
+   A: Null safety in Android development ensures that variables cannot hold null values, preventing NullPointerExceptions.
+
+3. Q: What are Coroutines?
+   A: Coroutines are lightweight threads in Kotlin that simplify asynchronous programming by allowing non-blocking code execution.
+
+4. Q: Explain the different launch modes available in Android.
+   A: Launch modes determine how a new instance of an activity is associated with the current task.
+      -Standard: Creates a new instance of the activity in the task's stack.
+      -SingleTop: If an instance of the activity already exists at the top of the stack, it will be reused.
+      
+5. Q: What are different launch modes
+   A: Launch modes determine how a new instance of an activity is associated with the current task.
+
+6. Q: What technical challenges have you faced in your work till now and how did you overcome it?
+   A: Faced various technical challenges, including system integration and performance optimization, which I successfully navigated through strategic solutions.
+
+7. Q: What do you mean by deadlock in OS?
+   A: In Operating Systems, a deadlock is a situation where a set of two or more processes are blocked forever, each waiting for a resource that is held by the other.
+
+8. Q: What are the core components of an Android app?
+   A: The fundamental building blocks are:
+
+Activities
+
+Services
+
+Broadcast Receivers
+
+Content Providers
+
+Fragments
+
+Intents
+
+Views
+
+9. Q: Explain Android activity lifecycle.
+   A: An Activity starts with onCreate(), then onStart(), onResume().
+
+When moving out of the foreground: onPause(), onStop().
+
+If the activity returns, onRestart() → onStart() → onResume().
+
+If destroyed: onDestroy().
+Discuss how configuration changes (like orientation) may cause restart etc.
+
+10.Q: What is null safety in Kotlin?
+   A: n Kotlin, types are non‑nullable by default. If you want a variable to hold null, you declare it with ?
+
+
+📚 Study Material
+- Android Architecture Components: Study the core components, including Activities, Services, Content Providers, and Broadcast Receivers.
+- https://www.glassdoor.co.in/Interview/Capgemini-Senior-Android-Developer-Interview-Questions-EI_IE3803.0,9_KO10,34.htm#:~:text=of%20pulling%20leg.-,read%20more,best%20in%20your%20future%20endeavours!
+- https://www.credosystemz.com/capgemini-android-interview-questions/#:~:text=1.,is%20the%20founder%20of%20Android?
+- https://www.ambitionbox.com/interviews/capgemini-interview-questions/android-developer#:~:text=What%20are%20the%20roles%20&%20responsibilities,An%20Android%20Developer%20was%20asked
+- Activity lifecycle: Be able to explain the Activity lifecycle and its callback methods in detail.
+- https://academy.capgemini.com/course/mendix-rapid-developer-course-en/
+-Intents: Understand the difference between explicit and implicit Intents and how they are used.
+-Architecture Components: ViewModel, LiveData, and Room for local database management.
+-Navigation Component: For managing app navigation.
+- Jetpack Compose: The modern declarative UI toolkit.
+
+💡 Tips 
+- Unit and UI testing: Know how to write tests using frameworks such as JUnit, Mockito, and Espresso. 
+-Prepare HR questions: The HR round will focus on your soft skills, teamwork, and behavioral traits.
+-Research the company: Look into Capgemini's core values, recent projects, and culture.
+-Be prepared to discuss your experience working in an Agile methodology and your familiarity with CI/CD pipelines. 
+-Understand how to integrate and work with RESTful APIs, manage network requests, and parse JSON data.
+-Get comfortable with Git, including branching strategies, pull requests, and resolving conflicts.
+-Practice basic data structures (e.g., Arrays, Linked Lists, Stacks, Queues, Trees, Graphs) and common algorithms.
+-Familiarize yourself with architectural patterns like MVVM and MVP, as these are frequently discussed.
+-Strong knowledge of Java is often expected, especially for roles involving legacy code, with an emphasis on OOP concepts, data structures, and collections.
+-Know how to write tests using frameworks such as JUnit, Mockito, and Espresso. 
+
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.digittrix.com/blogs/common-errors-to-avoid-in-android-app-development
+- https://decode.agency/article/android-app-development-mistakes/
+-Neglecting a solid app architecture. A poor or non-existent architecture like MVVM or Clean Architecture leads to tightly coupled, buggy, and difficult-to-maintain code. Instead, use Android Jetpack libraries such as ViewModel and LiveData for better scalability and testability.
+- Blocking the main thread. Executing long-running tasks like network calls or database operations on the main thread causes the app to become unresponsive and can trigger "Application Not Responding" (ANR) errors. 
+- https://www.brilworks.com/blog/mobile-app-development-mistakes/
+- Mismanaging the Android lifecycle. Improperly handling lifecycle events can cause memory leaks and crashes
+- https://www.linkedin.com/pulse/top-10-mistakes-junior-android-developers-make-how-avoid-patel-a0n2f
+-Hardcoding strings and values. Storing text, dimensions, and colors directly in code makes the app difficult to localize, maintain, and adapt to different themes and screen sizes.
+- https://www.v-xplore.com/some-common-mistakes-to-avoid-in-android-app-development/
+- https://appinventiv.com/blog/deadly-mobile-app-development-mistakes/
+

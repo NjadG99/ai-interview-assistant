@@ -1,0 +1,80 @@
+wipro_android_app_developer
+
+📌 Interview Questions + Answers
+1. Q: Explain the build process in Android?
+   A: The build process in Android are:
+-The compilers convert your source code into DEX (Dalvik Executable) files, which include the bytecode that runs on Android devices, and everything else into compiled resources.
+-The APK Packager combines the DEX files and compiled resources into a single APK. Before your app can be installed and deployed onto an Android device, however, the APK must be signed.
+
+2. Q: List some languages that can be used to program in Android.
+   A: Java.
+      Kotlin.
+      C#.
+      Python.
+      C++.
+
+3. Q: Explain the Android Interface Definition Language.
+   A: The Android Interface Definition Language is similar to the other IDLs you might have worked with. It allows you to define the programming interface that both the client and service agree upon in order to communicate with each other using interprocess communication.
+
+4. Q: Describe Folder, File & Description of Android Applications.
+   A: Android Studio stores the projects by default in the home folder of the user under AndroidStudioProjects. The main directory contains configuration files for the Android Studio and the Gradle build files. The application relevant files are contained in the app folder.
+
+5. Q: What are ‘activities’? Describe the lifecycle of an activity.
+   A: An activity represents a single screen with a user interface just like window or frame of Java. Android activity is the subclass of ContextThemeWrapper class. If you have worked with C, C++ or Java programming language then you must have seen that your program starts from the main() function.
+
+6. Q: What is Android Runtime?
+   A: Android runtime is the managed runtime used by applications and some system services on Android. ART as the runtime executes the Dalvik Executable format and Dex bytecode specification. ART and Dalvik are compatible runtimes running Dex bytecode, so apps developed for the Dalvik should work when running with ART.
+
+7. Q: Explain the dialog boxes supported on Android?
+   A: Android mainly support a maximum of four dialog boxes. It includes Alert dialog box, Progress Dialog box, and DatePickerDialog box and finally TimePickerDialog box. The DatePickerDialog box is used for the selecting a date by the user. TimePickerDialog box is used to select the time by the user.
+
+
+8. Q: Explain Sensors in Android?
+   A: Android sensors are virtual devices that provide data coming from a set of physical sensors: accelerometers, gyroscopes, magnetometers, barometer, humidity, pressure, light, proximity and heart rate sensors.
+
+9. Q: How do you find memory leaks in an application on the Android platform?
+   A: Memory leaks occur when an application allocates memory for an object, but then fails to release the memory when the object is no longer being used. Over time, leaked memory accumulates and results in poor app performance and the even crashes.
+
+10.Q: State the architecture of an Android application.
+   A: An application architecture is a consistent plan that needs to be made before the development process starts. This plan provides a map of how the different application components should be organized and tied together.
+
+
+📚 Study Material
+- https://asapkerala.gov.in/course/android/
+- https://www.researchgate.net/publication/352490326_A_Study_and_Overview_of_the_Mobile_App_Development_Industry
+- Books: Several excellent books are available on Android app development for different skill levels.
+- https://www.credosystemz.com/wipro-android-interview-questions/
+- Online Courses: Platforms like Coursera, Udemy, Udacity, and YouTube offer numerous Android development courses.
+- https://www.wipro.com/applications/mobility-/
+- Android Codelabs: Hands-on tutorials provided by Google covering various Android topics.
+- https://www.linkedin.com/posts/corporatesguide_from-learner-to-wipro-activity-7354139824909393920-WVFu
+- Practice Projects: Building personal projects is crucial for solidifying understanding and gaining practical experience.
+- https://www.simplilearn.com/tutorials/programming-tutorial/wipro-interview-questions
+
+
+💡 Tips
+- Basic knowledge of XML is necessary for designing user interfaces and defining layouts in Android.
+- Android Studio: Familiarity with the official IDE for Android development, including project setup, debugging, and using its various tools.
+- Android SDK: Understanding the components of the Android SDK and how to use them.
+- Core Components: In-depth knowledge of Android's fundamental building blocks: Activities, Services, Broadcast Receivers, and Content Providers.
+- Layouts: Understanding different layout types (LinearLayout, RelativeLayout, ConstraintLayout, etc.) and how to use them for responsive UI design.
+- UI Elements: Working with common UI widgets like TextView, EditText, Button, ImageView, RecyclerView, etc.
+- Material Design: Implementing modern and user-friendly UIs following Material Design guidelines.
+- Intents: Understanding how to use Intents for inter-component communication and launching other activities or services.
+- Permissions: Managing and requesting necessary permissions for accessing device features.
+- Testing and Debugging: Writing unit and instrumentation tests, and effectively debugging Android applications.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://decode.agency/article/android-app-development-mistakes/
+- Performing heavy operations, such as database queries, complex bitmap processing, or network calls, directly on the main UI thread.
+- https://medium.com/make-android/10-common-mistakes-in-android-app-development-and-how-to-avoid-them-e316b33d2a8a
+- Jumping into coding without a clear, scalable architectural plan (e.g., MVVM or MVP) results in messy, difficult-to-maintain code, especially as the app grows.
+- https://www.v-xplore.com/some-common-mistakes-to-avoid-in-android-app-development/
+- https://www.quora.com/What-are-some-mistakes-people-make-when-they-start-developing-Android-app
+- https://www.geeksforgeeks.org/blogs/mobile-app-development-mistakes/
+- Passing an Activity context to long-lived objects. Since an Activity has a limited lifecycle, this creates a memory leak by preventing the Activity from being garbage-collected after it is destroyed.
+- https://www.naukri.com/code360/library/common-android-app-development-mistakes-to-avoid
+- Failing to properly recycle views or inefficiently updating data within a RecyclerView, which can cause significant performance issues and UI stuttering.
+
+

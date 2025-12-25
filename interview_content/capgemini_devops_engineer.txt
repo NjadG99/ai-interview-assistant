@@ -1,0 +1,77 @@
+capgemini_devops_engineer
+
+📌 Interview Questions + Answers
+1. Q: What do you know about CI/CD?
+   A: CI/CD is a set of practices for automating software development and deployment processes, enhancing efficiency and reliability.
+
+2. Q: What is Kubernetes?
+   A: Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications.
+
+3. Q: How would you access on-premise artifacts in a public cloud?
+   A: Accessing onprem artifacts in public cloud involves setting up a secure connection and using appropriate tools.
+
+4. Q: What GCP services did you use in your project?
+   A: The GCP services used in our project include BigQuery, Dataflow, Pub/Sub, and Cloud Storage.
+
+5. Q: What is DevOps in the cloud?
+   A: DevOps in cloud refers to the practice of using DevOps principles and practices in a cloud computing environment.
+
+6. Q: What is the difference between count and for_each in Terraform?
+   A: In Terraform, 'count' is used to create multiple instances of a resource based on a single configuration, while 'for_each' is used to create multiple instances of a resource based on a map or set of strings.
+
+7. Q: Features used ingcp
+   A: Google Cloud Platform (GCP) offers a wide range of features for DevOps engineers to utilize.
+Compute Engine for virtual machines
+
+Cloud Storage for object storage
+
+8. Q: Architecture of Kubernetes.
+   A: Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
+
+9. Q: What is k8?
+   A: Kubernetes (k8s) is an open-source platform for automating deployment, scaling, and management of containerized applications.
+
+10.Q: Will you write groovy script in Jenkins pipeline?
+   A: Groovy scripts are commonly used in Jenkins pipelines for automation and customization
+
+They allow for more complex logic and functionality compared to declarative pipelines
+
+Examples include defining stages, steps, and conditions in the pipeline script
+
+
+📚 Study Material
+- https://www.ambitionbox.com/interviews/capgemini-interview-questions/devops-engineer
+- https://www.ambitionbox.com/interviews/capgemini-interview-questions/aws-devops-engineer
+- Offers courses like "DevOps Fundamentals (DASA)" and specialized training for specific cloud platforms and tools, such as the Microsoft AZ-400 course. 
+- https://www.naukri.com/code360/library/devops-engineer-at-capgemini
+- https://academy.capgemini.com/courses/
+- https://www.interviewbit.com/capgemini-interview-questions/
+- The "DevOps Fundamentals (DASA)" course leads to a globally recognized DASA certification, which demonstrates a foundational understanding of DevOps. 
+- https://academy.capgemini.com/topic/agile-lean/devops/
+- https://academy.capgemini.com/course/az-400-designing-and-implementing-microsoft-devops-solutions-az-400t00-a-en/
+- https://www.credosystemz.com/capgemini-devops-interview-questions/
+
+💡 Tips
+- https://www.geeksforgeeks.org/work-experiences/capgemini-work-experience-as-a-cloud-devops-engineer/
+- Understand the acronym CALMS—Culture, Automation, Lean, Measurement, and Sharing—which are central to DevOps principles. 
+- Learn the principles of Continuous Integration and Continuous Delivery/Deployment, including how tools like Jenkins and Azure Pipelines facilitate them. 
+- Gain knowledge of at least one major cloud provider, such as AWS or Microsoft Azure, as this is a core aspect of modern DevOps engineering.  
+- Master tools like Git and its branching and pull request workflows, as well as version control systems like Azure Repos and GitHub. 
+- Become proficient with tools for configuration management and deployment, including Ansible, Puppet, and Chef. 
+- Pursue training for specific tools and platforms, such as the Microsoft AZ-400 course for Azure-based DevOps.
+- Apply your knowledge by working with DevOps tools in a practical environment, such as setting up CI/CD pipelines or deploying infrastructure using IaC tools. 
+- Develop proficiency in at least one scripting language, with Python being a strong recommendation for DevOps. 
+- Learn about Docker and container orchestration with Kubernetes, as this is a fundamental part of DevOps.
+						
+⚠️ Common Mistakes to Avoid
+- Viewing DevOps as a toolset, not a culture: Many engineers focus only on using the right tools, but the core of DevOps is about collaboration, shared responsibility, and constant improvement.
+- https://www.expertia.ai/career-tips/the-7-common-mistakes-to-avoid-for-aspiring-devops-engineers-12476i
+- Operating in silos: The "dev vs. ops" mindset is an anti-pattern that many DevOps implementations try to overcome.
+- https://www.qovery.com/blog/7-common-devops-mistakes-to-avoid
+- Failing to properly document processes: In large-scale projects, overlooking clear and thorough documentation is a costly mistake.
+- Ignoring security from the start: Security should never be an afterthought. 
+- https://www.youtube.com/watch?v=OOJ9sBf3ahU
+- Lack of monitoring and observability: After deployment, it's a mistake to stop monitoring.
+- https://www.linkedin.com/pulse/top-5-mistakes-devops-engineers-make-how-avoid-them-neha-boora-ugizc
+- Misrepresenting your expertise: In a Capgemini interview, be truthful about your skill level. Interviewers often focus on real-time scenarios to gauge actual experience.
+

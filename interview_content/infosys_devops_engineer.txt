@@ -1,0 +1,108 @@
+=== Infosys – DevOps engineer ===
+
+📌 Interview Questions + Answers
+1. Q: What is DevOps methodology?
+   A: DevOps methodology integrates development and operations to enhance collaboration, efficiency, and software delivery speed.
+
+2. Q: What is agile methodology?
+   A: Agile methodology is an iterative approach to software development that emphasizes flexibility, collaboration, and customer feedback.
+
+3. Q: What is a public cloud?
+   A: A public cloud is a computing model where services are offered over the internet to multiple users, ensuring scalability and cost-effectiveness.
+
+4. Q: Write Terraform code to create an S3 bucket.
+   A: Terraform code to create an S3 bucket in AWS with versioning and lifecycle policies.
+
+      -Use the 'aws_s3_bucket' resource to define the S3 bucket.
+      -Enable versioning by setting 'versioning' block to true.
+      -Add lifecycle rules to manage object expiration.
+      -Example: 'lifecycle_rule' block can delete objects older than 30 days.
+
+5. Q: What are the different S3 storage classes?
+   A: Amazon S3 offers storage classes to optimize cost and performance:
+
+      -S3 Standard**: For frequently accessed data.
+      -S3 Intelligent-Tiering**: Auto-adjusts tiers based on usage.
+      -S3 Standard-IA**: For infrequently accessed data needing quick retrieval.
+
+
+6. Q: Why did you choose this software?
+   A: I chose this software for its efficiency, scalability, and strong community support, which enhances collaboration and productivity.
+
+
+7. Q: What DevOps tools do you have experience with, and how were they used in your previous project?
+   A:  I have experience with tools like Jenkins, Docker, Kubernetes, and Terraform, enhancing CI/CD and infrastructure management.
+       -Jenkins
+       -Docker
+       -Kubernetes
+
+8. Q: Explain the Kubernetes Architecture.
+   A: Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
+
+9. Q: What are ConfigMaps in Kubernetes?
+   A: ConfigMaps in Kubernetes are used to store configuration data in key-value pairs and can be used by pods to access configuration information.
+
+10.Q: Can you explain in detail about clusters creation and how you handled practical bugs?
+   A: Clusters creation involves setting up multiple servers to work together, while handling practical bugs requires troubleshooting and fixing issues in the cluster.
+       -Clusters creation involves setting up multiple servers to work together to distribute workload         and increase reliability.
+       -Tools like Kubernetes or Docker Swarm can be used to create and manage clusters efficiently.
+
+
+📚 Study Material
+- To study for an Infosys DevOps Engineer role, focus on core DevOps principles, CI/CD pipelines, automation tools, and cloud platforms.
+- Key areas include Git, Jenkins, Docker, Kubernetes, Ansible, and cloud services (AWS, Azure, or GCP).
+- Foundational DevOps Knowledge:Version Control (Git),Version Control (Git),Containerization (Docker).
+- Tools and Technologies:
+    Version Control: Git, GitHub
+    CI/CD: Jenkins, Bamboo
+    Configuration Management: Ansible, Chef, Puppet
+    Containerization: Docker
+    Orchestration: Kubernetes
+    Cloud Platforms: AWS, Azure, GCP
+    Monitoring: Prometheus, Grafana, Nagios
+    Logging: ELK Stack 
+- Security in DevOps: Learn to integrate security practices throughout the DevOps lifecycle (DevSecOps)
+- Secure Coding Practices: Understand secure coding principles and how to apply them. 
+- Secret Management: Learn to manage sensitive information like passwords and API keys securely. 
+- https://www.infosys.com/iki/perspectives/insights-future.html
+- https://www.h2kinfosys.com/blog/devops-engineer-summary-career-guide/#:~:text=and%20deployed%20smoothly.-,Essential%20Skills%20for%20DevOps%20Engineers,Engineering%2C%20or%20a%20related%20field.
+- https://www.slideshare.net/slideshow/mastering-devops-through-online-courses-at-h2k-infosys-1pdf/260328523
+
+💡 Tips for infosys
+- 
+- Regular feedback is essential for continuous improvement. 
+- Sharing knowledge and best practices across the organization is vital. 
+- DevOps is about delivering value, so it's important to track relevant metrics and understand what matters. 
+- The DevOps field is constantly changing, so continuous learning and adaptation are essential. 
+- DevOps requires strong communication, collaboration, and problem-solving abilities, not just technical skills. 
+- Security should be integrated into the DevOps pipeline, not treated as an afterthought. 
+- While faster deployments are a goal, sacrificing quality to meet deadlines can lead to technical debt, production issues, and dissatisfied customers. 
+- A strong foundation in these areas is essential for effective DevOps practices. 
+- DevOps should be integrated across the organization, not isolated in a separate team. 
+
+
+
+						
+⚠️ Common Mistakes to Avoid
+- Blurred lines between roles can lead to inefficiencies and accountability issues. 
+- While faster deployments are a goal, sacrificing quality to meet deadlines can lead to technical debt, production issues, and dissatisfied customers. 
+- Neglecting the Fundamentals of Software Development and System Administration
+- Getting Stuck in Limited Technologies
+- avoid common pitfalls like over-relying on quick fixes, neglecting soft skills, and not prioritizing security
+- Not Adapting to Enterprise Needs
+- https://www.linkedin.com/posts/va2pt-com_devops-devopsengineer-bestpractices-activity-7261982942858477574-d2RY
+- https://www.qovery.com/blog/7-common-devops-mistakes-to-avoid/
+- Prioritizing Speed over Quality.
+- Failing to Establish Clear Roles and Responsibilities
+
+
+
+
+
+
+
+
+
+
+
+	

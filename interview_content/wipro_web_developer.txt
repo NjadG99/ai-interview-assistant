@@ -1,0 +1,81 @@
+wipro_web_developer
+
+📌 Interview Questions + Answers
+1. Q: What are HTML and tags?
+   A: HTML is a markup language used to create web pages. Tags are elements used to define the structure and content of the page.
+
+2. Q: What is PHP, and can you provide a simple program example?
+   A: PHP is a server-side scripting language used for web development. A simple program in PHP is a basic script that performs a specific task.
+
+3. Q: What is an object?
+   A: An object in Java is an instance of a class that encapsulates data and behavior, representing real-world entities.
+
+4. Q: What is a superclass?
+   A: A superclass is a class from which other classes inherit properties and methods.
+
+5. Q: List some JavaScript features.
+   A: Features include:
+
+Cross-platform
+Open-source
+Lightweight
+Interpreted programming language
+Complementary to Java
+Complementary to HTML
+
+6. Q: What is C#?
+   A: It’s a simple general-purpose programming language developed by Microsoft. It’s a managed and safe language compiled by the .NET framework to generate Microsoft intermediate language.
+
+7. Q: What is SQL?
+   A: SQL stands for Structured Query Language. It is used to maintain relational databases and perform extensive data manipulation operations.
+
+
+8. Q: What’s a class in data?
+   A: A class is a user-defined data type containing the data members and member functions, with access defined by three modifiers: public, private, and protected.
+
+9. Q: What are window objects used for?
+   A: Window objects are objects created automatically by the browser to represent the browser’s window and are used to display pop-up dialog boxes.
+
+10.Q: What’s a stack?
+   A: Stacks are ordered lists where you can perform insertions and deletions only at the top.
+
+
+📚 Study Material
+- https://www.scribd.com/document/807123652/Wipro-Training-Report
+- https://pg-p.ctme.caltech.edu/blog/coding/wipro-interview-questions-answers
+- https://pursuite-production.s3.amazonaws.com/media/courseware/handbook/SSC_Q0503_Web_developer_V2_0_PHB.pdf
+- https://www.naukri.com/code360/library/wipro-preparation-guide
+- Online learning platforms: Websites like PrepInsta, Naukri Code 360, and others offer detailed courses and practice tests specifically for Wipro's hiring process.
+- https://www.scribd.com/document/918662823/HTML-Wipro-Notes
+- Online learning platforms: Websites like PrepInsta, Naukri Code 360, and others offer detailed courses and practice tests specifically for Wipro's hiring process.
+- https://prepinsta.com/wipro/
+- https://prepinsta.com/wipro-syllabus/
+- https://prepinsta.com/wipro-syllabus/#:~:text=Coding%20deductive%20logic,Push%20and%20Pop%20Operations
+
+
+💡 Tips
+- HTML: Learn the fundamental structure of web pages, including tags, forms, and tables.
+- CSS: Understand how to style web pages using different properties, the box model, positioning, and responsive design techniques like Media Queries.
+- CSS: Understand how to style web pages using different properties, the box model, positioning, and responsive design techniques like Media Queries.
+- Node.js is frequently mentioned in preparation materials, but knowledge of other languages like Python or Java is also valuable.
+- Understand how to build and consume RESTful APIs.
+- Familiarize yourself with version control systems.
+- Understand core OS concepts.
+- Focus on areas like permutations, combinations, probability, percentages, time and work, and ratio/proportion.
+- Be prepared to write a short essay as part of the online test. 
+- Practice coding deductive logic, blood relations, direction sense, and seating arrangements.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://medium.com/@ignatovich.dm/common-mistakes-web-developers-make-and-how-to-avoid-them-85be0bb953dc
+- Weak fundamentals in core technologies: A common error is focusing too much on frameworks while having a shallow understanding of HTML, CSS, and JavaScript.
+- https://www.toptal.com/web/top-10-mistakes-that-web-developers-make
+- Ignoring web security and accessibility: Web accessibility (WCAG standards) is often an afterthought, but neglecting it can exclude users with disabilities and may even lead to legal issues.
+- Neglecting responsive and cross-browser design: Failing to build sites that function well across different screen sizes and browsers is a major mistake.
+- https://www.linkedin.com/pulse/avoidhttps://www.toptal.com/web/top-10-mistakes-that-web-developers-make-10-common-pitfalls-web-development-ishan-bagchi-o6i4f
+- Poorly structured or unoptimized code: Writing "spaghetti code" that is difficult to maintain or debug is a common pitfall for inexperienced developers.
+- https://www.youtube.com/watch?v=5xkztyg12FU
+- Not testing your own code: Skipping thorough testing and expecting the interviewer to find bugs is a critical mistake.
+- https://dev.to/sovannaro/10-common-web-development-mistakes-and-how-to-avoid-them-12ef
+
+

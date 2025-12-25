@@ -1,0 +1,71 @@
+accenture_devops_engineer
+
+📌 Interview Questions + Answers
+1. Q: What is DevOps?
+   A: DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes.
+
+2. Q: In terms of development and infrastructure, mention the core operations of DevOps?
+   A: The core operations of DevOps are application development, code developing, code coverage, unit testing, packaging, deployment with infrastructure, provisioning, configuration, orchestration, and deployment.
+
+3. Q: What is CI? What is its purpose?
+   A: The technical goal of CI is to establish a consistent and automated way to build, package, and test applications. With consistency in the integration process in place, teams are more likely to commit code changes more frequently, which leads to better collaboration and the software quality.
+
+4. Q: Name three important DevOps KPIs?
+   A: Key Performance Indicators are metrics widely used to know how good are some practices, products, projects or even initiatives. Well, planning projects define KPIs that are collected from day zero and followed in all the steps.
+
+5. Q: What is the difference between continuous deployment and continuous delivery?
+   A: Continuous delivery is a software engineering practice in which teams develop, build, test, and release software in short cycles. Continuous Deployment is the process by which qualified changes in software code or architecture are deployed to production as soon as they are ready and without the human intervention.
+
+6. Q: What is DevOps? Is it a tool?
+   A: DevOps Tool is an application that helps automate the software development process. It mainly focuses on the communication and collaboration between product management, software development, and operations professionals.
+
+7. Q: What are the core operations of DevOps in terms of development and infrastructure?
+   A: The core operations of DevOps are application development, code developing, code coverage, unit testing, packaging, deployment with the infrastructure, provisioning, configuration, orchestration, and deployment.
+
+8. Q: How does HTTP work?
+   A: HTTP gives users a way to interact with the web resources such as HTML files by transmitting hypertext messages between clients and servers. PUT directly modifies an existing web resource or creates a new URI if need be. DELETE gets rid of a specified resource.
+
+9. Q: Can one consider DevOps as an Agile methodology?
+   A: DevOps is an extension of the agile built around the practices that are not in agile’s focus. When used together, both practices improve software development and lead to the better products.
+
+10.Q: Are git fetch and git pull the same?
+   A: Git fetch is the command that tells your local git to retrieve the latest meta-data info from the original yet doesn’t do any file transferring. git pull on the other hand does that and brings those changes from the remote repository.
+
+
+📚 Study Material
+- https://www.credosystemz.com/accenture-devops-interview-questions/
+- https://quizlet.com/758446271/accenture-devops-practice-notes-flash-cards/
+- https://quizlet.com/au/758446271/accenture-devops-practice-notes-flash-cards
+- Platforms like Quizlet offer flashcards and study notes from other users. 
+- https://www.scribd.com/document/758517226/AGILE-DEVOPS-accenture-primers
+- https://www.youtube.com/watch?v=a2uh2hA4V3A&t=19
+- https://www.devopsinstitute.com/wp-content/uploads/2021/10/SREF-v1.1-Exam-Study-Guide_Sep2021.pdf
+- https://www.devopsschool.com/slide/storage/training_logos/345_fRQFX0dAAO2WhuVJ8JWaCFQeaH1865DW/logo_345_1649854270_devops-by-accenture.pdf
+- https://www.simplilearn.com/devops-engineer-masters-program-certification-training
+- https://www.scribd.com/document/647246820/Accenture-DevOps-for-SAP
+
+
+💡 Tips
+- Emphasize understanding how to use DevOps tools to automate processes and build infrastructure. 
+- Apply your knowledge by setting up a development environment and experimenting with CI/CD pipelines, containers, and cloud services. 
+- Don't just memorize tools; understand the underlying principles of DevOps and why certain tools or practices are used. 
+- Learn Docker for containerization and Kubernetes for container orchestration. 
+- Prepare for tools like Ansible for automation and configuration management. 
+- Develop skills in scripting languages such as Python, Ruby, or Bash for automation. 
+- Understand the importance of continuous monitoring using tools like Prometheus. 
+- Learn about Infrastructure as Code (IaC) principles and tools. 
+- Focus on Git and branching strategies for version control systems.
+- Understand the goals of DevOps, including collaboration, automation, and continuous integration/delivery. 
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.qovery.com/blog/7-common-devops-mistakes-to-avoid
+- https://www.youtube.com/watch?v=OOJ9sBf3ahU
+- https://www.linkedin.com/pulse/top-5-mistakes-devops-engineers-make-how-avoid-them-neha-boora-ugizc
+- Treating DevOps as only a toolset. DevOps is fundamentally a cultural shift that emphasizes shared accountability between development and operations teams, not just the implementation of tools like Jenkins or Terraform.
+- https://dev.to/prodevopsguytech/top-5-mistakes-to-avoid-as-a-devops-fresher-41op
+- Ignoring a project's cultural readiness. Forcing DevOps practices on an unprepared team is a common mistake. A "big bang" approach that rushes transformation often fails because it ignores the necessary time and training for cultural change.
+- Encouraging speed over quality and security. The push for faster delivery can tempt engineers to cut corners on testing and security.
+- https://www.veritis.com/blog/7-common-mistakes-made-by-devops-practitioners/
+- Failing to foster collaboration. Poor communication between development, security, and operations teams creates silos and impedes progress.
+- https://duplocloud.com/blog/devops-mistakes/

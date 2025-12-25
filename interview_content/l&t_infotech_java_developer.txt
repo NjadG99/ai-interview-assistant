@@ -1,0 +1,74 @@
+l&t_infotech_java_developer
+
+📌 Interview Questions + Answers
+    
+1. Q: What is an application server?
+   A: An application server is designed to install, operate and host applications and associated services for end users, IT services and organizations and facilitates the hosting and delivery of the high-end consumer or business applications.
+
+2. Q: Compare C# and VB.NET
+   A: C# is a programming language, whereas .NET is the framework on which the language is built.NET and . NET developers will use programming languages such as C#.
+
+3. Q: What is a base class and derived class?
+   A: The class whose members are inherited is called the base class, and the class that inherits those members is called the derived class. A derived class can have only the one direct base class. However, inheritance is transitive.
+
+4. Q: What is an extender class?
+   A: In C#, the extension method concept allows you to add new methods in the existing class or in the structure without modifying the source code of the original type and you do not require any kind of the special permission from the original type and there is no need to re-compile the original type.
+
+5. Q: What is inheritance?
+   A: Inheritance enables you to create new classes that reuse, extend, and modify the behavior defined in other classes. The class whose members are inherited is called the base class, and the class that inherits those members is called the derived class. A derived class can have only one direct base class.
+
+6. Q: What is implementation and interface inheritance?
+   A: Implementation inheritance is a relationship where a child class inherits behaviour implementation from a base class. Interface inheritance is when a child class only inherits the description of behaviour from the base class and provides the implementation itself.
+
+7. Q: What is inheritance hierarchy?
+   A: Inheritance enables you to create new classes that reuse, extend, and modify the behavior defined in the other classes. The class whose members are inherited is called the base class, and the class that inherits those members is called the derived class. However, inheritance is transitive.
+
+8. Q: How do you prevent a class from being inherited?
+   A: You can prevent a class from being subclassed by using the final keyword in the class’s declaration. Similarly, you can prevent a method from the being overridden by subclasses by declaring it as a final method. An abstract class can only be subclassed; it cannot be instantiated.
+ 
+9. Q: Define Overriding?
+   A: Overriding in VB.net is method by which a inherited property or a method is overidden to perform a different functionality in a derived class. The base class function is declared using a keyword Overridable and the derived class function where the functionality is changed contains an keyword Overrides.
+
+10.Q: What are events and delegates?
+   A: The . NET has implemented the concept of function pointers in the form of delegates. With delegates, you can treat a function as data. Delegates allow functions to be passed as parameters, returned from a function as a value and stored in an array.
+
+
+📚 Study Material
+- https://www.credosystemz.com/lt-infotech-dot-net-interview-questions/
+- https://prepinsta.com/lti/coding-questions/
+- Online Tutorials and Courses: Websites like L&T EduTech, GeeksforGeeks, PrepInsta, InterviewBit, Udemy, Coursera offer structured courses and tutorials.
+- https://www.quora.com/How-do-I-prepare-for-L-T-Infotech-1
+- Books: Refer to standard Java programming books.
+- https://prepinsta.com/how-to-prepare-for-lt-infotech-written-test/
+- https://lntedutech.com/commerce-science/certificate-in-java-programming/
+- Practice Platforms: Solve coding challenges on platforms like HackerRank, LeetCode, or similar.
+- https://www.youtube.com/watch?v=BgeJFX0GHxI
+- Logical Reasoning: Data interpretation, puzzles, coding-decoding, blood relations.
+
+💡 Tips
+- Understand common data structures (arrays, linked lists, stacks, queues, trees, graphs).
+- Familiarity with Git and its basic commands for version control.
+- Understand the components of JDK (JVM, JRE, compilers, debuggers).
+- Logical Reasoning: Data interpretation, puzzles, coding-decoding, blood relations.
+- To prepare for an L&T Infotech (now Mindtree) Java Developer role, a comprehensive understanding of Java programming and related technologies is essential.
+- Setting up the development environment and using an Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse.
+- https://lntedutech.com/commerce-science/certificate-in-java-programming/
+- Understand concepts like tables, relationships, keys (primary, foreign, unique).
+- Object-Oriented Programming (OOPs): Classes and objects, inheritance, polymorphism, abstraction, encapsulation.
+- Exception handling, multi-threading, collections framework (Lists, Sets, Maps), I/O operations, reflection, lambda expressions, and functional interfaces.
+
+						
+⚠️ Common Mistakes to Avoid
+- Misusing Java collections: Choose the right data structure for the task. Forgetting to override equals() and hashCode() when using custom objects in HashMap or HashSet will cause them to function incorrectly.
+- https://www.expertia.ai/career-tips/common-mistakes-to-avoid-in-your-full-stack-java-developer-career-65125e
+- https://www.quora.com/What-are-some-common-mistakes-newbie-java-programmers-make
+- https://www.geeksforgeeks.org/java/most-common-mistakes-that-java-developers-make/
+- Excessive garbage allocation: Creating unnecessary, short-lived objects inside loops forces the garbage collector to work harder, which hurts performance.
+- https://www.toptal.com/java/top-10-most-common-java-development-mistakes
+- Overcomplicating solutions: Avoid over-engineering. Focus on writing clear, simple code that directly solves the problem at hand.
+- https://www.youtube.com/watch?v=rjDUpxtUPAE&pp=ygUMI2p0YWJiZWRwYW5l
+- https://medium.com/javarevisited/the-dark-side-of-java-common-mistakes-that-cost-millions-2145951b070b
+- Ignoring performance optimization: In interviews, especially coding rounds, be mindful of time and space complexity. Discuss optimizations with your interviewer after providing an initial, working solution.
+
+
+

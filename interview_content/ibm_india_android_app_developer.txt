@@ -1,0 +1,86 @@
+=== IBM India – Android app Developer ===
+
+📌 Interview Questions + Answers
+1. Q: What is a Developer?
+   A: A developer is a professional who designs, builds, and maintains software applications.
+
+2. Q: What is a backend server?
+   A: A backend server is a server-side component that handles the logic and data processing for an application or website.
+
+3. Q: What is a precondition?
+   A: A precondition is a condition that must be true before a function or method can be executed.
+
+4. Q: What is HTML?
+   A: HTML stands for HyperText Markup Language, used for creating and structuring web pages.
+
+5. Q: What is Android development?
+   A: Android development is the process of creating applications for the Android operating system.
+
+6. Q: What is the use of Activity Creator?
+   A: The activity creator is used to create instances of an activity class in Android development.
+
+7. Q: What is Android development
+   A: Android development is the process of creating applications for the Android operating system.
+
+8. Q: What is testing?
+   A: Testing is the process of evaluating a system or component to determine if it meets the specified requirements.
+
+9. Q: What is SAP in SAP testing?
+   A: SAP in SAP testing stands for Systems, Applications, and Products in Data Processing.
+
+10.Q: What is server administrator?
+   A: A server administrator is responsible for managing and maintaining the operation of computer servers.
+
+
+
+📚 Study Material
+- Mobile App Development Capstone Project: A practical project to apply learned skills.
+- Introduction to Mobile App Development: Fundamental concepts and overview of the mobile app ecosystem.
+- Get Started with Android App Development: Specific modules on building Android apps using Android Studio, Java, and Kotlin.
+- Designing User Interfaces and Experiences (UI/UX): Principles and practices for creating effective mobile UI/UX.
+- Cross-Platform Development: Information on frameworks like Flutter/Dart and React Native for building apps across platforms, including Android.
+- Mobile App Notifications, Databases, & Publishing: Topics related to app functionality, data management, and deployment.
+- https://www.shiksha.com/college/coursera-gurgaon-138685/course-online-ibm-ios-and-android-mobile-app-developer-professional-certificate-1258310
+- https://www.classcentral.com/course/ibm-ios-android-mobile-app-developer-pc-302678
+- https://developer.ibm.com/components/android/tutorials/
+- https://www.linkedin.com/posts/cognitiveclass_1-month-free-ibm-mobile-app-developer-certification-activity-7284917210953793537-35zO 
+
+
+
+💡 Tips for IBM India
+- Become proficient in Kotlin and Java, the primary languages for Android development.
+- Gain a deep understanding of Android Studio and the Android SDK, including its various components and APIs.
+- Solidify your knowledge of Android architecture components, UI/UX principles for mobile, and performance optimization techniques.
+- Design apps that seamlessly handle both offline and online modes, including secure on-device storage and data synchronization with backend systems. 
+- Understand and implement robust security measures for enterprise data within mobile applications.
+- Consider scalability and performance for large-scale enterprise deployments.
+- Explore how to integrate your Android apps with IBM Cloud services.
+- Be prepared to develop applications that might interact with hybrid cloud infrastructures, a common scenario in enterprise environments.
+- Clearly communicate technical concepts and project progress within your team and with stakeholders.
+- Develop strong analytical and problem-solving skills to address complex technical challenges.
+
+
+						
+⚠️ Common Mistakes to Avoid
+- Neglecting User Experience (UX) and User Interface (UI)
+- Focusing solely on functionality without considering intuitive design and ease of use leads to poor user engagement
+- Ignoring Performance Optimization: Slow loading times, memory leaks, and inefficient resource management can frustrate users and lead to uninstalls.
+- Inadequate Testing: Rushing or skipping thorough testing across various devices, Android versions, and network conditions results in bugs and crashes.
+- Overloading with Features: Attempting to include too many features can lead to a bloated, complex app that is difficult to navigate and maintain. Focus on core functionalities first.
+- Poor Security Implementation: Neglecting security measures can expose user data and compromise app integrity. Security should be a priority from the outset.
+- Performing heavy operations on the main thread leads to unresponsive apps and Application Not Responding (ANR) errors.
+- Failing to optimize app metadata, keywords, and descriptions limits discoverability in the Google Play Store.
+- Failing to implement robust error handling can lead to unexpected crashes and a poor user experience.
+- Apps require ongoing maintenance, bug fixes, and feature updates to remain relevant and functional.
+
+
+
+
+
+
+
+
+
+
+
+	

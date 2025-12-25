@@ -1,0 +1,85 @@
+=== Infosys - Java Developer ===
+
+📌 Interview Questions + Answers
+1. Q: What is a profiler?
+   A: A profiler is a tool that analyzes program performance, helping developers identify bottlenecks and optimize code efficiency.
+
+2. Q: What is a profiler?
+   A: A profiler is a tool that analyzes program performance, helping developers identify bottlenecks and optimize code efficiency.
+
+3. Q: How can you reverse a string using the Stream API?
+   A: Use Java Stream API to reverse a string by converting it to a character array and collecting it in reverse order.
+
+4. Q: What is the MVC architecture?
+   A:  MVC architecture separates application logic into three interconnected components: Model, View, and Controller.
+
+5. Q: Explain the Clonable interface?
+   A: Clonable is an interface in Java that allows objects to be cloned, creating a copy of an instance.
+
+6. Q: Explain the features of Java 21?
+   A: Java 21 introduces new features enhancing performance, developer productivity, and language capabilities for modern applications.
+
+7. Q: What is a wrapper class?
+   A: Wrapper classes in Java provide a way to use primitive data types as objects, enabling additional functionality and methods.
+
+8. Q: Describe the concept of a functional interface?
+   A: A functional interface in Java is an interface with a single abstract method, enabling the use of lambda expressions.
+
+9. Q: How do you define custom sorting logic?
+   A: Custom sorting in Java can be achieved using Comparator and Comparable interfaces for flexible sorting logic.
+
+10.Q: What is OOPs?
+   A: OOP (Object-Oriented Programming) is a programming paradigm based on objects and classes to structure software design.
+
+
+📚 Study Material
+- https://m.youtube.com/watch?v=QrveTEKFnTU
+- Java Programming Masterclass – Udemy
+- https://www.youtube.com/watch?v=Aon8MkaKhY0
+- Java Tutorial – Oracle Docs
+- https://www.scribd.com/document/447568873/Infosys-Java
+- https://medium.com/coding-odyssey/infosys-java-developer-interview-6201ed3b4cef
+- [Infosys Lex/Springboard (internal training content)]
+- Infosys Lex – Official internal learning platform.
+- Infosys Springboard – External public training (Free for anyone):
+🔗 Infosys Springboard
+- LeetCode Easy/Medium Java Problems
+
+💡 Tips for Infosys
+- focus on mastering core Java concepts, especially Java 8 features like streams and lambda expressions.
+- Strengthen your understanding of Spring Boot, including dependency injection, AOP, and exception handling.
+- Practice coding problems on platforms like LeetCode and HackerRank, emphasizing time and space complexity.
+- Be prepared to discuss your past projects and how you've applied Java in real-world scenarios. 
+- Multithreading and Concurrency: Understand how to write efficient and thread-safe code. 
+- Design Patterns: Familiarize yourself with common design patterns like Singleton, Factory, and Strategy. 
+- Testing and Debugging: Be prepared to write unit tests and debug your code effectively. 
+- Spring Boot: Gain expertise in Spring Boot's core functionalities like dependency injection, auto-configuration, AOP, and exception handling. 
+- REST APIs: Be comfortable designing and developing RESTful APIs. 
+- Prepare a concise explanation of your projects, covering key aspects and technical details. 
+
+
+
+						
+⚠️ Common Mistakes to Avoid
+- Lack of Knowledge in Open Source Libraries
+- Failing to explain OOP concepts clearly (Inheritance, Encapsulation, Polymorphism, Abstraction).
+- Not knowing internal workings (e.g., how HashMap handles collisions or the difference between ArrayList and LinkedList).
+- Memorizing lambda syntax without understanding how streams, functional interfaces, and method references work.
+- Misusing try-catch blocks or misunderstanding checked vs unchecked exceptions.
+- Relying on frameworks only and neglecting problem-solving skills.
+- Using Spring Boot annotations blindly without understanding what they do (like @Autowired, @RestController, etc.).
+- Not knowing how to write JOINs, use indexes, or normalize a database.
+- Ignoring how components talk to each other or how an API request flows.
+- Listing every technology but being unable to explain experience with it.
+
+
+
+
+
+
+
+
+
+
+
+	

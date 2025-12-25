@@ -1,0 +1,85 @@
+=== IBM India – Python Developer ===
+
+📌 Interview Questions + Answers
+1. Q: What are the benefits of Python?
+   A: Easier to learn, write and understand the code,Improved Productivity,Interpreted Language.
+
+2. Q: What are the key features of Python?
+   A: Easy to Code, Read
+      Expressive, Free and Open-Source
+      Portable, high-level language
+
+3. Q: What type of language is Python? Programming or Scripting?
+   A: Python is considered a scripting language because of a historical blur between scripting languages and general purpose programming languages.
+
+4. Q: What is the difference between list and tuple in Python?
+   A: The most important differences between list and tuple is that list is mutable, whereas a tuple is immutable.
+
+5. Q: What are the global and local variables in Python?
+   A: The scope of global variables is the entire program whereas the scope of local variables is limited to the function where it is defined.
+
+6. Q: How memory management is done in Python?
+   A:Memory management in Python involves a private heap containing all Python objects and data structures.
+
+7. Q: Which command is used to delete files in Python?
+   A: In Python, you can use the os. remove() method to remove files, and the os. rmdir() method to delete an empty folder.
+
+8. Q: Define slicing in Python?
+   A: The slice() function returns a slice object. A slice object is used to specify how to slice a sequence.
+
+9. Q: What are the built-in types available in Python?
+   A: Python uses five numeric types: Booleans, integers, long integers, floating-point numbers, and complex numbers.
+
+10.Q: How do you create a Python function?
+   A: Function blocks begin with the keyword def followed by the function name and parentheses (( )).
+
+
+📚 Study Material
+- Python for Data Science, AI & Development: This course covers Python basics, data structures, programming fundamentals, and working with data using libraries like Pandas and NumPy.
+- Data Analysis with Python: Focuses on using Python for data analysis tasks.
+- Python Project for Data Science: Provides hands-on experience with a project-based approach.
+- Machine Learning with Python: Explores machine learning algorithms and their implementation in Python.
+- The IBM Developer website offers articles and tutorials on Python basics, frameworks (like TensorFlow, PyTorch, Keras).
+- The IBM Developer website offers data manipulation libraries (Pandas, Matplotlib).
+- IBM offers certification courses, such as the "IBM Python for Data Science Certification Course," which can enhance career opportunities and demonstrate proficiency.
+- Working with Data:File I/O, data loading and manipulation using libraries like Pandas and NumPy.
+- Familiarity with libraries relevant to data science and AI, such as Pandas, NumPy, Matplotlib, scikit-learn, TensorFlow, PyTorch, and Keras.
+- Python Data Structures:Lists, tuples, sets, and dictionaries.
+
+💡 Tips for IBM India
+- Structured Courses: Enroll in online courses like those offered by IBM on Coursera.
+- Hands-on Practice: Utilize Jupyter-based lab environments or set up your own Python environment for practical exercises and projects.
+- Explore Documentation: Refer to official documentation for Python and relevant libraries.
+- Build Projects: Apply your knowledge by working on personal projects or contributing to open-source initiatives.
+- Practice designing small systems using classes.
+- Even if you're not a DevOps engineer, learn: How to containerize Python apps using Docker
+- Use the STAR method (Situation, Task, Action, Result) for behavioral answers. 
+- Visit IBM India’s careers page, read recent blogs, and understand their key domains (e.g., IBM Cloud, Watson AI). 
+- Simulate the interview environment. Practice both: Live coding,Explaining your thought process.
+- Follow PEP8 standards, handle exceptions gracefully, and write modular code.
+
+
+						
+⚠️ Common Mistakes to Avoid
+- Start coding without proper planning or outlining the project.
+- Incorrect usage of an if statement.
+- Unreadable code due to poor naming and lack of comments.
+- Ignoring DevOps or Deployment Basics
+- Writing non-modular, unreadable code
+- Using hardcoded values or not handling exceptions
+- Confusing mutable and immutable types (list vs tuple)
+- Not understanding inheritance, polymorphism, or encapsulation
+- Struggling with time/space complexity
+- Running out of time due to unoptimized code
+
+
+
+
+
+
+
+
+
+
+
+	

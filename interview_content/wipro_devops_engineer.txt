@@ -1,0 +1,72 @@
+wipro_devops_engineer
+
+📌 Interview Questions + Answers
+1. Q: What is VPC and its architecture?
+   A: A VPC (Virtual Private Cloud) is a secure, isolated network within a cloud provider's infrastructure. 
+
+2. Q: Can you explain the Kubernetes architecture in simple terms?
+   A: Kubernetes is a container orchestration platform that automates deployment, scaling, and management of containerized applications.
+
+3. Q: How do you create an S3 bucket, and can you explain the process?
+   A: To create an S3 bucket, you can use the AWS Management Console, AWS CLI, or AWS SDKs.
+
+4. Q: What is an Amazon EC2 instance in AWS?
+   A: AWS EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) service.
+
+5. Q: Explain cloud infrastructure.
+   A: Cloud infrastructure refers to the hardware and software components that support cloud computing services.
+
+6. Q: Questions based on the information provided in your resume.
+   A: Discuss your resume highlights, focusing on relevant DevOps skills and experiences.
+
+7. Q: How do you grant admin permissions to run your playbook?
+   A: To give admin permissions to run a playbook, you can use sudo or grant specific permissions in the sudoers file.
+
+8. Q: What is devops explain tools in devops
+   A: DevOps is a software development methodology that combines software development with IT operations to shorten the systems development life cycle.
+
+9. Q: How to create s3 bucket and explain
+   A: To create an S3 bucket, you can use the AWS Management Console, AWS CLI, or AWS SDKs.
+
+10.Q: What is ec2 instance
+   A: An EC2 instance is a virtual server in Amazon Web Services (AWS) Elastic Compute Cloud (EC2) service.
+
+
+📚 Study Material
+- https://www.scribd.com/document/427863378/Mitesh-CV
+- https://www.devops-certification.org/Example_DevOps_Certification_Test_Questions.php
+- https://www.wipro.com/blogs/dr-gopala-krishna-behara/ea-framework-for-devops-adoption/
+- Scripting languages: Wipro frequently mentions Python, PowerShell, and Bash scripting for automating tasks.
+- https://www.wipro.com/cloud/continuous-delivery-platform-for-devops0/
+- https://medium.com/@yadav.pyooja1999/tcs-devops-aws-cloud-interview-questions-aa847ced082e
+- Version control: Master the use of Git, including common branching strategies. Wipro often uses GitHub and Bitbucket.
+- https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions
+- Infrastructure as Code (IaC): Automate infrastructure provisioning using Terraform, PowerShell, and ARM/Bicep templates.
+- https://www.wipro.com/content/dam/nexus/en/service-lines/applications/latest-thinking/how-artificial-intelligence-multiplies-the-devops-advantage.pdf
+
+
+💡 Tips
+- Be prepared to explain key DevOps principles and practices, including the importance of collaboration, continuous feedback, and "shifting left" to fix issues earlier in the development process.
+- Understand the entire DevOps lifecycle and the purpose of different tool categories:
+- Continuous integration (CI): Tools like Jenkins, GitHub Actions, and GitLab CI.
+- Continuous delivery/deployment (CD): Automating application deployments and understanding the difference between CD and CI.
+- Monitoring and logging: Using tools like Splunk, Dynatrace, Prometheus, and Grafana to track application performance, availability, and issues.
+- Practice root cause analysis and be ready to discuss how you would troubleshoot deployment failures or system outages.
+- Master the use of Git, including common branching strategies. Wipro often uses GitHub and Bitbucket.
+- A strong command of Linux is essential, as most applications run on these systems. Practice using basic commands and writing shell scripts for automation.
+- Understand core networking concepts like TCP/IP, DNS, firewalls, and load balancers.
+- Design and manage pipelines using GitHub Actions or Azure DevOps.
+
+						⚠️ Common Mistakes to Avoid
+- https://www.youtube.com/watch?v=OOJ9sBf3ahU
+- Neglecting the "Ops" side. Focusing too heavily on development and ignoring the operational realities can lead to difficult-to-maintain and unstable production systems.
+- https://www.youtube.com/watch?v=wB2OpH3PoKY
+- Treating DevOps as just a set of tools. A common mistake is believing that simply acquiring and implementing DevOps tools like Jenkins, Kubernetes, or Terraform is sufficient.
+- https://www.youtube.com/watch?v=hp_vpvpMur8
+- Poor communication and collaboration. DevOps is meant to break down silos between development, operations, and security teams. Failing to communicate effectively with other departments can lead to misaligned goals, friction, and delays.
+- https://www.expertia.ai/career-tips/the-7-common-mistakes-to-avoid-for-aspiring-devops-engineers-12476i
+- Ignoring soft skills. Many engineers, particularly those early in their careers, underestimate the importance of communication, teamwork, and problem-solving skills.
+- https://www.linkedin.com/pulse/top-5-mistakes-devops-engineers-make-how-avoid-them-neha-boora-ugizc
+- https://duplocloud.com/blog/devops-mistakes/
+
+

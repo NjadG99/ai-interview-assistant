@@ -1,0 +1,76 @@
+capgemini_web_developer
+📌 Interview Questions + Answers
+1. Q: What is the difference between client-side rendering and server-side rendering?
+   A: -Client-side rendering (CSR): The server sends a minimal HTML shell and JavaScript loads data and generates the page in the browser. Good for dynamic single-page apps, but initial load might be slower.
+      -Server-side rendering (SSR): HTML is generated on the server and sent fully to the client. Faster first-page load, better SEO.
+
+2. Q: What is a pure function? Why is it useful?
+   A: A pure function is a function which:
+
+Always returns the same output given the same input.
+
+Has no side effects (doesn’t modify external state, doesn’t depend on external mutable data).
+
+3. Q: What is a closure and where is it used?
+   A: A closure is when an inner function has access to variables from its outer (enclosing) function even after the outer function has returned. It “closes over” the lexical environment. It’s often used for encapsulation, callbacks, private variables, etc.
+
+4. Q: How do async/await and promises work?
+   A: A promise represents a value that may be available now, or in the future, or never. async/await is syntax sugar over promises — async functions return a promise, await pauses until the promise resolves (or rejects). Underneath, it’s non‑blocking and handled via promise chaining.
+
+5. Q: Explain the event loop in JS.
+   A: JavaScript uses a single-threaded event loop. The call stack executes synchronous code. When asynchronous things (timers, I/O, promises) complete, their callbacks go to a task queue (or microtask queue). The event loop picks tasks from those queues when the stack is free.
+
+6. Q: What is REST?
+   A: REST is an architectural style for APIs using stateless communication over HTTP. Common methods: GET, POST, PUT, PATCH, DELETE. Use status codes (200, 201, 204, 400, 404, 500, etc.).
+
+7. Q: What are indexes in database? Why use them?
+   A: Indexes speed up query lookups by providing efficient data access (e.g. B‑tree). But they slow writes/inserts and take storage. Use indexes on columns often used in WHERE, JOIN, ORDER BY.
+
+8. Q: Explain the Redux life cycle.
+   A: Redux life cycle involves actions, reducers, store, and state management in a predictable flow.
+
+9. Q: Explain the Context API.
+   A: The Context API in React allows for state management and sharing data across components without prop drilling.
+
+10.Q: What are the key features and benefits of React.js as a frontend library?
+   A: React offers a component-based architecture, efficient rendering, and a strong ecosystem, making UI development faster and more maintainable.
+
+
+📚 Study Material
+- https://academy.capgemini.com/course/css-fundamentals-en/
+-https://academy.capgemini.com/course/programming-fundamentals-with-javascript-en/
+-https://academy.capgemini.com/courses/
+- https://academy.capgemini.com/course/front-end-framework-fundamentals-en/
+-https://www.scribd.com/document/861576812/capgemini
+- https://academy.capgemini.com/course/html-fundamentals-en/
+-For freshers, an essay round is common. Practice writing on current affairs or general topics within a limited word count. 
+-https://academy.capgemini.com/topic/software-engineering/software-development/
+-Use online coding platforms: Use platforms like Naukri Code 360 and PrepInsta to practice common Capgemini coding problems.
+- https://academy.capgemini.com/course/front-end-software-engineering-track-en/
+
+💡 Tips
+
+- Know your resume & projects inside out. Be prepared to explain any line, module, decision, tradeoff, technology.
+- Practice coding problems (arrays, strings, recursion, sorting, searching, simple algorithms).
+- Brush up on fundamentals: data structures, JS internals, CSS layout, HTTP protocol.
+- Use STAR format when answering behavioral questions.
+- Ask good questions at the end (project methodology, team structure, tech stack, learning opportunities).
+- If you don’t know an answer, be honest but express willingness to learn (“I haven’t used that, but here’s how I’d approach learning it”).
+- Expect questions related to core concepts like Object-Oriented Programming (OOP), database management systems (DBMS), and operating systems (OS).
+- Brush up on your knowledge of fundamental web technologies. For entry-level roles, this could include JavaScript, HTML, and CSS.
+- Familiarity with back-end technologies such as Node.js or databases like SQL is also valuable.
+- Common topics include arrays, strings, linked lists, trees, graphs, and hashing.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.reddit.com/r/Frontend/comments/125lkkx/common_mistakes_to_avoid_as_a_beginner_web/
+- Failing to plan ahead: Jumping into coding without a clear blueprint leads to a lack of focus and getting lost in minor details.
+- Neglecting user and business goals: Focusing solely on the technical aspects of a project rather than the needs of the end-user or the business objective can create a product that misses the mark.
+- https://www.linkedin.com/advice/0/youre-software-developer-what-most-common-cewbc
+- Ignoring feedback: Failing to listen to user feedback or ignoring input from clients and team members is a surefire way to deliver a suboptimal product.
+- https://medium.com/@ignatovich.dm/common-mistakes-web-developers-make-and-how-to-avoid-them-85be0bb953dc
+- Poor communication: Unclear and infrequent communication with team members and clients can lead to misunderstandings, conflicts, and project delays. 
+- https://www.toptal.com/web/top-10-mistakes-that-web-developers-make
+- Not using version control effectively: Without proper version control (like Git), tracking changes and collaborating with a team becomes nearly impossible.
+- https://dev.to/vibhuvibes/common-mistakes-new-web-developers-make-and-how-to-avoid-them-12bk
+

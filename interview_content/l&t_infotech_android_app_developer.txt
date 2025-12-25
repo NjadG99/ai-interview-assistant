@@ -1,0 +1,75 @@
+l&t_infotech_android_app_developer
+
+📌 Interview Questions + Answers
+    
+1. Q: what is Android? 
+   A: Android is a Linux-based, open-sourced operating system commonly found on mobile devices, such as smartphones and tablets. It’s a kernel-based system that gives developers the flexibility to design and deploy simple and/or advanced apps.
+
+2. Q: What is the current version of Android, and how old is it?
+   A: The current version of Android is 9.0, also called Android Pie, and it came out in August of 2018.
+
+3. Q: What database is used for the Android platform?
+   A: SQLite, an open-source, self-contained, serverless database, is embedded in Android by default.
+
+4. Q: Can you change an application’s name after you have deployed it?
+   A: Although you CAN change it, the real question should be “SHOULD you”? Changing an application’s name risks breaking some of its functionality.
+
+5. Q: Explain the Android SDK.
+   A: This is a set of tools that Android developers use in order to develop or write apps. It features a graphical user interface that emulates a handheld, Android-driven environment, making it easier for developers to create, test, and debug their code.
+
+6. Q: Speaking of emulators, why is it so important for developers to have access to one?
+   A: Since emulators function like an actual hand-held device, developers have a good dedicated “sandbox” to safely create, edit, test, and debug new applications, seeing how they would function on a real device without having to actually risk a real device.
+
+7. Q: What languages does Android use?
+   A: Android-primarily uses Java, but it also supports C/C++, which, if used with Android SDK, will run faster.
+
+8. Q: What’s an intent in the context of Android? Describe the different types.
+   A: Much what it sounds like, it’s the intention to perform an action, a message that is passed between components. Intents request actions from a different component, such as sending an email, opening a web page, or launch a given activity.
+ 
+9. Q: Explain Android Toast.
+   A: Toast, in this case, is a pop-up box (hence the word) giving feedback regarding an operation that the users initiated, informing the user of the current status of said operation.
+
+10.Q: What’s a content provider?
+   A: Content providers share information between different Android applications. They allow users to access data within an application. Examples include contact information, images, video, and audio.
+
+
+📚 Study Material
+- https://asapkerala.gov.in/course/android/
+- https://skill.lntedutech.com/
+- Practice aptitude: Prepare for the initial online test, which covers quantitative aptitude, logical reasoning, and verbal ability.
+- https://www.acte.in/android-app-development-fundamentals-article
+- https://www.scribd.com/doc/100835198/KLU-Yantrik-12-Android
+- https://www.acte.in/android-online-training
+- Soft skills: Focus on your communication skills. The HR round assesses your personality, career goals, and cultural fit through behavioral and situational questions. 
+- https://www.fita.in/android-training-in-delhi/
+- https://www.youtube.com/watch?v=NMOdEHyMXBo
+- https://onlinecourses.swayam2.ac.in/nou21_ge41/preview
+
+💡 Tips 
+- Master concepts like inheritance, polymorphism, encapsulation, and abstraction, which are fundamental to both Java and Kotlin.
+- Practice problem-solving and coding questions related to DSA, which are standard for the technical screening process.
+- Be prepared for questions on SQL, ACID properties, joins, and the differences between DBMS and RDBMS.
+- Understand core concepts, including process management, memory management, and deadlock. 
+- Demonstrate proficiency with Git for collaborative development.
+- Prepare for the initial online test, which covers quantitative aptitude, logical reasoning, and verbal ability.
+- Learn about LTIMindtree's mission, values, and recent projects to demonstrate genuine interest during the HR round.
+- Learn to manage local data storage using Room and Jetpack's DataStore for user preferences.
+- Know architectural patterns like Model-View-ViewModel (MVVM) and the best practices for building scalable apps.
+- Learn to build native UIs with Google's modern declarative framework.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://decode.agency/article/android-app-development-mistakes/
+- Going into the interview without researching L&T Infotech/Mindtree's business, recent projects, or company values. This suggests a lack of genuine interest in working there.
+- https://www.v-xplore.com/some-common-mistakes-to-avoid-in-android-app-development/
+- Defending your code rigidly when an interviewer suggests improvements. LTI/Mindtree values candidates who are adaptable and can handle constructive criticism.
+- https://www.linkedin.com/posts/apponward-technologies_androidappdevelopment-commonerrors-softwareengineering-activity-7356970846210416641-USmV
+- Presenting your projects unclearly or struggling to articulate your technical knowledge. Communication skills are evaluated at every stage of the interview.
+- https://medium.com/make-android/10-common-mistakes-in-android-app-development-and-how-to-avoid-them-e316b33d2a8a
+- Only talking about your own code and failing to acknowledge teamwork. Major IT firms prioritize collaboration and the ability to work in a team.
+- https://www.digittrix.com/blogs/common-errors-to-avoid-in-android-app-development
+- Neglecting security by hardcoding sensitive information like API keys, failing to encrypt communication via HTTPS, or mishandling user credentials.
+
+
+
+

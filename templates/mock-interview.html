@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Interview - HireReady</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            overflow-x: hidden;
+        }
+
+        /* Navigation Styles - Keep unchanged */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 1rem 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-menu li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-menu li a:hover,
+        .nav-menu li a.active {
+            color: #667eea;
+        }
+
+        .nav-menu li a.active::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 1px;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: #333;
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+
+        /* Clean Header Section */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 120px 2rem 80px;
+            position: relative;
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            min-height: 100vh;
+        }
+
+        /* Clean Interview Card */
+        .interview-card {
+            background: white;
+            border-radius: 16px;
+            padding: 3rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+            animation: slideInUp 0.8s ease-out 0.3s both;
+            border: 1px solid #e9ecef;
+        }
+
+        .interview-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        /* Simple Progress Bar */
+        .progress-container {
+            margin-bottom: 2.5rem;
+            animation: slideInRight 0.8s ease-out 0.6s both;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 50px;
+            transition: width 1s ease;
+            width: 0%;
+        }
+
+        /* Clean Question Section */
+        .question-section {
+            margin-bottom: 2.5rem;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+            animation: slideInLeft 0.8s ease-out 0.9s both;
+        }
+
+        .question-number {
+            font-size: 0.9rem;
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .question-text {
+            font-size: 1.4rem;
+            color: #333;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+
+        /* Professional Audio Controls */
+        .audio-controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2.5rem 0;
+            animation: staggerIn 0.8s ease-out 1.2s both;
+        }
+
+        .control-btn {
+            padding: 1rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            min-height: 50px;
+        }
+
+        .control-btn i {
+            font-size: 1.1rem;
+        }
+
+        .play-question-btn {
+            background: #e3f2fd;
+            color: #1976d2;
+            border: 1px solid #bbdefb;
+        }
+
+        .play-question-btn:hover {
+            background: #1976d2;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+        }
+
+        .record-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+        }
+
+        .record-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.4);
+        }
+
+        .record-btn.recording {
+            background: linear-gradient(135deg, #dc3545, #e74c3c);
+            animation: recordingPulse 1.5s ease-in-out infinite;
+        }
+
+        .stop-btn {
+            background: #ffebee;
+            color: #c62828;
+            border: 1px solid #ffcdd2;
+        }
+
+        .stop-btn:hover {
+            background: #c62828;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(198, 40, 40, 0.3);
+        }
+
+        .submit-btn {
+            background: #e8f5e8;
+            color: #2e7d32;
+            border: 1px solid #c8e6c9;
+        }
+
+        .submit-btn:hover {
+            background: #2e7d32;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+        }
+
+        .disabled {
+            opacity: 0.6;
+            cursor: not-allowed !important;
+            pointer-events: none;
+            transform: none !important;
+        }
+
+        /* Clean Recording Status */
+        .recording-status {
+            text-align: center;
+            margin: 1.5rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            display: none;
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+
+        .recording-status.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .recording-status i {
+            margin-right: 0.5rem;
+            animation: pulse 1s infinite;
+        }
+
+        /* Clean Acknowledgment */
+        .acknowledgment {
+            display: none;
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            color: #0c5460;
+            font-weight: 500;
+            animation: slideInRight 0.5s ease;
+        }
+
+        .acknowledgment i {
+            margin-right: 0.8rem;
+            color: #17a2b8;
+        }
+
+        /* Clean Final Report */
+        .final-report {
+            display: none;
+            background: white;
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-top: 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            animation: zoomIn 0.6s ease-out;
+            border: 1px solid #e9ecef;
+        }
+
+        .report-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        .report-header h2 {
+            color: #667eea;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .report-header p {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        /* Clean Feedback Items */
+        .feedback-item {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #667eea;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease;
+            border: 1px solid #e9ecef;
+        }
+
+        .feedback-item.loaded {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .feedback-item.loading {
+            background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 50%, #f8f9fa 100%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s ease-in-out infinite;
+        }
+
+        .feedback-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .feedback-question {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+
+        .feedback-answer {
+            color: #6c757d;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: #e3f2fd;
+            border-radius: 8px;
+            border-left: 3px solid #1976d2;
+            font-style: italic;
+            transition: all 0.3s ease;
+        }
+
+        .feedback-answer:hover {
+            background: #bbdefb;
+        }
+
+        .feedback-answer-label {
+            font-weight: 600;
+            color: #1976d2;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .feedback-text {
+            color: #495057;
+            line-height: 1.7;
+        }
+
+        .feedback-text ol {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .feedback-text ol li {
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+        }
+
+        .feedback-text strong {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .feedback-loading-text {
+            color: #6c757d;
+            font-style: italic;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .feedback-audio-controls {
+            margin-top: 1.5rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .play-feedback-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .play-feedback-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+        }
+
+        .play-feedback-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Clean Start Section */
+        .start-section {
+            text-align: center;
+            animation: fadeInScale 0.8s ease-out;
+        }
+
+        .start-section h2 {
+            font-size: 2.2rem;
+            color: #333;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .start-section p {
+            font-size: 1.1rem;
+            color: #6c757d;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .start-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 1.2rem 2.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .start-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Clean Loading */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+            color: #6c757d;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #e9ecef;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        .loading-progress {
+            margin-top: 1rem;
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        /* Simple Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes staggerIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes recordingPulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.02);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 70px;
+                flex-direction: column;
+                background: white;
+                width: 100%;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+                padding: 2rem 0;
+            }
+
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .header {
+                padding: 100px 1rem 60px;
+            }
+
+            .header h1 {
+                font-size: 2.2rem;
+            }
+
+            .container {
+                padding: 2rem 1rem;
+            }
+
+            .interview-card {
+                padding: 2rem;
+            }
+
+            .audio-controls {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+            }
+
+            .question-text {
+                font-size: 1.2rem;
+            }
+
+            .start-section h2 {
+                font-size: 1.8rem;
+            }
+
+            .feedback-item {
+                padding: 1.5rem;
+            }
+
+            .report-header h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation - Unchanged -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">HireReady</a>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/features.html">Features</a></li>
+                <li><a href="/hire-ready-ai.html">Hire Ready Assistance</a></li>
+                <li><a href="/mock-interview.html" class="active">Mock Interview</a></li>
+                <li><a href="/aboutus.html">About Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Clean Header -->
+    <section class="header">
+        <div class="header-content">
+            <h1><i class="fas fa-microphone"></i> Mock Interview</h1>
+            <p>Practice your interview skills with our AI-powered mock interview system designed to help you succeed in your next opportunity.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Clean Interview Card -->
+        <div class="interview-card">
+            <!-- Start Section -->
+            <div id="startSection" class="start-section">
+                <h2>Ready to Begin?</h2>
+                <p>Complete a comprehensive mock interview with 5 essential questions. Get personalized feedback to improve your interview performance.</p>
+                <button id="startBtn" class="start-btn">
+                    <i class="fas fa-play"></i> Start Interview
+                </button>
+            </div>
+
+            <!-- Interview Progress -->
+            <div id="interviewSection" style="display: none;">
+                <!-- Progress Bar -->
+                <div class="progress-container">
+                    <div class="progress-info">
+                        <span>Progress</span>
+                        <span id="progressText">0/5 Questions</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <!-- Question Section -->
+                <div class="question-section">
+                    <div id="questionNumber" class="question-number">Question 1 of 5</div>
+                    <div id="questionText" class="question-text"></div>
+                </div>
+
+                    <!-- Audio Controls -->
+                    <div class="audio-controls">
+                        <button id="playQuestionBtn" class="control-btn play-question-btn">
+                            <i class="fas fa-volume-up"></i> Listen to Question
+                        </button>
+                        <button id="recordBtn" class="control-btn record-btn">
+                            <i class="fas fa-microphone"></i> Start Recording
+                        </button>
+                        <button id="stopBtn" class="control-btn stop-btn disabled">
+                            <i class="fas fa-stop"></i> Stop Recording
+                        </button>
+                        <button id="submitBtn" class="control-btn submit-btn disabled">
+                            <i class="fas fa-paper-plane"></i> Submit Answer
+                        </button>
+                    </div>
+
+                <!-- Recording Status -->
+                <div id="recordingStatus" class="recording-status">
+                    <i class="fas fa-circle"></i>
+                    Recording your response...
+                </div>
+
+                <!-- Acknowledgment -->
+                <div id="acknowledgment" class="acknowledgment">
+                    <i class="fas fa-check-circle"></i>
+                    <span id="ackText">Great! Your response has been recorded. Moving to the next question...</span>
+                </div>
+            </div>
+
+            <!-- Loading Section -->
+            <div id="loadingSection" class="loading">
+                <div class="spinner"></div>
+                <p>Generating AI feedback for your responses...</p>
+                <div id="loadingProgress" class="loading-progress">Processing question 1 of 5...</div>
+            </div>
+
+            <!-- Final Report -->
+            <div id="finalReport" class="final-report">
+                <div class="report-header">
+                    <h2><i class="fas fa-chart-line"></i> Interview Complete!</h2>
+                    <p>Here's your comprehensive AI-powered feedback to help you improve.</p>
+                </div>
+                <div id="feedbackContainer"></div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <button id="restartBtn" class="start-btn">
+                        <i class="fas fa-redo"></i> Start New Interview
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Keep all original JavaScript functionality - exactly the same as before
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        let mediaRecorder = null;
+        let audioChunks = [];
+        let currentQuestion = 0;
+        let interviewData = [];
+        let sessionId = null;
+        let hasRecordedAudio = false;
+        let recordingStream = null;
+        let recordingState = 'idle';
+        let recordingTimeout = null;
+
+        const startSection = document.getElementById('startSection');
+        const interviewSection = document.getElementById('interviewSection');
+        const loadingSection = document.getElementById('loadingSection');
+        const finalReport = document.getElementById('finalReport');
+        const startBtn = document.getElementById('startBtn');
+        const playQuestionBtn = document.getElementById('playQuestionBtn');
+        const recordBtn = document.getElementById('recordBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        const submitBtn = document.getElementById('submitBtn');
+        const restartBtn = document.getElementById('restartBtn');
+        const questionText = document.getElementById('questionText');
+        const questionNumber = document.getElementById('questionNumber');
+        const progressText = document.getElementById('progressText');
+        const progressFill = document.getElementById('progressFill');
+        const recordingStatus = document.getElementById('recordingStatus');
+        const acknowledgment = document.getElementById('acknowledgment');
+        const ackText = document.getElementById('ackText');
+        const feedbackContainer = document.getElementById('feedbackContainer');
+        const loadingProgress = document.getElementById('loadingProgress');
+
+        let currentQuestionAudio = null;
+        let feedbackAudios = {};
+        let feedbackTexts = {};
+
+        startBtn.addEventListener('click', startInterview);
+        playQuestionBtn.addEventListener('click', playCurrentQuestion);
+        recordBtn.addEventListener('click', startRecording);
+        stopBtn.addEventListener('click', stopRecording);
+        submitBtn.addEventListener('click', submitAnswer);
+        restartBtn.addEventListener('click', restartInterview);
+
+        function forceResetRecording() {
+            if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                try {
+                    mediaRecorder.stop();
+                } catch (e) {
+                    console.log('Error stopping media recorder:', e);
+                }
+            }
+
+            if (recordingStream) {
+                recordingStream.getTracks().forEach(track => {
+                    try {
+                        track.stop();
+                    } catch (e) {
+                        console.log('Error stopping track:', e);
+                    }
+                });
+                recordingStream = null;
+            }
+
+            if (recordingTimeout) {
+                clearTimeout(recordingTimeout);
+                recordingTimeout = null;
+            }
+
+            mediaRecorder = null;
+            audioChunks = [];
+            hasRecordedAudio = false;
+            recordingState = 'idle';
+
+            resetButtons();
+            hideElements();
+        }
+
+        async function startInterview() {
+            try {
+                const response = await fetch('/interview/start_interview', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    startSection.style.display = 'none';
+                    interviewSection.style.display = 'block';
+                    
+                    sessionId = data.session_id;
+                    currentQuestion = 0;
+                    interviewData = [];
+                    feedbackAudios = {};
+                    feedbackTexts = {};
+                    
+                    loadQuestion(data.question, data.tts_audio);
+                }
+            } catch (error) {
+                console.error('Error starting interview:', error);
+            }
+        }
+
+        function loadQuestion(question, ttsAudio = null) {
+            questionText.textContent = question;
+            questionNumber.textContent = `Question ${currentQuestion + 1} of 5`;
+            
+            updateProgress();
+            resetButtons();
+            hideElements();
+
+            if (ttsAudio) {
+                currentQuestionAudio = ttsAudio;
+            }
+        }
+
+        function playCurrentQuestion() {
+            if (currentQuestionAudio) {
+                const audio = new Audio(currentQuestionAudio);
+                audio.play().catch(e => console.error('Error playing question audio:', e));
+            }
+        }
+
+        function updateProgress() {
+            const progress = (currentQuestion / 5) * 100;
+            progressFill.style.width = progress + '%';
+            progressText.textContent = `${currentQuestion}/5 Questions`;
+        }
+
+        function resetButtons() {
+            recordBtn.classList.remove('disabled', 'recording');
+            stopBtn.classList.add('disabled');
+            submitBtn.classList.add('disabled');
+            hasRecordedAudio = false;
+            recordingState = 'idle';
+            
+            recordBtn.innerHTML = '<i class="fas fa-microphone"></i> Start Recording';
+        }
+
+        function hideElements() {
+            recordingStatus.classList.remove('active');
+            acknowledgment.style.display = 'none';
+        }
+
+        async function startRecording() {
+            if (recordBtn.classList.contains('disabled') || recordingState !== 'idle') {
+                return;
+            }
+
+            try {
+                forceResetRecording();
+                
+                recordingStream = await navigator.mediaDevices.getUserMedia({ 
+                    audio: {
+                        echoCancellation: true,
+                        noiseSuppression: true,
+                        sampleRate: 44100
+                    }
+                });
+
+                const options = { mimeType: 'audio/webm;codecs=opus' };
+                if (!MediaRecorder.isTypeSupported(options.mimeType)) {
+                    options.mimeType = 'audio/webm';
+                    if (!MediaRecorder.isTypeSupported(options.mimeType)) {
+                        delete options.mimeType;
+                    }
+                }
+
+                mediaRecorder = new MediaRecorder(recordingStream, options);
+                audioChunks = [];
+
+                mediaRecorder.ondataavailable = (event) => {
+                    if (event.data.size > 0) {
+                        audioChunks.push(event.data);
+                    }
+                };
+
+                mediaRecorder.onstart = () => {
+                    recordingState = 'recording';
+                    hasRecordedAudio = true;
+                };
+
+                mediaRecorder.onstop = () => {
+                    recordingState = 'stopped';
+                    
+                    recordBtn.classList.remove('recording');
+                    recordBtn.innerHTML = '<i class="fas fa-microphone"></i> Record Again';
+                    stopBtn.classList.add('disabled');
+                    recordingStatus.classList.remove('active');
+
+                    if (audioChunks.length > 0 && hasRecordedAudio) {
+                        submitBtn.classList.remove('disabled');
+                    } else {
+                        hasRecordedAudio = false;
+                        alert('No audio recorded. Please try again.');
+                    }
+                };
+
+                mediaRecorder.onerror = (event) => {
+                    console.error('MediaRecorder error:', event.error);
+                    forceResetRecording();
+                    alert('Recording error occurred. Please try again.');
+                };
+
+                mediaRecorder.start(1000);
+
+                recordingTimeout = setTimeout(() => {
+                    if (mediaRecorder && mediaRecorder.state === 'recording') {
+                        stopRecording();
+                    }
+                }, 300000);
+
+                recordBtn.classList.add('recording', 'disabled');
+                recordBtn.innerHTML = '<i class="fas fa-microphone"></i> Recording...';
+                stopBtn.classList.remove('disabled');
+                recordingStatus.classList.add('active');
+
+            } catch (error) {
+                console.error('Error starting recording:', error);
+                forceResetRecording();
+                alert('Unable to start recording. Please check microphone permissions.');
+            }
+        }
+
+        function stopRecording() {
+            if (stopBtn.classList.contains('disabled') || recordingState !== 'recording') {
+                return;
+            }
+
+            try {
+                recordingState = 'stopping';
+
+                if (recordingTimeout) {
+                    clearTimeout(recordingTimeout);
+                    recordingTimeout = null;
+                }
+
+                if (mediaRecorder && mediaRecorder.state === 'recording') {
+                    mediaRecorder.stop();
+                }
+
+                if (recordingStream) {
+                    recordingStream.getTracks().forEach(track => {
+                        try {
+                            track.stop();
+                        } catch (e) {
+                            console.log('Error stopping track:', e);
+                        }
+                    });
+                }
+
+            } catch (error) {
+                console.error('Error stopping recording:', error);
+                forceResetRecording();
+            }
+        }
+
+        async function submitAnswer() {
+            if (submitBtn.classList.contains('disabled') || !hasRecordedAudio || audioChunks.length === 0) {
+                alert('Please record your answer before submitting.');
+                return;
+            }
+
+            try {
+                const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+
+                if (audioBlob.size === 0) {
+                    alert('No audio data recorded. Please try recording again.');
+                    forceResetRecording();
+                    return;
+                }
+
+                const reader = new FileReader();
+                
+                reader.onloadend = async function() {
+                    const audioData = reader.result;
+                    
+                    submitBtn.classList.add('disabled');
+                    
+                    const response = await fetch('/interview/submit_answer', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            audio_data: audioData
+                        })
+                    });
+
+                    const data = await response.json();
+                    if (data.success) {
+                        ackText.textContent = data.acknowledgment || 'Great! Moving to the next question.';
+                        acknowledgment.style.display = 'block';
+
+                        if (data.acknowledgment) {
+                            playAcknowledgmentAudio(data.acknowledgment);
+                        }
+
+                        interviewData.push({
+                            question: questionText.textContent,
+                            answer: data.transcribed_text,
+                            questionNumber: currentQuestion + 1
+                        });
+
+                        currentQuestion++;
+                        forceResetRecording();
+
+                        setTimeout(() => {
+                            if (data.next_question) {
+                                loadQuestion(data.next_question, data.tts_audio);
+                            } else {
+                                showLoadingAndGenerateFeedback();
+                            }
+                        }, 3000);
+                    } else {
+                        submitBtn.classList.remove('disabled');
+                        alert('Error submitting answer: ' + (data.error || 'Unknown error'));
+                    }
+                };
+
+                reader.onerror = function() {
+                    submitBtn.classList.remove('disabled');
+                    alert('Error processing audio. Please try again.');
+                };
+                
+                reader.readAsDataURL(audioBlob);
+
+            } catch (error) {
+                console.error('Error submitting answer:', error);
+                submitBtn.classList.remove('disabled');
+                alert('Error submitting answer. Please try again.');
+            }
+        }
+
+        async function playAcknowledgmentAudio(text) {
+            try {
+                const response = await fetch('/interview/generate_ack_audio', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        text: text
+                    })
+                });
+
+                const data = await response.json();
+                if (data.success && data.audio) {
+                    const audio = new Audio(data.audio);
+                    audio.play().catch(e => console.error('Error playing acknowledgment audio:', e));
+                }
+            } catch (error) {
+                console.error('Error generating acknowledgment audio:', error);
+            }
+        }
+
+        function showLoadingAndGenerateFeedback() {
+            interviewSection.style.display = 'none';
+            loadingSection.classList.add('active');
+            finalReport.style.display = 'block';
+
+            createFeedbackPlaceholders();
+            generateFeedbackSequentially(0);
+        }
+
+        function createFeedbackPlaceholders() {
+            feedbackContainer.innerHTML = '';
+            
+            interviewData.forEach((item, index) => {
+                const feedbackItem = document.createElement('div');
+                feedbackItem.className = 'feedback-item loading';
+                feedbackItem.id = `feedback-${index}`;
+                
+                setTimeout(() => {
+                    feedbackItem.style.opacity = '1';
+                    feedbackItem.style.transform = 'translateY(0)';
+                }, index * 200);
+                
+                feedbackItem.innerHTML = `
+                    <div class="feedback-question">Question ${item.questionNumber}: ${item.question}</div>
+                    <div class="feedback-answer-label">Your Answer:</div>
+                    <div class="feedback-answer">${item.answer || 'Your recorded response'}</div>
+                    <div class="feedback-text">
+                        <div class="feedback-loading-text">
+                            <i class="fas fa-spinner fa-spin"></i>
+                            Analyzing your response...
+                        </div>
+                    </div>
+                    <div class="feedback-audio-controls">
+                        <button class="play-feedback-btn" disabled>
+                            <i class="fas fa-volume-up"></i> Listen to Feedback
+                        </button>
+                    </div>
+                `;
+                
+                feedbackContainer.appendChild(feedbackItem);
+            });
+        }
+
+        async function generateFeedbackSequentially(index) {
+            if (index >= interviewData.length) {
+                loadingSection.classList.remove('active');
+                return;
+            }
+
+            loadingProgress.textContent = `Processing question ${index + 1} of ${interviewData.length}...`;
+
+            try {
+                const item = interviewData[index];
+                const response = await fetch('/interview/get_single_feedback', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        question: item.question,
+                        answer: item.answer,
+                        question_number: item.questionNumber
+                    })
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    feedbackTexts[index] = data.feedback;
+                    updateFeedbackItem(index, data.feedback, data.feedback_audio);
+                    
+                    if (data.feedback_audio) {
+                        feedbackAudios[index] = data.feedback_audio;
+                    }
+                }
+            } catch (error) {
+                console.error(`Error generating feedback for question ${index + 1}:`, error);
+                updateFeedbackItem(index, 'Error generating feedback. Please try again later.', null);
+            }
+
+            setTimeout(() => {
+                generateFeedbackSequentially(index + 1);
+            }, 500);
+        }
+
+        function updateFeedbackItem(index, feedback, audioData) {
+            const feedbackItem = document.getElementById(`feedback-${index}`);
+            if (!feedbackItem) return;
+
+            feedbackItem.classList.remove('loading');
+            
+            setTimeout(() => {
+                feedbackItem.classList.add('loaded');
+            }, 100);
+
+            const formattedFeedback = formatFeedbackAsNumberedList(feedback);
+            const feedbackText = feedbackItem.querySelector('.feedback-text');
+            feedbackText.innerHTML = formattedFeedback;
+
+            const audioButton = feedbackItem.querySelector('.play-feedback-btn');
+            audioButton.disabled = false;
+            audioButton.onclick = () => playFeedbackAudio(index);
+        }
+
+        function formatFeedbackAsNumberedList(feedback) {
+            if (feedback.includes('1.') || feedback.includes('2.') || feedback.includes('3.')) {
+                const parts = feedback.split(/(\d+\.\s*)/);
+                let formattedHtml = '<ol>';
+                
+                for (let i = 1; i < parts.length; i += 2) {
+                    if (parts[i + 1]) {
+                        let content = parts[i + 1].trim();
+                        content = content.replace(/^([^:]+:)/g, '<strong>$1</strong>');
+                        formattedHtml += `<li>${content}</li>`;
+                    }
+                }
+                formattedHtml += '</ol>';
+                return formattedHtml;
+            } else {
+                const sentences = feedback.split(/[.!?]+/).filter(s => s.trim().length > 10);
+                if (sentences.length > 1) {
+                    let formattedHtml = '<ol>';
+                    sentences.forEach(sentence => {
+                        if (sentence.trim()) {
+                            formattedHtml += `<li>${sentence.trim()}.</li>`;
+                        }
+                    });
+                    formattedHtml += '</ol>';
+                    return formattedHtml;
+                } else {
+                    return `<p>${feedback}</p>`;
+                }
+            }
+        }
+
+        async function playFeedbackAudio(index) {
+            const originalFeedbackText = feedbackTexts[index];
+            
+            if (!originalFeedbackText) {
+                alert('Feedback text not available');
+                return;
+            }
+
+            const audioButton = document.querySelector(`#feedback-${index} .play-feedback-btn`);
+            audioButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating Audio...';
+            audioButton.disabled = true;
+
+            try {
+                const response = await fetch('/interview/generate_ack_audio', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        text: originalFeedbackText
+                    })
+                });
+
+                const data = await response.json();
+                if (data.success && data.audio) {
+                    const audio = new Audio(data.audio);
+                    
+                    audioButton.innerHTML = '<i class="fas fa-pause"></i> Playing...';
+                    
+                    audio.onended = () => {
+                        audioButton.innerHTML = '<i class="fas fa-volume-up"></i> Listen to Feedback';
+                        audioButton.disabled = false;
+                    };
+                    
+                    audio.onerror = () => {
+                        audioButton.innerHTML = '<i class="fas fa-volume-up"></i> Listen to Feedback';
+                        audioButton.disabled = false;
+                        alert('Error playing feedback audio');
+                    };
+                    
+                    audio.play().catch(e => {
+                        console.error('Error playing feedback audio:', e);
+                        audioButton.innerHTML = '<i class="fas fa-volume-up"></i> Listen to Feedback';
+                        audioButton.disabled = false;
+                        alert('Error playing feedback audio');
+                    });
+                } else {
+                    audioButton.innerHTML = '<i class="fas fa-volume-up"></i> Listen to Feedback';
+                    audioButton.disabled = false;
+                    alert('Could not generate feedback audio');
+                }
+            } catch (error) {
+                console.error('Error generating feedback audio:', error);
+                audioButton.innerHTML = '<i class="fas fa-volume-up"></i> Listen to Feedback';
+                audioButton.disabled = false;
+                alert('Error generating feedback audio');
+            }
+        }
+
+        function restartInterview() {
+            forceResetRecording();
+            
+            startSection.style.display = 'block';
+            interviewSection.style.display = 'none';
+            loadingSection.classList.remove('active');
+            finalReport.style.display = 'none';
+            
+            currentQuestion = 0;
+            interviewData = [];
+            sessionId = null;
+            currentQuestionAudio = null;
+            feedbackAudios = {};
+            feedbackTexts = {};
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            navigator.mediaDevices.getUserMedia({ audio: true })
+                .then((stream) => {
+                    console.log('Microphone access granted');
+                    stream.getTracks().forEach(track => track.stop());
+                })
+                .catch((error) => {
+                    console.log('Microphone access issue:', error);
+                });
+        });
+
+        window.addEventListener('beforeunload', () => {
+            forceResetRecording();
+        });
+    </script>
+</body>
+</html>

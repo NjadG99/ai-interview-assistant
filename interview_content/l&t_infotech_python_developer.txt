@@ -1,0 +1,77 @@
+l&t_infotech_python_developer
+
+📌 Interview Questions + Answers
+    
+1. Q: What is Python?
+   A: Python is a programming language that is used for web development(serverside) , software development , mathematics operation and so on. Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.
+
+2. Q: What is PEP 8?
+   A: PEP stands for Python Enhancement Proposal. PEP8 is a document that provides guidelines and best practices on how to write Python code. The primary focus of PEP 8 is to improve the readability and consistency of Python code.
+
+3. Q: What is pickling and unpickling?
+   A: Pickling : It is a process where a Python object hierarchy is converted into a byte stream.
+
+      Unpickling : It is the inverse of Pickling process where a byte stream is converted into an object hierarchy.
+
+4. Q: How Python is interpreted?
+   A: Python is an “interpreted” language. This means it uses an interpreter. An interpreter is very different from the compiler. An interpreter executes the statements of code “one-by-one” whereas the compiler executes the code entirely and lists all possible errors at a time.
+
+5. Q: How memory is managed in Python?
+   A: Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager. The Python memory manager has different components which deal with various dynamic storage management aspects, like sharing, segmentation, preallocation or caching.
+
+6. Q: What are Python decorators?
+   A: A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
+
+7. Q: What is the difference between list and tuple?
+   A: In Python, list and tuple are a class of data structure that can store one or more objects or values. A list is used to store multiple items in one variable and can be created using square brackets. Similarly, tuples also can store multiple items in a single variable and can be declared using parentheses.
+
+8. Q: How are arguments passed by value or by reference?
+   A: If you pass immutable arguments like integers, strings or tuples to a function, the passing acts like Call-by-value. All parameters (arguments) in the Python language are passed by reference. It means if you change what a parameter refers to within a function, the change also reflects back in the calling function.
+ 
+9. Q: What are the built-in type does python provides?
+   A: Python uses five numeric types: Booleans, integers, long integers, floating-point numbers, and complex numbers. Except for Booleans, all numeric objects are signed. All numeric types are immutable. Booleans are represented by two values: True and False.
+
+10.Q: What is the difference between list and tuple in Python?
+   A: The most important differences between list and tuple is that list is mutable, whereas a tuple is immutable. This means that lists can be changed, and tuples cannot be changed.
+
+
+📚 Study Material
+- https://www.credosystemz.com/lt-python-interview-questions/
+- https://lntedutech.com/commerce-science/certificate-in-python-programming/
+- Interview platforms: Use websites like InterviewBit, PrepInsta, and GeeksforGeeks to practice coding questions and review common Python topics.
+- Online courses: Consider courses on platforms like Codecademy or Udemy for structured learning.
+- https://prepinsta.com/lti/coding-questions/
+- Books: For a deeper dive, read books like Python Crash Course. 
+- https://prepinsta.com/how-to-prepare-for-lt-infotech-written-test/
+- https://www.simplilearn.com/tutorials/python-tutorial/how-to-become-python-developer
+- https://www.quora.com/How-do-I-prepare-for-L-T-Infotech-1
+- https://www.ambitionbox.com/interviews/itc-infotech-india-interview-questions/python-developer-intern
+
+💡 Tips 
+- Prepare answers for common HR questions about your strengths, weaknesses, teamwork, and career goals.
+- Research LTIMindtree's business, recent projects, and culture to show genuine interest in the company.
+- Practice explaining complex technical ideas in simple terms. This is a common interview tactic.
+- Have 1–2 projects ready to discuss in detail. Be prepared to explain your design choices and challenges.
+- Be prepared to discuss the time and space complexity of your solutions. 
+- Practice solving problems related to strings, arrays, linked lists, binary trees, sorting, and searching.
+- Familiarity with data processing libraries like Pandas and NumPy is a plus, especially for data-related roles.
+- Have knowledge of implementing Continuous Integration/Continuous Deployment (CI/CD) pipelines.
+- If applying for roles involving AI, study frameworks and concepts like Langchain, Langgraph, CrewAI, AutoGen, and Retrieval-Augmented Generation (RAG).
+- Gain hands-on experience with at least one major cloud platform like AWS, Azure, or GCP, including compute, storage, and database services.
+
+						
+⚠️ Common Mistakes to Avoid
+- Using mutable default arguments: Mutable defaults (like lists or dictionaries) are created once when the function is defined, causing unintended changes on subsequent calls.
+- https://www.thinktanker.io/common-mistakes-to-avoid-while-hiring-python-developers-in-india/
+- Confusing is with ==: The is operator checks for object identity (the same object in memory), while == checks for value equality. This can cause subtle bugs when comparing values.
+- https://www.simplilearn.com/tutorials/python-tutorial/errors-in-python
+- Modifying a list while iterating: Changing the size of a list while looping over it can lead to elements being skipped or other unpredictable results.
+- https://pitangent.com/python-developer/avoiding-mistakes-hiring-python-developers/
+- Inefficient string concatenation: Using the += operator in a loop to build a string is inefficient because it creates a new string object on every iteration.
+- https://www.shiksha.com/online-courses/articles/python-development-blunders-to-avoid/
+- Reinventing the wheel: Python has a rich standard library with built-in functions and data structures that can often perform tasks more efficiently than custom code.
+- https://www.quora.com/What-are-the-most-common-mistakes-junior-Python-developers-should-avoid
+
+
+
+

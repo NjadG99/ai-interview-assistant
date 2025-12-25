@@ -1,0 +1,90 @@
+wipro_python_developer
+
+📌 Interview Questions + Answers
+1. Q: How can we make forms in Python?
+   A: To make form in Python
+      User can enter the details for username, password; and click on Login button. Once the button is clicked, a function is called to validate the credentials. Here, in this function, you have to write your business logic to validate the username and password.
+
+2. Q: What are the benefits of Python?
+   A: Easier to learn, write and understand the code – Python is really easy to pick up and learn similar to English language, so lot of people recommend Python to beginners
+
+3. Q: What are the key features of Python?
+   A: Easy to code and use
+Free and Open Source
+Object-Oriented and high level Language
+GUI Programming Support
+Extensible feature
+Portable and Integrated language
+
+4. Q: What type of language is Python? Programming or Scripting?
+   A: Python is considered a scripting language because of a historical blur between scripting languages and general purpose programming languages. In fact, Python is not a scripting language, but a general purpose programming language that also works nicely as a scripting language. It is also an interpreted and high-level programming language for the purpose of general programming requirements.
+
+5. Q: What are the applications of Python?
+   A: Web and Internet Development.
+Scientific and Numeric Applications.
+Education and training programs.
+Artificial intelligence and Machine learning.
+Software and Game Development.
+Business Application.
+
+6. Q: What is the difference between list and tuple in Python?
+   A: Lists and tuples are data structures in Python whereas the main difference is lists are mutable while tuples are immutable. A list has a variable size while a tuple has a fixed size.
+
+7. Q: What are the global and local variables in Python?
+   A: There are two types of variables: global variables and local variables. The scope of global variables is the entire program whereas the scope of local variable is limited to the function where it is defined.
+
+
+8. Q: How can Python be an interpreted language?
+   A: Python is called an interpreted language because it goes through an interpreter, which turns code you write into the language understood by your computer’s processor.
+
+9. Q: What is a boolean in Python?
+   A: The python data type bool is used to store two values i.e. True and False. Bool is used to test whether the result of an expression is true or false.
+
+10.Q: What are the two major loop statements?
+   A: The group of statements being executed repeatedly is called a loop. There are two loop statements in Python: for and while.
+
+
+📚 Study Material
+- https://www.scribd.com/document/588521134/Python-by-Wipro
+- Coding Platforms: Regularly practice coding challenges on platforms like HackerRank, LeetCode, or Naukri Code 360 to improve problem-solving skills and efficiency.
+- https://www.ambitionbox.com/interviews/wipro-interview-questions/python-software-developer
+- Context Managers: Using with statements for resource management.
+- https://pg-p.ctme.caltech.edu/blog/coding/wipro-interview-questions-answers
+- DevOps/Automation: Understanding how Python can be used for scripting, automation, and cloud interactions.
+- https://prepinsta.com/wipro-coding-questions/
+- Error Handling: try-except blocks and exception handling.
+- https://entri.app/blog/wipro-python-interview-questions-for-freshers/
+- https://www.naukri.com/code360/library/wipro-preparation-guide
+
+
+💡 Tips
+- Decorators: Understanding how to use and create decorators for modifying function behavior.
+- Wipro-Specific Questions: Review common Wipro interview questions for Python developers to understand the types of technical concepts and coding problems they typically ask.
+- Data Science/Machine Learning: If the role is in these areas, focus on libraries like NumPy, Pandas, Scikit-learn, and potentially deep learning frameworks.
+- Projects: Work on personal projects to apply your knowledge and gain practical experience.
+- Decorators: Understanding how to use and create decorators for modifying function behavior.
+- Technical Explanations: Be able to clearly articulate technical concepts and your approach to problem-solving.
+- Generators and Iterators: Efficient handling of large datasets.
+- Communication Skills: Practice discussing your projects and experiences effectively.
+- DevOps/Automation: Understanding how Python can be used for scripting, automation, and cloud interactions.
+- If the role involves web development, understanding frameworks like Django or Flask, and concepts like HTTP, APIs, and databases (SQL, NoSQL).
+
+						
+⚠️ Common Mistakes to Avoid
+- Incorrect Indentation: Python relies on indentation for code blocks. Inconsistent or incorrect indentation leads to IndentationError and makes code difficult to read.
+- Neglecting Code Readability: Writing cryptic or overly complex code without comments or clear variable names hinders understanding and maintenance.
+- Not Using Docstrings: Failing to document functions, classes, and modules with docstrings makes it challenging for others (and your future self) to understand their purpose and usage.
+- Inconsistent Naming Conventions: Not adhering to PEP 8 guidelines for variable, function, and class naming (e.g., snake_case for variables/functions, CamelCase for classes) reduces consistency.
+- Not Handling Exceptions: Failing to implement try-except blocks for potential errors (like ZeroDivisionError, FileNotFoundError) can lead to program crashes.
+- Overusing Global Variables: Excessive use of global variables can make code harder to reason about, test, and debug.
+- Ignoring Computational Complexity: Not considering the time and space complexity of algorithms can lead to performance bottlenecks, especially with large datasets.
+- Using Inefficient Data Structures: Choosing the wrong data structure for a task (e.g., using a list for frequent lookups instead of a dictionary or set) can impact performance.
+- Hiding Errors: Catching broad exceptions without specific handling or logging can mask underlying issues, making debugging difficult.
+- Modifying Lists While Iterating: Modifying a list while iterating over it can lead to unexpected behavior and bugs. Consider creating a new list or using list comprehensions.
+
+
+
+
+
+
+	

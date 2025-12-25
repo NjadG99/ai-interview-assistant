@@ -1,0 +1,81 @@
+cognizant_python_developer
+
+📌 Interview Questions + Answers
+1. Q: What is the use of break statement?
+   A: Break Statement is a loop control statement that is used to terminate the loop. As soon as the break statement is encountered from within a loop, the loop iterations stop there, and control returns from the loop immediately to the first statement after the loop.
+
+2. Q: What is tuple in Python?
+   A: A tuple is created by placing all the items (elements) inside parentheses () , separated by commas. The parentheses are optional, however, it is a good practice to use them.
+
+3. Q: What is an operator in Python?
+   A: Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand.
+
+4. Q: Is Python interpreted language?
+   A: For the most part, Python is an interpreted language and not a compiled one, although compilation is a step. Python code, written in . py file is first compiled to what is called bytecode (discussed in detail further) which is stored with a . pyc or.
+
+5. Q: How can we handle URLs in Django?
+   A: Django runs through each URL pattern, in order, and stops at the first one that matches the requested URL, matching against path_info . Once one of the URL patterns matches, Django imports and calls the given view, which is a Python function (or a class-based view).
+
+6. Q: Can we make multi-line comments in Python?
+   A: There is no such feature as a multi-line comment. # is the only way to comment a single line of code.
+
+7. Q: Which programming language is a good choice between Java and Python?
+   A: Java may be a more popular option, but Python is widely used. People from outside the development industry have also used Python for various organizational purposes. Similarly, Java is comparatively faster, but Python is better for lengthy programs.
+
+8. Q: What can we do with the Django framework?
+   A: Django applications can contain Python modules, Django-specific modules (views, URLs, models, admin, forms, template tags, etc), static files, templates, database migrations, management commands, unit tests, and more.
+
+9. Q: Why do we use a cookie in Django?
+   A: A cookie is a small piece of information which is stored in the client browser. It is used to store user’s data in a file permanently (or for the specified time). Django provides built-in methods to set and fetch cookie. .
+
+10.Q: How can we access sessions in flask?
+   A: To release a session variable use pop() method. The following code is a simple demonstration of session works in Flask. URL ‘/’ simply prompts user to log in, as session variable ‘username’ is not set.
+
+📚 Study Material
+- https://www.credosystemz.com/cognizant-python-interview-questions/
+- https://topmate.io/code_bashers/1682798
+- https://www.ambitionbox.com/interviews/cognizant-interview-questions/python-developer
+- https://www.scribd.com/document/886257057/Cognizant-GenC-Python-Cheat-Sheet
+- https://prepinsta.com/cognizant/coding-questions/
+- Syntax and Basics: Variables, data types (integers, floats, strings, booleans), operators, conditional statements (if/elif/else), loops (for, while).
+- https://www.scribd.com/document/895057132/Coding-Questions-TCS-Cognizant-2025-Python
+- Data Structures: Lists, tuples, dictionaries, sets, and their respective methods and use cases.
+- https://www.youtube.com/watch?v=M6ANJxUcw_Y
+- Arrays/Lists: Searching (linear, binary), sorting (bubble, insertion, merge, quick).
+
+
+💡 Tips
+- Have a strong grasp of Python syntax, data types (lists, tuples, dictionaries, sets), control flow (loops, conditionals), and functions.
+- Understand classes, objects, inheritance, polymorphism, and encapsulation. Python is an OOP language, and leveraging these concepts is crucial for building robust applications.
+- Be proficient in using and creating Python modules and packages for code organization and reusability.
+- Familiarize yourself with common data structures like arrays, linked lists, stacks, queues, trees, and graphs.
+- Develop problem-solving skills by practicing various algorithms, including sorting, searching, and dynamic programming. This is frequently assessed in technical interviews.
+- Gain expertise in essential Python libraries relevant to your role, such as NumPy and Pandas for data manipulation, or requests for web interactions.
+- If working on web development, learn frameworks like Django or Flask.
+- Depending on the project, delve into libraries for areas like machine learning (Scikit-learn, TensorFlow, PyTorch), data visualization (Matplotlib, Seaborn), or automation.
+- Adhere to PEP 8 style guidelines for readable and maintainable code.
+- Understand how to write unit tests and effectively debug Python programs using tools like PDB.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.quora.com/What-are-the-most-common-mistakes-junior-Python-developers-should-avoid
+- Python has a vast and powerful standard library and a massive ecosystem of third-party packages. Developers often waste time writing custom solutions for problems that have already been solved and optimized. 
+- https://medium.com/@huzaifazahoor654/10-mistakes-newbie-python-developers-make-aaa4d6ca3b7d
+- Writing a custom sorting algorithm or a function to parse Excel files from scratch.
+- https://www.thinktanker.io/common-mistakes-to-avoid-while-hiring-python-developers-in-india/
+- Inconsistent indentation, poor variable naming, and lines that are too long.
+- https://pitangent.com/python-developer/avoiding-mistakes-hiring-python-developers/
+- Not committing frequently, writing bad commit messages, or failing to use branches for new features.
+- https://www.topsinfosolutions.com/blog/mistakes-to-avoid-when-hiring-python-developers/
+- https://www.interserver.net/tips/kb/avoid-common-mistakes-python-cheat-sheet/
+
+
+
+
+
+
+
+
+
+
+	

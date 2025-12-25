@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Hire-Ready</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+            color: #1a1a1a;
+        }
+
+        /* Particles Background */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            z-index: -1;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .navbar:hover {
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #1a1a1a;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #1a1a1a;
+            font-weight: 500;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #667eea;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .btn-get-started {
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-get-started::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: left 0.5s ease;
+        }
+
+        .btn-get-started:hover::before {
+            left: 100%;
+        }
+
+        .btn-get-started:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 20px 60px;
+            text-align: center;
+            animation: fadeInUp 1s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-size: 58px;
+            color: white;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #fff 0%, #e0e7ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Main Features Section */
+        .main-features {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 80px;
+            animation: fadeInUp 1s ease 0.2s backwards;
+        }
+
+        .features-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 60px;
+        }
+
+        .feature-large-card {
+            background: white;
+            border-radius: 24px;
+            padding: 60px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .feature-large-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: 0;
+        }
+
+        .feature-large-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-large-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            box-shadow: 0 25px 60px rgba(102, 126, 234, 0.25);
+        }
+
+        .feature-icon-large {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            margin-bottom: 30px;
+            transition: all 0.4s ease;
+            position: relative;
+            z-index: 1;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .feature-large-card:hover .feature-icon-large {
+            transform: scale(1.15) rotate(5deg);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5);
+        }
+
+        .feature-large-card h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+            position: relative;
+            z-index: 1;
+            transition: color 0.3s ease;
+        }
+
+        .feature-large-card:hover h2 {
+            color: #667eea;
+        }
+
+        .feature-large-card p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.8;
+            position: relative;
+            z-index: 1;
+            margin-bottom: 30px;
+        }
+
+        .try-now-btn {
+            padding: 16px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .try-now-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: width 0.6s ease, height 0.6s ease;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .try-now-btn:hover::before {
+            width: 400px;
+            height: 400px;
+        }
+
+        .try-now-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Additional Info Section */
+        .additional-info {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 80px 80px 100px;
+            text-align: center;
+        }
+
+        .additional-info h2 {
+            font-size: 42px;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+
+        .additional-info p {
+            font-size: 18px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            line-height: 1.7;
+        }
+
+        .gradient-text-dark {
+        color: #000000;
+        font-weight: 700;
+        }
+
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .info-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-card::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .info-card:hover::after {
+            opacity: 1;
+        }
+
+        .info-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.2);
+        }
+
+        .info-icon {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .info-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+        }
+
+        .info-card p {
+            color: #666;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        /* Responsive Design */
+            @media (max-width: 768px) {
+                .navbar {
+                    padding: 15px 20px;
+                }
+
+                .nav-links {
+                    gap: 20px;
+                    font-size: 14px;
+                }
+
+                .hero h1 {
+                    font-size: 36px;
+                }
+
+                .hero p {
+                    font-size: 16px;
+                }
+
+                .main-features, .additional-info {
+                    padding: 60px 20px;
+                }
+
+                .features-container {
+                    grid-template-columns: 1fr;
+                    gap: 40px;
+                }
+
+                .feature-large-card {
+                    padding: 40px;
+                }
+
+                .feature-large-card h2 {
+                    font-size: 26px;
+                }
+
+                .info-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+        /* Scroll animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="/" class="logo">Hire-Ready</a>
+        <ul class="nav-links">
+            <li><a href="features.html" class="active">Features</a></li>
+            <li><a href="hire-ready-ai.html">Hire Ready Assistance</a></li>
+            <li><a href="mock-interview.html">Mock Interview</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <a href="features.html" class="btn-get-started">Get Started</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1><span class="gradient-text">Features</span></h1>
+        <p>Discover comprehensive tools and AI-powered solutions designed to elevate your engineering interview preparation to the next level.</p>
+    </section>
+
+    <!-- Main Features Section -->
+    <section class="main-features fade-in">
+        <div class="features-container">
+            <!-- AI Assistant Card -->
+            <div class="feature-large-card">
+                
+                <h2>AI Assistant</h2>
+                <p>Your personal AI coach to guide, mentor, and prepare you for every interview. Get personalized recommendations and real-time feedback tailored to your engineering role.</p>
+                <a href="hire-ready-ai.html" class="try-now-btn">Try Now</a>
+            </div>
+
+            <!-- Mock Interview Card -->
+            <div class="feature-large-card">
+                
+                <h2>Mock Interview</h2>
+                <p>Practice interviews in real time, improve your answers, and boost confidence. Experience realistic interview scenarios with instant performance analytics.</p>
+                <a href="mock-interview.html" class="try-now-btn">Try Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Info Section -->
+   <!-- Additional Info Section -->
+<section class="additional-info fade-in">
+    <h2>Everything You Need to <span class="gradient-text-dark">Succeed</span></h2>
+    <p>Our comprehensive platform provides all the tools and resources necessary for mastering technical interviews.</p>
+    
+    <div class="info-grid">
+        <!-- Row 1: Three Cards -->
+        <div class="info-card">
+            <h3>Real-time Practice</h3>
+            <p>Simulate actual interview conditions with voice-based interactions and get instant AI-generated responses.</p>
+        </div>
+        <div class="info-card">
+            <h3>Intelligent Feedback</h3>
+            <p>Get intelligent insights on your technical answers, communication style, and areas for improvement.</p>
+        </div>
+        <div class="info-card">
+            <h3>Instant Analysis</h3>
+            <p>Receive immediate, actionable feedback on your responses to help you improve faster and more effectively.</p>
+        </div>
+
+        <!-- Row 2: Two Centered Cards -->
+        <div class="row-center" style="grid-column: 1 / -1; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <div class="info-card" style="flex: 1 1 300px; max-width: 360px;">
+                <h3>24/7 Availability</h3>
+                <p>Practice anytime, anywhere at your own pace. No scheduling required—perfect for busy CS students.</p>
+            </div>
+            <div class="info-card" style="flex: 1 1 300px; max-width: 360px;">
+                <h3>Student Focused</h3>
+                <p>Designed specifically for CS engineering students with content tailored to modern tech industry requirements.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Particles.js Library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script>
+        // Particles.js Configuration
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: '#ffffff'
+                },
+                shape: {
+                    type: 'circle',
+                    stroke: {
+                        width: 0,
+                        color: '#000000'
+                    }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: {
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 2,
+                        size_min: 0.1,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: '#ffffff',
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 1200
+                    }
+                }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'grab'
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push'
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 140,
+                        line_linked: {
+                            opacity: 1
+                        }
+                    },
+                    push: {
+                        particles_nb: 4
+                    }
+                }
+            },
+            retina_detect: true
+        });
+
+        // Scroll Animation Observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                navbar.style.padding = '15px 80px';
+            } else {
+                navbar.style.padding = '20px 80px';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Ready Assistance - HireReady</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1a1a1a;
+            overflow-x: hidden;
+        }
+
+        /* Background animation */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            z-index: -1;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .navbar:hover {
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #1a1a1a;
+            font-weight: 500;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #667eea;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .btn-get-started {
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-get-started::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: left 0.5s ease;
+        }
+
+        .btn-get-started:hover::before {
+            left: 100%;
+        }
+
+        .btn-get-started:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 120px 20px 60px;
+            color: white;
+            animation: fadeInUp 1s ease;
+        }
+
+        .header h1 {
+            font-size: 58px;
+            line-height: 1.2;
+            background: linear-gradient(135deg, #fff 0%, #e0e7ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+
+        .header p {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Content Sections */
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 24px;
+            padding: 80px;
+            margin: 60px auto;
+            max-width: 1200px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            animation: fadeInUp 1s ease 0.3s backwards;
+        }
+
+        .content h2 {
+            font-size: 36px;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.8;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* AI Interface */
+        .ai-interface {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 24px;
+            padding: 60px;
+            margin: 60px auto;
+            max-width: 1200px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .ai-interface::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .ai-interface:hover::before {
+            left: 100%;
+        }
+
+        .ai-interface:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15);
+        }
+
+        /* Control Panel */
+        .control-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+            font-size: 1rem;
+        }
+
+        .form-select, .form-input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            border-radius: 12px;
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        .form-select:focus, .form-input:focus {
+            outline: none;
+            border-color: #667eea;
+            background: rgba(255, 255, 255, 1);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+        }
+
+        /* Action Buttons */
+        .actions-section {
+            margin: 30px 0;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .actions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .btn-action {
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid rgba(102, 126, 234, 0.3);
+            color: #1a1a1a;
+            padding: 18px 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 0.95rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .btn-action::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
+            transition: left 0.4s ease;
+        }
+
+        .btn-action:hover::before {
+            left: 100%;
+        }
+
+        .btn-action:hover {
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+        }
+
+        /* Content Display */
+        .content-display {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            color: #333;
+            min-height: 200px;
+            border: 1px solid rgba(102, 126, 234, 0.1);
+            line-height: 1.6;
+        }
+
+        .content-text {
+            white-space: pre-wrap;
+        }
+
+        /* Chat Interface */
+        .chat-section {
+            margin-top: 30px;
+        }
+
+        .chat-interface {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid rgba(102, 126, 234, 0.1);
+        }
+
+        .chat-message {
+            margin-bottom: 15px;
+            padding: 12px 16px;
+            border-radius: 12px;
+            line-height: 1.5;
+        }
+
+        .user-message {
+            background: rgba(102, 126, 234, 0.1);
+            margin-left: 40px;
+            color: #667eea;
+            border-left: 3px solid #667eea;
+        }
+
+        .ai-message {
+            background: rgba(118, 75, 162, 0.1);
+            margin-right: 40px;
+            color: #764ba2;
+            border-left: 3px solid #764ba2;
+        }
+
+        /* Input Group */
+        .input-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+            align-items: flex-end;
+        }
+
+        .input-group input {
+            flex: 1;
+        }
+
+        /* Primary Send Button */
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 12px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            font-family: inherit;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .btn-primary:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        /* Status Messages */
+        .status-message {
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+
+        .status-info {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            border-left: 4px solid #667eea;
+        }
+
+        .status-error {
+            background: rgba(255, 100, 100, 0.1);
+            color: #ff6464;
+            border-left: 4px solid #ff6464;
+        }
+
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 15px 20px;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .ai-interface {
+                padding: 40px 20px;
+            }
+
+            .control-panel {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .header h1 {
+                font-size: 42px;
+            }
+            
+            .actions-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .input-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .chat-message.user-message {
+                margin-left: 10px;
+            }
+
+            .chat-message.ai-message {
+                margin-right: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .ai-interface {
+                padding: 25px 20px;
+            }
+        }
+
+        /* Animation for scroll reveal */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="/" class="logo">Hire-Ready</a>
+        <ul class="nav-links">
+            <li><a href="features.html">Features</a></li>
+            <li><a href="hire-ready-ai.html" class="active">Hire Ready Assistance</a></li>
+            <li><a href="mock-interview.html">Mock Interview</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <a href="features.html" class="btn-get-started">Get Started</a>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="header">
+        <h1>AI Assistant</h1>
+        <p>Your personal AI coach to guide, mentor, and prepare you for every interview. Get personalized recommendations and real-time feedback.</p>
+    </section>
+
+    <!-- Main Content -->
+    <section class="ai-interface fade-in">
+        <!-- Control Panel -->
+        <div class="control-panel">
+            <div class="form-group">
+                <label class="form-label" for="companySelect">Select Company:</label>
+                <select id="companySelect" class="form-select">
+                    <option value="">Loading companies...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="roleSelect">Select Role:</label>
+                <select id="roleSelect" class="form-select" disabled>
+                    <option value="">Select company first</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="actions-section">
+            <h3 class="section-title">What would you like to explore?</h3>
+            <div class="actions-grid">
+                <button class="btn-action" onclick="loadContent('interview_questions')">
+                    📌 Interview Questions
+                </button>
+                <button class="btn-action" onclick="loadContent('study_material')">
+                    📚 Study Material
+                </button>
+                <button class="btn-action" onclick="loadContent('tips')">
+                    💡 Interview Tips
+                </button>
+                <button class="btn-action" onclick="loadContent('common_mistakes')">
+                    ⚠️ Common Mistakes
+                </button>
+            </div>
+        </div>
+
+        <!-- Content Display -->
+        <div class="content-display" id="contentDisplay">
+            <div class="status-message status-info">
+                <strong>Welcome to HireReady AI Assistant!</strong><br>
+                Select a company and role above, then choose a section to view personalized content. You can also chat with our AI for specific questions.
+            </div>
+        </div>
+
+        <!-- Loading Animation -->
+        <div class="loading" id="loading">
+            <p>🤖 AI is preparing your content...</p>
+        </div>
+
+        <!-- Chat Section -->
+        <div class="chat-section">
+            <h3 class="section-title">Chat with AI Assistant</h3>
+
+            <!-- Chat Interface -->
+            <div class="chat-interface" id="chatInterface">
+                <div class="chat-message ai-message">
+                    <strong>AI Assistant:</strong> Hello! I'm your personal interview coach. I can help you with interview preparation, provide company-specific insights, and answer any questions you have. How can I assist you today?
+                </div>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="input-group">
+                <input type="text" id="chatInput" class="form-input" placeholder="Ask me about interview preparation, company insights, or specific questions..." />
+                <button class="btn-primary" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let selectedCompany = '';
+        let selectedRole = '';
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            loadCompanies();
+            setupEventListeners();
+            initializeScrollAnimation();
+        });
+
+        // Load companies from API
+        async function loadCompanies() {
+            try {
+                const response = await fetch('/api/companies');
+                const companies = await response.json();
+
+                const companySelect = document.getElementById('companySelect');
+                companySelect.innerHTML = '<option value="">Select a company</option>';
+
+                companies.forEach(company => {
+                    const option = document.createElement('option');
+                    option.value = company;
+                    option.textContent = company;
+                    companySelect.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Error loading companies:', error);
+                document.getElementById('companySelect').innerHTML = '<option value="">Error loading companies</option>';
+            }
+        }
+
+        // Load roles for selected company
+        async function loadRoles(company) {
+            if (!company) {
+                document.getElementById('roleSelect').innerHTML = '<option value="">Select company first</option>';
+                document.getElementById('roleSelect').disabled = true;
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/roles/${encodeURIComponent(company)}`);
+                const roles = await response.json();
+
+                const roleSelect = document.getElementById('roleSelect');
+                roleSelect.innerHTML = '<option value="">Select a role</option>';
+                roleSelect.disabled = false;
+
+                roles.forEach(role => {
+                    const option = document.createElement('option');
+                    option.value = role;
+                    option.textContent = role;
+                    roleSelect.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Error loading roles:', error);
+                document.getElementById('roleSelect').innerHTML = '<option value="">Error loading roles</option>';
+            }
+        }
+
+        // Load content for selected section
+        async function loadContent(sectionType) {
+            if (!selectedCompany || !selectedRole) {
+                showStatusMessage('Please select both company and role first.', 'error');
+                return;
+            }
+
+            const contentDisplay = document.getElementById('contentDisplay');
+            const loading = document.getElementById('loading');
+
+            loading.classList.add('show');
+
+            try {
+                const response = await fetch('/api/content', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        company: selectedCompany,
+                        role: selectedRole,
+                        section_type: sectionType
+                    })
+                });
+
+                const data = await response.json();
+                contentDisplay.innerHTML = `<div class="content-text">${data.content}</div>`;
+            } catch (error) {
+                console.error('Error loading content:', error);
+                contentDisplay.innerHTML = '<div class="status-message status-error">Error loading content. Please try again.</div>';
+            } finally {
+                loading.classList.remove('show');
+            }
+        }
+
+        // Send chat message
+        async function sendMessage() {
+            const chatInput = document.getElementById('chatInput');
+            const message = chatInput.value.trim();
+
+            if (!message) return;
+
+            const chatInterface = document.getElementById('chatInterface');
+
+            // Add user message
+            const userMessage = document.createElement('div');
+            userMessage.className = 'chat-message user-message';
+            userMessage.innerHTML = `<strong>You:</strong> ${message}`;
+            chatInterface.appendChild(userMessage);
+
+            // Clear input
+            chatInput.value = '';
+
+            // Show loading
+            const loading = document.getElementById('loading');
+            loading.classList.add('show');
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        company: selectedCompany,
+                        role: selectedRole
+                    })
+                });
+
+                const data = await response.json();
+
+                // Add AI response
+                const aiMessage = document.createElement('div');
+                aiMessage.className = 'chat-message ai-message';
+                aiMessage.innerHTML = `<strong>AI Assistant:</strong> ${data.response || data.error}`;
+                chatInterface.appendChild(aiMessage);
+
+                // Scroll to bottom
+                chatInterface.scrollTop = chatInterface.scrollHeight;
+            } catch (error) {
+                console.error('Error sending message:', error);
+                const errorMessage = document.createElement('div');
+                errorMessage.className = 'chat-message ai-message';
+                errorMessage.innerHTML = `<strong>AI Assistant:</strong> Sorry, I encountered an error. Please try again.`;
+                chatInterface.appendChild(errorMessage);
+            } finally {
+                loading.classList.remove('show');
+            }
+        }
+
+        // Show status messages
+        function showStatusMessage(message, type = 'info') {
+            const contentDisplay = document.getElementById('contentDisplay');
+            const className = type === 'error' ? 'status-error' : 'status-info';
+            contentDisplay.innerHTML = `<div class="status-message ${className}">${message}</div>`;
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            document.getElementById('companySelect').addEventListener('change', function() {
+                selectedCompany = this.value;
+                selectedRole = '';
+                document.getElementById('roleSelect').value = '';
+                loadRoles(selectedCompany);
+            });
+
+            document.getElementById('roleSelect').addEventListener('change', function() {
+                selectedRole = this.value;
+            });
+
+            document.getElementById('chatInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+        }
+
+        // Initialize scroll animations
+        function initializeScrollAnimation() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.fade-in').forEach(el => {
+                observer.observe(el);
+            });
+        }
+    </script>
+
+    <!-- Particle.js Script -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: { type: "circle" },
+                opacity: { value: 0.5 },
+                size: { value: 3 },
+                line_linked: { enable: true, color: "#ffffff", opacity: 0.4 },
+                move: { enable: true, speed: 3 }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: { enable: true, mode: "repulse" },
+                    onclick: { enable: true, mode: "push" },
+                    resize: true
+                }
+            },
+            retina_detect: true
+        });
+    </script>
+</body>
+</html>

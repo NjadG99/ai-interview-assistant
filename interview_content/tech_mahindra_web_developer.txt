@@ -1,0 +1,72 @@
+tech_mahindra_web_developer
+
+📌 Interview Questions + Answers
+1. Q: What is GSC?
+   A: GSC stands for Google Search Console, a tool for monitoring and optimizing website performance in Google search results.
+
+2. Q: What are Google Ads?
+   A: Google Ads is an online advertising platform that allows businesses to create ads and display them on Google search results and partner sites.
+
+3. Q: Why are you using Bootstrap?
+   A: Bootstrap is a popular front-end framework for building responsive and mobile-first websites.
+
+4. Q: What is the importance of HTML?
+   A: HTML is important for creating the structure of web pages and displaying content on the internet.
+
+5. Q: How does React handle forms?
+   A: React handles forms using controlled components and state management.
+
+6. Q: What is HTML important of html
+   A: HTML is important for creating the structure of web pages and displaying content on the internet.
+
+7. Q: Write code demonstrating the use of async-await.
+   A: An async/await function simplifies working with promises in JavaScript, making asynchronous code easier to read and write.
+
+8. Q: What is the comment syntax in JavaScript?
+   A: In JavaScript, comments are used to annotate code and improve readability without affecting execution.
+
+9. Q: What is the use of 'never' in TypeScript?
+   A:  The 'never' type in TypeScript represents a value that will never occur.
+
+10.Q: What are the three stages of event propagation?
+   A: Event propagation consists of three stages: capturing, target, and bubbling.
+
+
+📚 Study Material
+- https://www.smart-academy.in/course/
+- Front-end development: Master HTML, CSS, and JavaScript. Specific interview questions often cover these fundamental languages
+- https://prepinsta.com/tech-mahindra-placement-papers/computer-science/
+- Back-end development: Tech Mahindra hires for various tech stacks. 
+- https://prepinsta.com/tech-mahindra-placement-papers/computer-science/
+- Java: A widely used language, especially when combined with frameworks like Spring Boot and Java 2 Platform, Enterprise Edition (J2EE).
+- https://www.scribd.com/document/785076870/Tech-Mahindra
+- NET: Proficiency with the .NET framework, C#, and ASP.NET Core is required for full-stack developer roles.
+- https://www.studocu.com/in/document/tech-mahindra-smart-academy/css-introduction/tech-mdigital-101-test/59183513
+- Node.js: A common back-end environment for JavaScript-based development.
+
+
+💡 Tips
+- Master HTML, CSS, and JavaScript, as these are fundamental to web development.
+- Given Tech Mahindra's focus, a strong understanding of core Java, collections, and web servers is crucial, especially for back-end roles. 
+- Be prepared to discuss Spring and Spring Boot, which are popular frameworks for building web applications. 
+- Have a solid understanding of database concepts and SQL for data management. 
+- Familiarize yourself with RESTful APIs and SOAP services for building web services. 
+- Clearly list your technical skills and ensure your resume includes at least one significant project you can discuss in detail. 
+- Create a crisp resume that emphasizes your most relevant skills and experiences, as recruiters often spend only a few seconds reviewing it. 
+- Practice aptitude problems and be proficient in coding to clear the technical assessment rounds. 
+- Take mock assessments to get comfortable with the test format and improve your time management. 
+- Be confident, communicate clearly, stay on topic, and show enthusiasm for the role and company. 
+
+						
+⚠️ Common Mistakes to Avoid
+- https://cio.techgig.com/upskilling-at-techgig/5-mistakes-beginners-must-avoid-when-learning-web-development/articleshow_b2b/81934692.cms
+- https://www.developers.dev/tech-talk/what-are-the-8-mistakes-companies-make-when-hiring-web-developers.html
+- Failing to define clear goals: Starting to code without a solid plan can lead to misaligned priorities and scope creep. Before writing a single line of code, understand the project requirements, target audience, and desired user experience (UX).https://www.reddit.com/r/learnprogramming/comments/j0y5zy/top_mistakes_while_learning_web_development_and/
+- Ignoring a mobile-first approach: With a majority of internet traffic coming from mobile devices, designing only for desktops is a cardinal sin.
+- https://www.interviewbit.com/blog/web-stories/8-common-mistakes-to-avoid-in-your-tech-mahindra-interview/
+- Underestimating timelines: Beginners often underestimate the time and complexity required to deliver a polished, market-ready product.
+- https://medium.com/@ignatovich.dm/common-mistakes-web-developers-make-and-how-to-avoid-them-85be0bb953dc
+- Writing poorly structured or "spaghetti" code: Unorganized, hard-to-read code is difficult to maintain and debug.
+- https://www.linkedin.com/pulse/avoid-10-common-pitfalls-web-development-ishan-bagchi-o6i4f
+- https://www.scholarhat.com/tutorial/interview/tech-mahindra-interview-questions
+

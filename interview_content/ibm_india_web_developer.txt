@@ -1,0 +1,79 @@
+=== IBM India – Web Developer ===
+
+📌 Interview Questions + Answers
+1. Q: What is important for web developer?
+   A: A web developer should have knowledge of programming languages, web development frameworks, and design principles.
+
+2. Q: What is process scheduling, and how does it work?
+   A: Process scheduling is a key function of an operating system (OS) that manages how processes (running programs) are assigned to the CPU.
+
+3. Q: What is CORS and how do you handle it in Express?
+   A: CORS (Cross-Origin Resource Sharing) is a browser security feature that restricts cross-origin HTTP requests.
+
+4. Q: What is REST?
+   A: REST is an architectural style for designing APIs using HTTP methods (GET, POST, PUT, DELETE).
+
+5. Q: What is the difference between props and state in React?
+   A: Props are inputs passed to a component from a parent.
+      State is a local data storage that is mutable within the component.
+
+6. Q: How does useEffect work in React?
+   A: useEffect is a hook that lets you perform side effects like data fetching, DOM updates, or subscriptions in functional components. 
+
+7. Q: What is the difference between PUT and PATCH?
+   A: PUT replaces the entire resource.
+      PATCH updates part of the resource.
+
+8. Q: How does middleware work in Express?
+   A: Middleware functions in Express are functions that have access to the request, response, and next() function.
+
+9.Q: What is the Virtual DOM and how does React use it?
+  A: The Virtual DOM is a lightweight JavaScript object that is a copy of the real DOM. React uses it to optimize UI rendering. 
+
+10.Q: What is event bubbling and how do you stop it?
+   A: Event bubbling is the process where an event starts at the target element and bubbles up to its ancestors.
+
+
+📚 Study Material
+- Programming languages: Java, Python, C++, and JavaScript are essential for web development.
+- IBM Front-End Developer Professional Certificate: This program covers HTML, CSS, JavaScript, and React, providing hands-on experience and a certificate from IBM.
+- PrepInsta: Offers IBM coding questions and answers, including topics like data structures, algorithms, and computer networks.
+- IBM SkillsBuild: Provides free learning resources for web development basics, including terminology, roles, and coding languages like HTML, CSS, and JavaScript.
+- IIBM India: Offers a Master Program in Full Stack Web Development with interactive online learning and guidance ¹ ² ³.
+- Web development frameworks: Learn about frameworks like Spring, Hibernate, or React, which are commonly used in web development.
+- Database management: Understand database concepts, SQL, and NoSQL databases.
+
+
+💡 Tips for IBM India
+- Revise React fundamentals (especially hooks and state management).
+- Practice coding problems on HackerRank or LeetCode.
+- Know your resume projects well – IBM often dives deep into them.
+- Mock interviews help – focus on clear communication and explaining your thought process.
+- Coding challenges: Practice coding challenges to improve problem-solving skills.
+- Personal projects: Build personal projects to showcase web development skills.
+- Collaborative projects: Participate in collaborative projects to gain experience working with teams.
+- focus on building strong technical skills, especially in cloud technologies like AWS, Azure, or IBM Cloud
+- Be able to clearly articulate your ideas and approach to problem-solving during interviews. 
+- Highlight your ability to collaborate effectively with others. 
+
+
+ 
+
+
+⚠️ Common Mistakes to Avoid
+- Jumping into coding without a clear plan, leading to a disorganized and inefficient development process.
+- Writing messy, non-semantic HTML and CSS, using inconsistent naming conventions, and failing to adhere to coding standards.
+- Ignoring security best practices.
+- Skipping testing or only performing basic testing, leading to bugs and issues in the live application. 
+- Building applications that cannot handle increased traffic or data volume, leading to performance issues or system failures.
+- Failing to document code, APIs, and the overall application architecture, making it difficult for others to understand and maintain the code.
+- Failing to keep up with the latest technologies, tools, and security best practices, leading to outdated and potentially vulnerable applications.
+- Forgetting to catch and handle errors in API calls.
+- Using console.log() for debugging but never implementing real error handling.
+- Using inefficient algorithms or unnecessary re-renders in React.
+
+
+
+
+
+

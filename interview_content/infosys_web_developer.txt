@@ -1,0 +1,85 @@
+=== Infosys – Web Developer ===
+
+📌 Interview Questions + Answers
+1. Q: What is the difference between id and class in HTML?
+   A: id is a unique identifier for an element (only used once per page).
+      class is used to apply styles to multiple elements.
+
+2. Q: What are semantic HTML elements?
+   A: Semantic elements clearly describe their meaning (e.g., <article>, <section>, <header>, <footer>), making code more readable and SEO-friendly.
+
+3. Q: What is the Virtual DOM and how does it work?
+   A: The Virtual DOM (VDOM) is a lightweight, in-memory copy of the real DOM used by libraries like React to improve UI performance.
+
+4. Q: What are React hooks?
+   A: React Hooks are functions introduced in React 16.8 that let you use state, lifecycle methods, and other React features in functional components—without writing a class.
+
+5. Q: What is prop drilling and how do you avoid it?
+   A: Prop drilling refers to the process of passing props through multiple intermediate components that do not need them, just to get the data to a deeply nested child component.
+
+6. Q: How do you manage state in large applications?
+   A: Managing state in large apps involves organizing data efficiently, minimizing prop drilling, and ensuring predictable, scalable updates. 
+
+7. Q: What are the differences between <div> and <span> elements?
+   A: <div> and <span> are two of the most commonly used HTML elements, but they serve different purposes and behave differently.
+
+8. Q: Explain CSS selectors?
+   A: CSS selectors are patterns used to select the HTML elements you want to style. They tell the browser which elements a set of CSS rules apply to.
+
+9. Q: What is the Document Object Model (DOM)?
+   A: The Document Object Model (DOM) is essentially a programming interface for web documents. It represents the structure of an HTML or XML document as a tree of objects, allowing programs .
+
+10.Q: How do you handle routing in your framework?
+   A: Routing is a core feature of most web frameworks, and how it's handled depends on the framework you're using. Since you didn’t specify a particular one, I’ll give a brief overview of how routing is typically handled in popular frameworks.
+
+
+📚 Study Material
+- MDN Web Docs: https://developer.mozilla.org/en-US/
+- W3Schools: https://www.w3schools.com/
+- Official docs: https://reactjs.org/docs/getting-started.html
+- https://www.youtube.com/watch?v=mQKhF4II3FM
+- https://www.brillicaservices.com/blogs/top-infosys-web-development-interview-questions
+- https://www.ambitionbox.com/interviews/infosys-interview-questions/full-stack-web-developer/fresher-candidates
+- Git:https://git-scm.com/doc
+- Practice Coding: HackerRank (JavaScript domain), LeetCode (easy-medium problems), GeeksforGeeks (Data Structures and Algorithms)
+- Database basics (SQL / NoSQL overview)
+- Node.js with Express (basics for server-side scripting)
+
+💡 Tips for Infosys
+- focus on building a strong foundation in web development fundamentals.
+- specializing in a relevant area, gaining practical experience through projects,and creating a compelling portfolio.
+- Additionally, hone your problem-solving and communication skills, and prepare for technical and behavioral interview questions. 
+- Learn HTML, CSS, and JavaScript: These are the core technologies for building websites. 
+- Understand web development concepts: Learn about the client-server model, HTTP protocol, and responsive design. 
+- Frontend Development: Focus on user interface (UI) and user experience (UX) using frameworks like React, Angular, or Vue.js.
+- Backend Development: Work with server-side languages like Java, Python, or Node.js, and databases like MySQL or PostgreSQL.
+- Full-Stack Development: Combine both frontend and backend skills. 
+- Build websites or web applications to showcase your skills and apply what you've learned. 
+- Collaborate with other developers and gain experience working on real-world projects. 
+
+
+
+						
+⚠️ Common Mistakes to Avoid
+- Jumping directly into coding without a clear understanding of requirements, user flow, or design.
+- Developing for a single screen size, leading to poor user experience on different devices.
+- Overlooking input validation, using outdated dependencies, or storing sensitive data insecurely.
+- Writing unreadable, undocumented, or overly complex code, leading to future maintenance issues.
+- Building applications without considering future growth and potential performance bottlenecks.
+- Skipping or performing inadequate testing, leading to bugs and instability in production.
+- Creating slow-loading web pages or applications due to unoptimized assets, inefficient code, or poor server configurations.
+- Inconsistent use of version control, leading to lost work or difficulties in collaboration.
+- Poor Code Quality and Maintainability.
+- Neglecting Proper Planning and Design.
+
+
+
+
+
+
+
+
+
+
+
+	

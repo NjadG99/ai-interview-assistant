@@ -1,0 +1,78 @@
+l&t_infotech_devops_engineer
+
+📌 Interview Questions + Answers
+    
+1. Q: What is a DevOps Engineer? 
+   A: A DevOps engineer is an expert in developing, deploying, and maintaining software systems using the DevOps methodology and practices.
+
+2. Q: What are the Requirements to Become a DevOps Engineer?
+   A: Different criteria for becoming a DevOps engineer may exist depending on the business and the individual function. However, some specific fundamental skills and certifications are frequently needed or recommended. 
+
+3. Q: How is DevOps different from agile methodology?
+   A: DevOps is a culture that allows the development and operations teams to work together. This results in continuous software development, testing, integration, deployment, and monitoring throughout the lifecycle.
+
+4. Q: Name three important DevOps KPIs.
+   A: The three important KPIs are as follows:
+      -Meantime to failure recovery: This is the average time taken to recover from a failure.
+      -Deployment frequency: The frequency in which the deployment occurs. 
+      -Percentage of failed deployments: The number of times the deployment fails.
+
+5. Q: Can you explain the “Shift left to reduce failure” concept in DevOps?
+   A: Shift left is a DevOps idea for improving security, performance, and other factors. Let us take an example: if we look at all of the processes in DevOps, we can state that security is tested before the deployment step. By employing the left shift method, we can add security in the development phase, which is on the left. [will be depicted in a diagram] We can integrate with all phases, including before and during testing, not just development. This most likely raises the security level by detecting faults early.
+
+6. Q: What are the anti-patterns of DevOps?
+   A: Patterns are common practices that organizations usually follow. An anti-pattern is formed when an organization continues to follow a pattern adopted by others blindly but does not work for them. 
+
+7. Q: What is the Blue/Green Deployment Pattern?
+   A: This is a method of continuous deployment commonly used to reduce downtime. Traffic is transferred from one instance to another. To include a fresh version of the code, we must replace the old code with a new version. 
+
+8. Q: What is Continuous Testing?
+   A: Continuous Testing constitutes automated tests as part of the software delivery pipeline to provide instant feedback on the business risks present in the most recent release.
+ 
+9. Q: What is Automation Testing?
+   A: Test automation or manual testing Automation is the process of automating a manual procedure to test an application or system. It entails using independent testing tools to develop test scripts that can be run repeatedly without the need for human interaction.
+
+10.Q: How to automate Testing in the DevOps lifecycle?
+   A: Developers are obliged to commit all source code changes to a shared DevOps repository.Every time a change is made in the code, Jenkins-like Continuous Integration tools will grab it from this common repository and deploy it for Continuous Testing, which is done by tools like Selenium.
+
+
+📚 Study Material
+- https://www.ltts.com/services/devops
+- https://www.devopsinstitute.com/wp-content/uploads/2022/01/DOEF-v1.0-Exam-Study-Guide_25Jan2022.pdf
+- Gain hands-on experience: The best way to prepare is to practice. Create a personal project that utilizes a CI/CD pipeline, containers, and IaC to demonstrate your practical skills.
+- https://www.acte.in/devops-engineer-skills
+- https://staragile.com/info/devops/devops-course-curriculum#:~:text=Master%20Docker%20image%20and%20Dockerfile,application%20configuration%20without%20rebuilding%20images
+- https://staragile.com/devops/devops-certification-training-nagpur
+- Practice interview questions: Use online resources like AmbitionBox and Glassdoor to find and practice specific interview questions asked by LTIMindtree. 
+- https://www.scribd.com/document/690314568/DevOps-All-In-One
+- https://staragile.com/info/devops/devops-course-curriculum#:~:text=Master%20Docker%20image%20and%20Dockerfile,application%20configuration%20without%20rebuilding%20images
+- https://www.ambitionbox.com/interviews/larsen-and-toubro-limited-interview-questions/devops-engineer
+
+💡 Tips
+- Start with the basics: If you are a fresher, start by building a strong foundation in Linux, scripting, and networking.
+- Knowledge of basic networking concepts like the OSI model, DNS, TCP/IP, and SSH is often tested. 
+- Pay extra attention to the tools and platforms mentioned in recent LTIMindtree job descriptions and interview experiences (e.g., specific cloud providers, CI/CD tools like Jenkins or GitHub Actions).
+- Since many DevOps environments run on Linux, a strong grasp of Linux fundamentals and command-line operations is necessary.
+- Understand how to collect metrics and create dashboards to monitor applications.
+- ELK Stack (Elasticsearch, Logstash, Kibana): Study how to use these tools for centralized logging and analysis. 
+- Learn how to write Ansible playbooks and manage configuration using this agentless automation tool. 
+- LTI interview experiences highlight the importance of Terraform for provisioning infrastructure across different cloud platforms.
+- Master Kubernetes concepts such as pods, services, deployments, and stateful sets for managing containerized applications. 
+- Learn how to write Dockerfiles, build Docker images, and manage containers and their lifecycles.
+
+						
+⚠️ Common Mistakes to Avoid
+- https://www.qovery.com/blog/7-common-devops-mistakes-to-avoid
+- Focusing on too many tools instead of core concepts: Many candidates know the names of many tools (e.g., Jenkins, Docker, Kubernetes) but lack a deep understanding of their underlying concepts.
+- https://www.youtube.com/watch?v=OOJ9sBf3ahU
+- Neglecting foundational knowledge: While DevOps is about modern workflows, strong candidates will still have a solid understanding of core computer science fundamentals.
+- https://www.linkedin.com/pulse/top-5-mistakes-devops-engineers-make-how-avoid-them-neha-boora-ugizc
+- Treating automation as a checklist: Don't just automate for the sake of it. Mistakes include over-automating processes without fully understanding them or automating only the easy parts, leaving manual gaps that cause problems later.
+- https://dev.to/prodevopsguytech/top-5-mistakes-to-avoid-as-a-devops-fresher-41op
+- Ignoring the importance of monitoring: The job isn't done after a successful deployment. Skipping the setup of proper monitoring and logging means you will have no visibility into performance bottlenecks or application issues in production. 
+- https://wiculty.com/common-mistakes-to-avoid-during-your-devops-certification-journey/
+- Lack of confidence: While you can admit to not knowing something, you should do so confidently and show your eagerness to learn. Interviewers are also testing your poise under pressure, especially when probing your daily roles and responsibilities. 
+
+
+
+

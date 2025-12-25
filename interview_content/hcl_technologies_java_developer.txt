@@ -1,0 +1,74 @@
+hcl_technologies_java_developer
+
+📌 Interview Questions + Answers
+    
+1. Q: What is the significance of the finalize () method in Java?
+   A: Finalize () method is called as the last chance for an object to carry out a cleanup activity before the garbage collector reclaims it. It involves releasing any fixed order resources held, termination of a connection if open, and more. 
+
+2. Q: What is the role of polymorphism in Java?
+   A: Polymorphism is extensively used in implementing inheritance. It allows the object with a different internal structure to share the same external interface.
+
+3. Q: What is input-output (I/O) in C++?
+   A: I/O stream is the standard input-output stream in C++ containing cin, cout, and other methods. The input stream allows inputs from the console/user. The output stream displays the operations’ results to the user or output device. 
+
+4. Q: What do you understand about nested classes?
+   A: Object-oriented programming languages allow defining a class inside another class. The enclosed class is the nested class. It has the same access rights as other class members serving as another member of the outer class.
+
+5. Q: What is cloud computing? How is it useful today?
+   A: Cloud computing is the technique of storing, processing, and managing data in a shared network of remote servers over the internet. The data is distributed and hence more secure. Cloud computing offers flexible resources, innovation, and economies of scale.
+
+6. Q: What is Big Data?
+   A: Big data refers to large data sets too complex for traditional data-processing application software.
+
+7. Q: How is structured English different from Pseudo Code?
+   A: Structured English employs the native English language to provide the structure of a program module, using programming languages’ keywords. Pseudo Code is like a programming language lacking the syntax of any specific language.
+
+8. Q: What do you mean by DBMS?
+   A: The Database Management System is a software for managing the entire organization's data, including its proper storage and presentation whenever required for business decisions. E.g. MySQL, Oracle, PostgreSQL, FileMaker, and Microsoft Access. 
+ 
+9. Q: What is init in Python?
+   A: In Python, ‘init' stands for initialization. This method creates processes from the script stored in the configuration file used by the initialization system. It is similar to constructors in Java.
+
+10.Q: What is the use of a Domain Name System (DNS)?
+   A: The primary role of DNS is to translate domain names into IP addresses that computers can understand so that the initiating client can load the requested Internet resources. It also lists mail servers accepting emails for every domain name. 
+
+
+📚 Study Material
+- https://prepinsta.com/hcl/coding-questions/
+- Practice Coding Platforms: Websites like LeetCode, HackerRank, InterviewBit offer coding challenges.
+- https://help.hcl-software.com/hclinformix/15.0.0/dbdk/ids_dbdk_063.html
+- HCL-specific Interview Questions: Research common interview questions asked at HCL for Java Developer roles.
+- https://www.scribd.com/document/625722317/technical
+- Books: Refer to comprehensive Java books for in-depth understanding.
+- https://www.youtube.com/watch?v=GNb9LCgboTE
+- Online Tutorials and Courses: Utilize platforms like Udemy, Coursera, or free resources like JavaTpoint, GeeksforGeeks.
+- https://www.youtube.com/watch?v=f0cI4_KLEvY
+- https://www.youtube.com/watch?v=VP27RCfTy1Q
+
+💡 Tips
+- Practice coding problems and be able to explain your approach.
+- Be prepared to discuss your past projects and contributions.
+- Mock Interviews: Practice with mock interviews to improve your confidence and identify areas for improvement.
+- Containerization (Optional but beneficial): Basic understanding of Docker and container concepts.
+- Communication Skills: Clearly articulate your thoughts and solutions.
+- Testing: Unit testing frameworks like JUnit, mocking frameworks.
+- Maven/Gradle: Familiarity with build automation tools.
+- Database Interactions: Understand how to connect Java applications to databases and perform operations using JDBC or ORM tools.
+- Understand microservice architecture principles, communication patterns (RESTful APIs), and related technologies like Kafka.
+- Understand functional programming concepts and how to use the Java Stream API for data manipulation.
+
+					    
+⚠️Common Mistakes to Avoid
+- https://medium.com/@mohammedsafir17/15-common-mistakes-while-programming-in-java-7e581ec85a75
+- Forgetting to close resources: Resources like database connections, I/O streams, and network sockets consume system resources and must be closed explicitly. Neglecting this leads to resource leaks, which can cause severe performance degradation and application crashes.
+- https://www.toptal.com/java/top-10-most-common-java-development-mistakes
+- Ignoring Java garbage collection: While Java's automatic garbage collection is a key feature, it's not a free pass to ignore memory usage. Developers can still create memory leaks by unintentionally holding references to objects no longer in use.
+- https://medium.com/javarevisited/10-common-mistakes-every-java-developer-makes-and-how-to-avoid-them-2aaa231b74e9
+- Inefficient string concatenation: Using the + operator in a loop to build a large string is inefficient because String objects are immutable. Each + operation creates a new String object, which consumes excessive memory and CPU.
+- Swallowing exceptions: An empty catch block that ignores an exception is a major code smell. It hides bugs and makes it extremely difficult to debug problems later.
+- Incorrect string comparison: Using == instead of .equals() to compare String objects is a common mistake. The == operator checks for reference equality (if two variables point to the same object), while .equals() checks for content equality.
+- Improper use of generics: Using raw types like List instead of parameterized types like List<String> sacrifices type safety. This can lead to ClassCastException errors at runtime.
+- Poor use of object-oriented principles: Confusing "is-a" relationships (inheritance) with "has-a" relationships (composition) can lead to poorly designed and inflexible class hierarchies.
+
+
+

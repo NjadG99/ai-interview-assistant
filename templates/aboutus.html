@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Hire-Ready</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #1a1a1a;
+      overflow-x: hidden;
+    }
+
+    /* Background animation */
+    #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      z-index: -1;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1a1a1a;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.05);
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 40px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #1a1a1a;
+      font-weight: 500;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -5px;
+      left: 50%;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      transition: all 0.3s ease;
+      transform: translateX(-50%);
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #667eea;
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      width: 100%;
+    }
+
+    .btn-get-started {
+      padding: 12px 28px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-get-started::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.2);
+      transition: left 0.5s ease;
+    }
+
+    .btn-get-started:hover::before {
+      left: 100%;
+    }
+
+    .btn-get-started:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      padding: 120px 20px 60px;
+      color: white;
+      animation: fadeInUp 1s ease;
+    }
+
+    .header h1 {
+      font-size: 58px;
+      line-height: 1.2;
+      background: linear-gradient(135deg, #fff 0%, #e0e7ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 20px;
+    }
+
+    .header p {
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Content Sections */
+    .content {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 24px;
+      padding: 80px;
+      margin: 60px auto;
+      max-width: 1200px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+      animation: fadeInUp 1s ease 0.3s backwards;
+    }
+
+    .content h2 {
+      font-size: 36px;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .content p {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.8;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Team Section */
+    .team {
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .team h2 {
+      font-size: 42px;
+      margin-bottom: 40px;
+      color: #000000; /* Black text as requested */
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .member-card {
+      background: white;
+      border-radius: 20px;
+      padding: 40px 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .member-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(102, 126, 234, 0.25);
+    }
+
+    .member-card h3 {
+      font-size: 22px;
+      color: #667eea;
+      margin-bottom: 10px;
+    }
+
+    .member-card p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 14px;
+      background: transparent;
+    }
+
+    /* Animation */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .content {
+        padding: 40px 20px;
+      }
+
+      .header h1 {
+        font-size: 42px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="/" class="logo">Hire-Ready</a>
+    <ul class="nav-links">
+      <li><a href="features.html">Features</a></li>
+      <li><a href="hire-ready-ai.html">Hire Ready Assistance</a></li>
+      <li><a href="mock-interview.html">Mock Interview</a></li>
+      <li><a href="aboutus.html" class="active">About Us</a></li>
+    </ul>
+    <a href="features.html" class="btn-get-started">Get Started</a>
+  </nav>
+
+  <!-- Header -->
+  <section class="header">
+    <h1>About <span class="gradient-text">Hire-Ready</span></h1>
+    <p>We’re on a mission to help aspiring professionals master their interviews with AI-powered precision, confidence, and preparation.</p>
+  </section>
+
+  <!-- Mission Section -->
+  
+
+  <!-- Story Section -->
+  <section class="content">
+    <h2>Our Story</h2>
+    <p>Made by a group of passionate students, Hire-Ready began as a vision to bridge the gap between talent and opportunity. Today, it’s an AI-driven platform empowering thousands to learn, practice, and shine in their professional journeys.</p>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <div class="member-card">
+        <h3>Nishad Jadhao</h3>
+        <p>LEAD PROGRAMMER</p>
+        <p>Roll No: B33</p>
+      </div>
+      <div class="member-card">
+        <h3>Nishad Hirudkar</h3>
+        <p>AI SPECIALIST</p>
+        <p>Roll No: B32</p>
+      </div>
+      <div class="member-card">
+        <h3>Kritika Rathod</h3>
+        <p>RESEARCH AND MANAGEMENT</p>
+        <p>Roll No: B30</p>
+      </div>
+      <div class="member-card">
+        <h3>Nishant Dafare</h3>
+        <p>DATA ANALYST</p>
+        <p>Roll No: B34</p>
+      </div>
+      <div class="member-card">
+        <h3>Palak Titarmare</h3>
+        <p>PROGRAMMER</p>
+        <p>Roll No: B37</p>
+      </div>
+      <div class="member-card">
+        <h3>Mithilesh Thakre</h3>
+        <p>FRONTEND DEVELOPER</p>
+        <p>Roll No: B22</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Hire-Ready. All rights reserved.
+  </footer>
+
+  <!-- Particle.js Script -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 80, density: { enable: true, value_area: 800 } },
+        color: { value: "#ffffff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5 },
+        size: { value: 3 },
+        line_linked: { enable: true, color: "#ffffff", opacity: 0.4 },
+        move: { enable: true, speed: 3 }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" },
+          resize: true
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+</body>
+</html>

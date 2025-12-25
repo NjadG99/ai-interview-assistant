@@ -1,0 +1,95 @@
+=== TCS – java Developer ===
+
+📌 Interview Questions + Answers
+    
+1. Q: Why do you want to join TCS?
+   A: I want to join TCS for its innovative projects, growth opportunities, and commitment to employee development in a dynamic work environment.
+
+2. Q: What is multithreading?
+   A: Multithreading is a programming technique that allows concurrent execution of multiple threads within a single process.
+
+3. Q: How do you determine if a tree is sum balanced?
+   A: A sum-balanced tree is a binary tree where the sum of values in the left subtree equals the sum in the right subtree.
+
+4. Q: Describe the key principles of Object-Oriented Programming (OOP) in ABAP and provide examples of how they are applied.
+   A: OOPs (Object-Oriented Programming) is a programming paradigm based on objects and classes, promoting code reusability and modularity.
+
+      Encapsulation: Bundling data and methods that operate on the data within one unit (class). Example: A class 'Car' with properties like 'color' and methods like 'drive()'.
+
+      Inheritance: Mechanism to create a new class from an existing class, inheriting its properties and methods.
+
+5. Q: Explain the concepts of OOP.
+   A: OOP (Object-Oriented Programming) is a programming paradigm based on objects that encapsulate data and behavior.
+
+Encapsulation: Bundling data and methods that operate on the data within one unit (e.g., a class).
+
+Inheritance: Mechanism to create a new class from an existing class, inheriting its properties (e.g., a 'Dog' class inheriting from an 'Animal' class).
+
+Polymorphism: Ability to present the same interface for different underlying forms (e.g., method overloading and overriding).
+
+
+6. Q: What is Java?
+   A: ava is a versatile, object-oriented programming language used for building platform-independent applications.
+
+7. Q: Explain the concept of a 'Collection' interface in Java
+   A: Collections in Java are frameworks that provide a way to store and manipulate groups of objects.
+
+8. Q: Describe the difference between an object and a class in Java.
+   A: Class defines properties and methods; for example, 'Car' class with attributes like 'color' and 'model'.
+      Object is a specific instance of a class; for example, 'myCar' is an object of the 'Car' class.
+
+9. Q: What is the Java Virtual Machine (JVM)?
+   A: The Java Virtual Machine (JVM) is a software-based engine that runs Java programs. It is part of the Java Runtime Environment (JRE) and serves as an abstract computing machine that enables a computer to run a Java program.
+
+10.Q: Why is Java a Platform-Independent Language?
+   A: Java is platform-independent at the source code and bytecode level, meaning the same Java program can run on any device that has a compatible JVM.
+
+
+📚 Study Material
+- https://www.glassdoor.co.in/Interview/Tata-Consultancy-Services-Senior-Java-Developer-Interview-Questions-EI_IE13461.0,25_KO26,47.htm
+- Web Technologies: Understanding of web services (RESTful APIs), HTML, CSS, JavaScript.
+- https://www.ambitionbox.com/interviews/tcs-interview-questions/java-developer
+- https://www.scribd.com/document/685791953/CORE-JAVA-SYLLABUS-Tcs
+- Database Concepts: SQL queries, database design principles.
+- https://btreesystems.com/blog/interview/tcs-java-interview-questions/
+- Advanced Java: Topics like servlets, JSP, JDBC for database interaction.
+- Online Courses and Tutorials: Platforms like Coursera, Udemy, edX, or dedicated Java tutorials.
+- TCS iON National Proficiency Test - Java Full Stack Developer.
+- TCS iON Resources: Utilize any specific study materials or practice tests offered by TCS iON for their assessments.
+
+💡 Tips for TCS 
+- Stay Updated: Keep your skills current by learning about the latest developments and technologies in the Java ecosystem.
+- Learn from Others: Engage with colleagues and peers to learn from their experiences and expertise.
+- Core Java: Deeply understand Object-Oriented Programming (OOPs) principles, Collections framework, and exception handling. 
+- Frameworks: Learn the basics of common Java frameworks, especially Spring Boot and Hibernate, as they are widely used. 
+- Data Structures & Algorithms (DSA): Be prepared for questions and coding challenges related to various data structures and algorithms. 
+- Explain Past Projects: Be ready to articulate your role, contributions, and learnings from previous projects in detail. 
+- Understand Code & Domain: Go beyond just the code to understand the business context and the domain knowledge behind why a project was built. 
+- Know TCS: Research Tata Consultancy Services (TCS), its recent projects, and its work culture to show genuine interest. 
+- Soft Skills: Develop and showcase strong soft skills, such as effective communication and collaborative teamwork. 
+- https://www.linkedin.com/pulse/preparing-java-developer-interview-tcs-heres-what-you-ummavagol-49x8c#:~:text=%E2%9C%85%20Revise%20Java%20fundamentals%2C%20DSA,for%20a%20Java%20Developer%20Role?
+
+						
+⚠️ Common Mistakes to Avoid
+- Common mistakes for TCS Java developers include poor exception handling, neglecting input validation and security, misusing static variables and concurrency, inefficiently handling memory and performance.
+- Incorrectly using try-catch blocks or swallowing exceptions with empty blocks can lead to resource leaks and unstable applications. 
+- Trying to use an uninitialized object reference can be avoided by initializing objects before use or utilizing the Optional class. 
+- Overusing static members can lead to tight coupling, making code harder to test and maintain. 
+- Overlooking security can lead to SQL injection and other attacks; always validate and sanitize user input and implement robust authentication and authorization. 
+- kipping unit and integration tests can result in unreliable code; use tools like JUnit and TestNG for robust testing. 
+- Failing to validate and sanitize user input creates security risks like SQL injection and cross-site scripting (XSS). 
+- The tech landscape evolves quickly; failing to learn new features, languages, and frameworks can lead to obsolescence.
+- https://medium.com/javarevisited/10-career-mistakes-every-java-developer-should-avoid-47b3253fd4f0
+- https://www.javacodegeeks.com/2019/03/avoid-typical-mistakes-while-learning-java.html
+
+
+
+
+
+
+
+
+
+
+
+	

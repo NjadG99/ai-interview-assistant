@@ -1,0 +1,87 @@
+capgemini_python_developer
+
+📌 Interview Questions + Answers
+1. Q: Define iterators in Python?
+   A: An iterator is an object that contains a countable number of values. in Python, an iterator is an object which implements the iterator protocol, which consist of the methods __iter__() and __next__() .
+
+2. Q: How does a function return values?
+   A: A return is a value that a function returns to the calling script or function when it completes its task. Adding a description for the return, helps you and anyone else using your function to determine exactly what the value should be used for within the calling script or function.
+
+3. Q: What are the key features of Python?
+   A: easy to Use, Read ,Write
+      Free and Open Source
+      Object-Oriented and High Level Programming
+
+4. Q: What is the difference between list and tuple in Python?
+   A: The most important differences between list and tuple is that list is mutable, whereas a tuple is immutable. This means that lists can be changed, and tuples cannot be changed.
+
+5. Q: Define slicing in Python?
+   A: The slice() function returns a slice object. A slice object is used to specify how to slice a sequence. You can specify where to start the slicing, and where to end. You can also specify the step, which allows you to e.g. slice only every other item.
+
+6. Q: What are the two major loop statements?
+   A: The group of statements being executed repeatedly is called a loop. There are two loop statements in Python: for and while.
+
+7. Q: How can Python be an interpreted language?
+   A: Python is called an interpreted language because it goes through an interpreter, which turns code you write into the language understood by your computer’s processor.
+
+8. Q: What happens when a function doesn’t have a return statement? Is this valid?
+   A: A function without an explicit return statement returns None . In the case of no arguments and no return value, the definition is very simple. Calling the function is performed by using the call operator () after the name of the function.
+
+9. Q: Define package in Python?
+   A: Packages are namespaces which contain multiple packages and modules themselves. They are simply directories, but with a twist. Each package in Python is a directory which MUST contain a special file called __init__.py .
+
+10.Q: How can we make a Python script executable on Unix?
+   A: On UNIX systems, Python scripts can be made executable using the following process:
+      -Add this line as the first line in the script: #!/usr/bin/env python3.
+      -At the UNIX command prompt, type the following to make myscript.py executable.
+      -Move myscript.py into your bin directory, and it will be runnable from anywhere.
+
+
+📚 Study Material
+- https://academy.capgemini.com/course/introduction-python-en/
+- https://academy.capgemini.com/courses/
+- https://www.scribd.com/document/607263331/Capgemini-Exam-All-4-Complete-Study-Materials
+- https://www.credosystemz.com/capgemini-python-interview-questions/
+- Version Control: Proficiency in Git and platforms like GitHub or GitLab.
+- https://academy.capgemini.com/course/machine-learning-in-python-nl/
+- https://www.vskills.in/certification/tutorial/python-developer/
+- https://prepinsta.com/capgemini-syllabus/
+- https://academy.capgemini.com/course/genai-for-data-professionals-en/
+- https://www.ambitionbox.com/interviews/capgemini-interview-questions/python-developer
+
+💡 Tips
+- Review common Capgemini Python interview questions, including technical and behavioral aspects. Practice explaining your thought process for problem-solving.
+- Be prepared to solve coding challenges and demonstrate your logical reasoning.
+- Develop the ability to articulate technical concepts clearly to diverse audiences and collaborate effectively in a team environment.
+- Official Python Documentation: Comprehensive and authoritative resource for core Python.
+- Online Courses and Tutorials: Platforms like Coursera, Udemy, DataCamp, and Capgemini Academy offer structured learning paths.
+- Practice Platforms: Websites like LeetCode, HackerRank, and GeeksforGeeks for coding challenges.
+- Books and Blogs: Reputable resources on Python programming and specific frameworks.
+- Databases: Experience with relational databases (e.g., PostgreSQL, MySQL) and NoSQL databases (e.g., MongoDB), including querying and schema design.
+- API Development: Understanding how to build and consume RESTful APIs.
+- Data Structures: Lists, tuples, dictionaries, sets, and their appropriate use cases.
+
+						
+⚠️ Common Mistakes to Avoid
+- A common error is using a mutable object (like a list or dictionary) as a default argument in a function. Since default arguments are evaluated only once when the function is defined, this can lead to unintended behavior where the object is modified across different function calls.
+- https://www.reddit.com/r/learnpython/comments/16x5oun/what_mistakes_do_bad_python_developers_make/
+- Modifying a list while iterating over it. This can cause the loop to skip elements or behave unpredictably. To avoid this, iterate over a copy of the list or use a list comprehension to build a new list.
+- https://medium.com/@huzaifazahoor654/10-mistakes-newbie-python-developers-make-aaa4d6ca3b7d
+- https://www.thinktanker.io/common-mistakes-to-avoid-while-hiring-python-developers-in-india/
+- Ignoring context managers (with statements). When handling resources like files, failing to use a with statement can lead to resource leaks if file.close() is not called properly, especially if an error occurs. The with statement ensures the resource is correctly closed.
+- https://www.quora.com/What-are-some-costly-mistakes-that-I-can-avoid-as-a-first-time-Python-developer
+- Neglecting unit tests. Writing unit tests using libraries like unittest or pytest is essential for creating reliable software.
+- https://www.expertia.ai/career-tips/common-mistakes-to-avoid-when-starting-your-python-developer-journey-83296b
+- https://www.shiksha.com/online-courses/articles/python-development-blunders-to-avoid/
+
+
+
+
+
+
+
+
+
+
+
+	
